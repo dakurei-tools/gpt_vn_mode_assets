@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "kind": "backgrounds",
+  "assets": [],
+  "categories": [
+    {
+      "id": "Anime",
+      "label": "Anime",
+      "assets": [],
+      "categories": [
+        {
+          "id": "Anime/Evangelion",
+          "label": "Evangelion",
+          "assets": [
+            {
+              "id": "Anime/Evangelion/Nerv_HQ",
+              "label": "Nerv HQ",
+              "file": {
+                "path": "assets/backgrounds/Anime/Evangelion/Nerv_HQ.png",
+                "contentType": "image/png",
+                "byteSize": 502160,
+                "integrity": "sha256-b4v6myUBl5vK+kmwZmpNG9LWQ8Y4Bipux7CAoiUqaRw="
+              }
+            }
+          ],
+          "categories": []
+        },
+        {
+          "id": "Anime/Konosuba",
+          "label": "Konosuba",
+          "assets": [
+            {
+              "id": "Anime/Konosuba/Axel_Street",
+              "label": "Axel Street",
+              "file": {
+                "path": "assets/backgrounds/Anime/Konosuba/Axel_Street.png",
+                "contentType": "image/png",
+                "byteSize": 655994,
+                "integrity": "sha256-0UaWnNPi+LIoF21fS5Ncjn0EJuYpKY1PNTxW3Q2JeUs="
+              }
+            }
+          ],
+          "categories": []
+        },
+        {
+          "id": "Anime/Naruto",
+          "label": "Naruto",
+          "assets": [
+            {
+              "id": "Anime/Naruto/Dark_Forest",
+              "label": "Dark Forest",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Dark_Forest.png",
+                "contentType": "image/png",
+                "byteSize": 750918,
+                "integrity": "sha256-swcIkIOqr8z0Gc+xVmhA+VIYwSvoaUqRVSynK2hmJRs="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Hokage_Office",
+              "label": "Hokage Office",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Hokage_Office.png",
+                "contentType": "image/png",
+                "byteSize": 421635,
+                "integrity": "sha256-rdrIZJDFCzWlVk+2nm+hPQgkK0p9aPN5I5NridvKVns="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Hokage_Rock",
+              "label": "Hokage Rock",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Hokage_Rock.png",
+                "contentType": "image/png",
+                "byteSize": 790811,
+                "integrity": "sha256-WgJsZIpUAMzmzBVx1PwAy5YdXJJsK9wOueqXgQF11gg="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Ichiraku_Ramen",
+              "label": "Ichiraku Ramen",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Ichiraku_Ramen.png",
+                "contentType": "image/png",
+                "byteSize": 544563,
+                "integrity": "sha256-352AEBa0wKDkrStn67zbwAy00a3kiAcDt/TT8vIYeeM="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Konoha_Armory",
+              "label": "Konoha Armory",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Konoha_Armory.png",
+                "contentType": "image/png",
+                "byteSize": 457669,
+                "integrity": "sha256-7zuQIrx4MSrqGST+Z15DSCYoSaAatM5IG5Jw+wmgtP4="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Konoha_Bar",
+              "label": "Konoha Bar",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Konoha_Bar.png",
+                "contentType": "image/png",
+                "byteSize": 612834,
+                "integrity": "sha256-n45nICpHLDkMyTQikyo5bjcMFW/kPm6wRDFyf35rxLU="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Konoha_Gate",
+              "label": "Konoha Gate",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Konoha_Gate.png",
+                "contentType": "image/png",
+                "byteSize": 604631,
+                "integrity": "sha256-2vTUvr9/PITA5z1KZNvIoPLkF38Zl9gjzIRkXB0Fv/g="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Konoha_Hospital",
+              "label": "Konoha Hospital",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Konoha_Hospital.png",
+                "contentType": "image/png",
+                "byteSize": 380804,
+                "integrity": "sha256-wxaqxBd/BjKWa7CcCw9GPUywxrcMwucTgU9kyFNgMjc="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Konoha_Market",
+              "label": "Konoha Market",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Konoha_Market.png",
+                "contentType": "image/png",
+                "byteSize": 606750,
+                "integrity": "sha256-8B/XBj67K7qzfgvGbZegAiqhnQG0eA+1L3ZPd12bnnE="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Konoha_Ninja_Academy",
+              "label": "Konoha Ninja Academy",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Konoha_Ninja_Academy.png",
+                "contentType": "image/png",
+                "byteSize": 559236,
+                "integrity": "sha256-KP67mPl6rZfA0VmZvrrwNj/biMIbk+dUql3w02ttzps="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Konoha_Park",
+              "label": "Konoha Park",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Konoha_Park.png",
+                "contentType": "image/png",
+                "byteSize": 724385,
+                "integrity": "sha256-b+tnaQDUhWP8rFC0w0BOTAohAY0QqlJ1Nvh5NcKIYJQ="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Konoha_Street",
+              "label": "Konoha Street",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Konoha_Street.png",
+                "contentType": "image/png",
+                "byteSize": 526116,
+                "integrity": "sha256-a6PhvJa6PKbaLmM7I70KXS/R9oU4oHItkSQxcqGciaA="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Plains",
+              "label": "Plains",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Plains.png",
+                "contentType": "image/png",
+                "byteSize": 629553,
+                "integrity": "sha256-kOwwgKn8fOAX7scIUjRuvtBf58CS1nDY3tFzKPWiRRY="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Training_Field_No._3",
+              "label": "Training Field No. 3",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Training_Field_No._3.png",
+                "contentType": "image/png",
+                "byteSize": 712506,
+                "integrity": "sha256-TpNpu5/jIo47nNMt0aJs3tD4lChE3Zw9qDRyoPQpUsw="
+              }
+            }
+          ],
+          "categories": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "kind": "sounds",
+  "assets": [],
+  "categories": [
+    {
+      "id": "Construction",
+      "label": "Construction",
+      "assets": [
+        {
+          "id": "Construction/Construction_metal_sounds",
+          "label": "Construction metal sounds",
+          "file": {
+            "path": "assets/sounds/Construction/Construction_metal_sounds.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 552480,
+            "integrity": "sha256-HWI02qayM6EPxM3gx83jeSlos0YMVu5hGT0Vsd4HuLg="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
+      "id": "Desktop",
+      "label": "Desktop",
+      "assets": [
+        {
+          "id": "Desktop/Traditional_stamp",
+          "label": "Traditional stamp",
+          "file": {
+            "path": "assets/sounds/Desktop/Traditional_stamp.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 33120,
+            "integrity": "sha256-jr792G5MVnaIiq+KULOUUyAK6b/H+PgV4YdMnRgwIT0="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
+      "id": "Doors",
+      "label": "Doors",
+      "assets": [
+        {
+          "id": "Doors/Sliding_door",
+          "label": "Sliding door",
+          "file": {
+            "path": "assets/sounds/Doors/Sliding_door.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 51360,
+            "integrity": "sha256-9EPmngWXL5TjvfRLXuUSFifRHvls2awDU3mH7py2TmY="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
+      "id": "Food_and_Drink",
+      "label": "Food and Drink",
+      "assets": [
+        {
+          "id": "Food_and_Drink/Coffee_Machine",
+          "label": "Coffee Machine",
+          "file": {
+            "path": "assets/sounds/Food_and_Drink/Coffee_Machine.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 170880,
+            "integrity": "sha256-3L/XY02mchDtnUP89Ns2KC/uYJItvA5eCPxQD5X+wAs="
+          }
+        },
+        {
+          "id": "Food_and_Drink/Mug_slap",
+          "label": "Mug slap",
+          "file": {
+            "path": "assets/sounds/Food_and_Drink/Mug_slap.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 8640,
+            "integrity": "sha256-Vi8W4IlXVT8CSbArs+z8aruXQJZdLvXR6FuTTJeWHSU="
+          }
+        },
+        {
+          "id": "Food_and_Drink/Plastic_cup_dropping",
+          "label": "Plastic cup dropping",
+          "file": {
+            "path": "assets/sounds/Food_and_Drink/Plastic_cup_dropping.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 12960,
+            "integrity": "sha256-K/J9kaGb2W8JYbUQ7mJPiJD6gN+B1HjQ0Ggic3fdb4Q="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
+      "id": "Magic",
+      "label": "Magic",
+      "assets": [
+        {
+          "id": "Magic/magic_burst",
+          "label": "magic burst",
+          "file": {
+            "path": "assets/sounds/Magic/magic_burst.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 102144,
+            "integrity": "sha256-AqtcCHn+btYO5LRYvFADQe8eOFzTEb2GwA3hZblMHcY="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
+      "id": "People",
+      "label": "People",
+      "assets": [
+        {
+          "id": "People/Crowd_talking",
+          "label": "Crowd talking",
+          "file": {
+            "path": "assets/sounds/People/Crowd_talking.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 1798080,
+            "integrity": "sha256-V7F+TYaD2gJ6vj/XraeraJufhSEZzZ9aUMsNaGIbAFw="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
+      "id": "Shop",
+      "label": "Shop",
+      "assets": [
+        {
+          "id": "Shop/Money_drop",
+          "label": "Money drop",
+          "file": {
+            "path": "assets/sounds/Shop/Money_drop.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 36480,
+            "integrity": "sha256-b6vo0BZkBLLIR7C6y6fmCd/pkJQqirdaeyDabZNqrMw="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
+      "id": "Travel",
+      "label": "Travel",
+      "assets": [
+        {
+          "id": "Travel/Footsteps_in_a_hallway",
+          "label": "Footsteps in a hallway",
+          "file": {
+            "path": "assets/sounds/Travel/Footsteps_in_a_hallway.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 217440,
+            "integrity": "sha256-gjh3R92PNsnpRXtsoeOzS4I98f4aXzko/CgzgYl/UFU="
+          }
+        },
+        {
+          "id": "Travel/Horse_with_old_cart",
+          "label": "Horse with old cart",
+          "file": {
+            "path": "assets/sounds/Travel/Horse_with_old_cart.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 658560,
+            "integrity": "sha256-nW0JMwceNFjnQnRD75y0KdZakdFKpntOSt7i2oHGMkI="
+          }
+        },
+        {
+          "id": "Travel/Wood_toy_wheel",
+          "label": "Wood toy wheel",
+          "file": {
+            "path": "assets/sounds/Travel/Wood_toy_wheel.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 58368,
+            "integrity": "sha256-AN2f7/8Y/3UQPpySog4Pav0eJHaLQZ6+2GLE1/1IVns="
+          }
+        }
+      ],
+      "categories": []
+    }
+  ]
+}

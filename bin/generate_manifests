@@ -1,0 +1,37 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "optparse"
+
+require_relative "../lib/gpt_vn_mode_assets/generator"
+
+begin
+  options = { check: false }
+
+  OptionParser.new do |parser|
+    parser.banner = "Usage: bin/generate_manifests [--check]"
+    parser.on("--check", "Checks that the generated manifests and badges are up to date") do
+      options[:check] = true
+    end
+  end.parse!
+
+  root = File.expand_path("..", __dir__)
+  generator = GptVnModeAssets::Generator.new(root: root)
+
+  if options[:check]
+    outdated = generator.outdated_manifests
+
+    if outdated.empty?
+      puts "All four manifests and their badges are up to date."
+    else
+      warn "Missing or outdated generated files: #{outdated.join(', ')}"
+      exit 1
+    end
+  else
+    generator.write!
+    puts "All four manifests and their badges have been generated."
+  end
+rescue GptVnModeAssets::Error, OptionParser::ParseError => error
+  warn error.message
+  exit 1
+end

@@ -1,0 +1,1255 @@
+{
+  "schemaVersion": 1,
+  "kind": "music",
+  "assets": [],
+  "categories": [
+    {
+      "id": "Anime",
+      "label": "Anime",
+      "assets": [],
+      "categories": [
+        {
+          "id": "Anime/Evangelion",
+          "label": "Evangelion",
+          "assets": [
+            {
+              "id": "Anime/Evangelion/asuka_encounter",
+              "label": "asuka encounter",
+              "file": {
+                "path": "assets/music/Anime/Evangelion/asuka_encounter__ASUKA_STRIKES!.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3291549,
+                "integrity": "sha256-y4pKFup2cZwDBg269QRjK1aUz1EZ50pn13vSbA8Y/hU="
+              },
+              "title": "ASUKA STRIKES!"
+            }
+          ],
+          "categories": []
+        },
+        {
+          "id": "Anime/Konosuba",
+          "label": "Konosuba",
+          "assets": [
+            {
+              "id": "Anime/Konosuba/axel_town",
+              "label": "axel town",
+              "file": {
+                "path": "assets/music/Anime/Konosuba/axel_town__The_Town_of_Beginning.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 1125885,
+                "integrity": "sha256-/ABiekwRUFk4oBtKmraitO34y3eIynTr5uEbm8X64mY="
+              },
+              "title": "The Town of Beginning"
+            }
+          ],
+          "categories": []
+        },
+        {
+          "id": "Anime/Naruto",
+          "label": "Naruto",
+          "assets": [
+            {
+              "id": "Anime/Naruto/Apathetic",
+              "label": "Apathetic",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Apathetic__Hyouhaku.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3006237,
+                "integrity": "sha256-3emAaQDFlTtENkjNxuKtu2EMd2I7PInxbjyUbtZppUE="
+              },
+              "title": "Hyouhaku"
+            },
+            {
+              "id": "Anime/Naruto/Apathetic_2",
+              "label": "Apathetic 2",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Apathetic_2__Sasuke_Theme.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2472933,
+                "integrity": "sha256-2DGXr+4R8noijwjx9TORCfU5Bipiwr5HAu0A8X4RsrI="
+              },
+              "title": "Sasuke Theme"
+            },
+            {
+              "id": "Anime/Naruto/Battle",
+              "label": "Battle",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Battle__Ikari.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3723003,
+                "integrity": "sha256-7JaKjMj7Tcmp1FKe34kJUzs+2Msio9kgfpuNbW0CbAQ="
+              },
+              "title": "Ikari"
+            },
+            {
+              "id": "Anime/Naruto/Battle_2",
+              "label": "Battle 2",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Battle_2__Reverse_Situation.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 5224822,
+                "integrity": "sha256-RZ+5f/U19UhD83bGB5maesrzQ8a5LGPbrtkdM7BwfT8="
+              },
+              "title": "Reverse Situation"
+            },
+            {
+              "id": "Anime/Naruto/Battle_3",
+              "label": "Battle 3",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Battle_3__Kakuzu_Theme.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2300877,
+                "integrity": "sha256-k2wlx74DFXrNbwvzePdPLYZ3bt5mreVAVuPoRm7Xh6c="
+              },
+              "title": "Kakuzu Theme"
+            },
+            {
+              "id": "Anime/Naruto/Battle_4",
+              "label": "Battle 4",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Battle_4__Impregnable.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2773437,
+                "integrity": "sha256-9cp+N9C0R4zw7obFiDZlKHx8/rNm0pUjZUuud7a/N3o="
+              },
+              "title": "Impregnable"
+            },
+            {
+              "id": "Anime/Naruto/Battle_5",
+              "label": "Battle 5",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Battle_5__Emergence_of_Talents.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2999661,
+                "integrity": "sha256-YrcBFJysHon3V5I4sgvBXEMu1gxrRdxEW2HA5ZzVvWs="
+              },
+              "title": "Emergence of Talents"
+            },
+            {
+              "id": "Anime/Naruto/Battle_6",
+              "label": "Battle 6",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Battle_6__Rising_Dragon.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3253101,
+                "integrity": "sha256-VREa19D+aktx1VAeEcFcRc/iNJ3ZY/Wy+r4EjmjSuo0="
+              },
+              "title": "Rising Dragon"
+            },
+            {
+              "id": "Anime/Naruto/Battle_7",
+              "label": "Battle 7",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Battle_7__Battle!.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3411885,
+                "integrity": "sha256-7CjHY6Ka1mkFU7AEDHY9cfawF20TiQE0KNMaaWDWIro="
+              },
+              "title": "Battle!"
+            },
+            {
+              "id": "Anime/Naruto/Battle_8",
+              "label": "Battle 8",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Battle_8__Crimson_Flames.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3330693,
+                "integrity": "sha256-1ndNgx2iMSy0DqlhGRrVqt0+tZZ4wO56xk48AVaW7zI="
+              },
+              "title": "Crimson Flames"
+            },
+            {
+              "id": "Anime/Naruto/Battle_9",
+              "label": "Battle 9",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Battle_9__Standing_up_on_Roaring_Earth.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 5576325,
+                "integrity": "sha256-zGP07vqvJDlmIX9Su6z/dQfZrejIpy/oHxmE9iC4hNQ="
+              },
+              "title": "Standing up on Roaring Earth"
+            },
+            {
+              "id": "Anime/Naruto/Confronting",
+              "label": "Confronting",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting__Confronting.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2632701,
+                "integrity": "sha256-yl1IpMm9EbLqtrFbr3maC971NnbrPKm+UJJsx6+xWQ0="
+              },
+              "title": "Confronting"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_10",
+              "label": "Confronting 10",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_10__Purge_Goddess.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2295069,
+                "integrity": "sha256-xixNW2ZQcPBOBcCnEYkyEo11bwZLoJW66uZIv5al7C4="
+              },
+              "title": "Purge Goddess"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_11",
+              "label": "Confronting 11",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_11__Scene_of_Carnage.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3305829,
+                "integrity": "sha256-7DTuhlgbRpKdhf4FlXBnrTRCIWlHhWI4kpDdXG/o4Mo="
+              },
+              "title": "Scene of Carnage"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_12",
+              "label": "Confronting 12",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_12__Need_to_Be_Strong.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4107525,
+                "integrity": "sha256-4eqtMLO680x6m6Dq/1WUzEAlpm5CuU96nYYH50Rxjnw="
+              },
+              "title": "Need to Be Strong"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_13",
+              "label": "Confronting 13",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_13__Naruto_Main_Theme.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 5872125,
+                "integrity": "sha256-/ofWHF9j5cm2hUsEgj5CpeqCh7yWVS+iul7Pej5Iqt0="
+              },
+              "title": "Naruto Main Theme"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_14",
+              "label": "Confronting 14",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_14__The_Raising_Fighting_Spirit.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 1399005,
+                "integrity": "sha256-3G+pJhp/hZYUPKJBGSZTWZn9VlkTwZEJfIYWAVgmWeg="
+              },
+              "title": "The Raising Fighting Spirit"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_15",
+              "label": "Confronting 15",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_15__Heavy_Violence.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4251885,
+                "integrity": "sha256-Qp/T04/VR5IWoqLHVd74SC+zMT/FI1xl7R+f9b9kRA8="
+              },
+              "title": "Heavy Violence"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_16",
+              "label": "Confronting 16",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_16__Beautiful_Green_Wild_Beast.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2354157,
+                "integrity": "sha256-sLyWSfb2zZuWdhuw7sVdqYGxMtkgBCo7gjoS9BUSuTo="
+              },
+              "title": "Beautiful Green Wild Beast"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_17",
+              "label": "Confronting 17",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_17__A_crisis_after_another.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2211429,
+                "integrity": "sha256-1lZW0o+eA+aUhgen2YnvLjlevSxpVrODiGINAsAowf8="
+              },
+              "title": "A crisis after another"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_18",
+              "label": "Confronting 18",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_18__Raikiri.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2619837,
+                "integrity": "sha256-0f97zeVqg/yRvd1OypR8gHOX+UCCK7anyHsrxswlV+s="
+              },
+              "title": "Raikiri"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_19",
+              "label": "Confronting 19",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_19__Avenger.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2666157,
+                "integrity": "sha256-d47/xf7Cm9Ouz4iyia8QGW86EqLWOnMYECudWJtltsY="
+              },
+              "title": "Avenger"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_2",
+              "label": "Confronting 2",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_2__Deidara_Theme.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3106941,
+                "integrity": "sha256-ho3iDrTDRe2C2HI8qDX3zsEstjDZ/CyFC0vCIX7yM7s="
+              },
+              "title": "Deidara Theme"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_20",
+              "label": "Confronting 20",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_20__The_5th's_Fight.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2572125,
+                "integrity": "sha256-0WdVYrCl1Dm4KU8RoGw1g5irpLoMp8drg1V23ojoJ0w="
+              },
+              "title": "The 5th's Fight"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_3",
+              "label": "Confronting 3",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_3__Kokuten.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3055293,
+                "integrity": "sha256-7FtgmVySa8i6z9VRaq9Ri6WyLKeQoO0XxFACT663upk="
+              },
+              "title": "Kokuten"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_4",
+              "label": "Confronting 4",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_4__Kenkonitteki.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2948829,
+                "integrity": "sha256-fWR2JZRey54uCL5Da6oA/+S88Rd27aGH+zBiGSv2D0U="
+              },
+              "title": "Kenkonitteki"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_5",
+              "label": "Confronting 5",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_5__Himoji.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3382677,
+                "integrity": "sha256-W0eRP1CKIbUOpvpoOzOohMAmRnBkTur0CYzLaY9bIiQ="
+              },
+              "title": "Himoji"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_6",
+              "label": "Confronting 6",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_6__Unkempt_Hair.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3059901,
+                "integrity": "sha256-lpRMtwEAL5KJ0BhEoMiEMOr1JCuX7AF8gGQ83GBph1Y="
+              },
+              "title": "Unkempt Hair"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_7",
+              "label": "Confronting 7",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_7__Lightning_Speed.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2547264,
+                "integrity": "sha256-oQfolC3LhxuBNHtVrhYJfH3tNObEw6f1yCp6dra7ktc="
+              },
+              "title": "Lightning Speed"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_8",
+              "label": "Confronting 8",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_8__Yondaime_Hokage.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2947509,
+                "integrity": "sha256-WUqEJgWkE7P786yG5wYiAaKQz1aalUBffF0w92CoiQs="
+              },
+              "title": "Yondaime Hokage"
+            },
+            {
+              "id": "Anime/Naruto/Confronting_9",
+              "label": "Confronting 9",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Confronting_9__Jinchuuriki.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2421741,
+                "integrity": "sha256-aLeCdYGx9QNSglryOFGjXvK5g0y3TRxNNL7jbKEN1jI="
+              },
+              "title": "Jinchuuriki"
+            },
+            {
+              "id": "Anime/Naruto/Evil",
+              "label": "Evil",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Evil__Sasuke_Ninja_Way.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2456469,
+                "integrity": "sha256-dmLrJp4mKFd2yPdSFjcqhsHUavPZCVcu06vGP+m6cSk="
+              },
+              "title": "Sasuke Ninja Way"
+            },
+            {
+              "id": "Anime/Naruto/Fanfare",
+              "label": "Fanfare",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Fanfare__Those_Who_Inherit_The_Will_of_Fire.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4211277,
+                "integrity": "sha256-NdOaFM78JV4luSPH3XwP0aeIo2x2gLpjg1w2/k89trc="
+              },
+              "title": "Those Who Inherit The Will of Fire"
+            },
+            {
+              "id": "Anime/Naruto/Flashback",
+              "label": "Flashback",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Flashback__Setting_Sun.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2480301,
+                "integrity": "sha256-mlds2uzE9AoFwydqa1EIx3Y5IVfXSWp5GZOPzUzilR0="
+              },
+              "title": "Setting Sun"
+            },
+            {
+              "id": "Anime/Naruto/Fooling",
+              "label": "Fooling",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Fooling__Obito_Fooling_Mode.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2015181,
+                "integrity": "sha256-78cw6GHviJfobYCApAFUujypAeKNmBmHaELMDm1KGHE="
+              },
+              "title": "Obito Fooling Mode"
+            },
+            {
+              "id": "Anime/Naruto/Fooling_2",
+              "label": "Fooling 2",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Fooling_2__Surprised.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 1556541,
+                "integrity": "sha256-Zvc65LVrSF70r1KoroUqaQ+CKXBNlEGG98y1aIlL7wA="
+              },
+              "title": "Surprised"
+            },
+            {
+              "id": "Anime/Naruto/Fooling_3",
+              "label": "Fooling 3",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Fooling_3__Killer_Bee_Theme.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3633357,
+                "integrity": "sha256-18UmYLty+O7JIPPO/BZC2iwWWl132zWSseeEPy/R2Tk="
+              },
+              "title": "Killer Bee Theme"
+            },
+            {
+              "id": "Anime/Naruto/Fooling_4",
+              "label": "Fooling 4",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Fooling_4__Konohamaru_Theme.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2230221,
+                "integrity": "sha256-brlC9/m8OUdYOjaBYbyh7ZcfUq2eGoUOSqt0586Iw/E="
+              },
+              "title": "Konohamaru Theme"
+            },
+            {
+              "id": "Anime/Naruto/Fooling_5",
+              "label": "Fooling 5",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Fooling_5__Fooling_Mode.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2460477,
+                "integrity": "sha256-XFFDh+msfkBQPJWV/0/dlsMZ6FC5iX53l9v1/pIXx14="
+              },
+              "title": "Fooling Mode"
+            },
+            {
+              "id": "Anime/Naruto/Fooling_6",
+              "label": "Fooling 6",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Fooling_6__It's_the_training!.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2090301,
+                "integrity": "sha256-06fcHvRuHfJ8ViIYOX0J1eeMqCsMKOgF+ZPvhndysyk="
+              },
+              "title": "It's the training!"
+            },
+            {
+              "id": "Anime/Naruto/Happy",
+              "label": "Happy",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Happy__White_Clover.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2398029,
+                "integrity": "sha256-u4itRC0S3QeWMSj3MQ/U8k/7SHQKHLa0kVrlxM+HXdo="
+              },
+              "title": "White Clover"
+            },
+            {
+              "id": "Anime/Naruto/Happy_2",
+              "label": "Happy 2",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Happy_2__Gai_Theme.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2198661,
+                "integrity": "sha256-4EABv4oFqlikbI/V7/QN7Ov4iVT/xpesz3qTPG6hE1s="
+              },
+              "title": "Gai Theme"
+            },
+            {
+              "id": "Anime/Naruto/Happy_3",
+              "label": "Happy 3",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Happy_3__Sakura's_Season.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2292021,
+                "integrity": "sha256-qCuv3Xu8wFiwvAHAUTe8b2nLFZLNHDwylXdIu6WI6bw="
+              },
+              "title": "Sakura's Season"
+            },
+            {
+              "id": "Anime/Naruto/Hope",
+              "label": "Hope",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Hope__Departure_To_The_Front_Lines.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2938077,
+                "integrity": "sha256-Pq0SvU8QHsggs6sJUM+Dwc2rw9hLSVYYBx2aTHwHXUU="
+              },
+              "title": "Departure To The Front Lines"
+            },
+            {
+              "id": "Anime/Naruto/Hope_2",
+              "label": "Hope 2",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Hope_2__Crushing.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4206045,
+                "integrity": "sha256-7hQ/tti11vtQml69t16D+sCdhYLm3d75Feizd4Ub8ck="
+              },
+              "title": "Crushing"
+            },
+            {
+              "id": "Anime/Naruto/Hope_3",
+              "label": "Hope 3",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Hope_3__Foreboding_Skies.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2516325,
+                "integrity": "sha256-auuisjzMeoNWMBhx0Eln0hcCvN5SpR5KO/TSevNzIaA="
+              },
+              "title": "Foreboding Skies"
+            },
+            {
+              "id": "Anime/Naruto/Hope_4",
+              "label": "Hope 4",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Hope_4__Hidden_Will_to_Fight.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2632221,
+                "integrity": "sha256-AQqJATl6fK8ySM6lyODu2UC1XHEPtAIUW7LbGcu1EZk="
+              },
+              "title": "Hidden Will to Fight"
+            },
+            {
+              "id": "Anime/Naruto/Hope_5",
+              "label": "Hope 5",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Hope_5__Critical_State.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2988309,
+                "integrity": "sha256-etHitYvqtWOCcD8+Aydi8Gnh2ezFUQ+PNRG9B/ten/0="
+              },
+              "title": "Critical State"
+            },
+            {
+              "id": "Anime/Naruto/Hope_6",
+              "label": "Hope 6",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Hope_6__Those_Who_Have_Courage.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3122589,
+                "integrity": "sha256-FA6MUHp61kO1NHrZDN5KSDi7gLQKl3zAnc2kASj/yLk="
+              },
+              "title": "Those Who Have Courage"
+            },
+            {
+              "id": "Anime/Naruto/Hope_7",
+              "label": "Hope 7",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Hope_7__Waltz_Of_Wind_And_Blaze.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3068829,
+                "integrity": "sha256-V0QkHBg42FL8XsE4yhmT9zPWyinV/+L7nhSafvg0NPg="
+              },
+              "title": "Waltz Of Wind And Blaze"
+            },
+            {
+              "id": "Anime/Naruto/Hope_8",
+              "label": "Hope 8",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Hope_8__Ultimate_Secrets.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2722677,
+                "integrity": "sha256-fDo8cO8pjDHIGDs1Gf5bJ0ddqVU6n7kByEy644wbs68="
+              },
+              "title": "Ultimate Secrets"
+            },
+            {
+              "id": "Anime/Naruto/Konoha_calm",
+              "label": "Konoha calm",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Konoha_calm__Konoha_Peace_1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2298765,
+                "integrity": "sha256-QlogwvJQCGJNfac4O1QnVu0QTJF21FQS13HWv5J7blw="
+              },
+              "title": "Konoha Peace 1"
+            },
+            {
+              "id": "Anime/Naruto/Konoha_calm_2",
+              "label": "Konoha calm 2",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Konoha_calm_2__Konoha_Peace_2.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3127725,
+                "integrity": "sha256-mwRW/BP5KmRsaWaMqxpLnIt9vILYFsN1+zronf94rV4="
+              },
+              "title": "Konoha Peace 2"
+            },
+            {
+              "id": "Anime/Naruto/Konoha_calm_3",
+              "label": "Konoha calm 3",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Konoha_calm_3__Afternoon_of_Konoha.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2271117,
+                "integrity": "sha256-+sj2r6R+/7ljuKywDCBF8k9pNSbbdfYIn9fGSjf4CKw="
+              },
+              "title": "Afternoon of Konoha"
+            },
+            {
+              "id": "Anime/Naruto/Konoha_calm_4",
+              "label": "Konoha calm 4",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Konoha_calm_4__Daylight_of_Konoha.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2121933,
+                "integrity": "sha256-MI9szVAlyBlHQ4nYEn0WWVRhTsi2T8v+y0WgkJa2tEQ="
+              },
+              "title": "Daylight of Konoha"
+            },
+            {
+              "id": "Anime/Naruto/Love",
+              "label": "Love",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Love__Minato_Saves_Kushina.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4109229,
+                "integrity": "sha256-IprmUouJaYCLYJQF8N+dusDlkEbKs0HdjOk4bVVnqF0="
+              },
+              "title": "Minato Saves Kushina"
+            },
+            {
+              "id": "Anime/Naruto/Love_2",
+              "label": "Love 2",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Love_2__Gentle_Hands.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 6114621,
+                "integrity": "sha256-IgSDmCpR7hrph3gkscJODJzMNV5boBiAP8kqpdkodsE="
+              },
+              "title": "Gentle Hands"
+            },
+            {
+              "id": "Anime/Naruto/Love_3",
+              "label": "Love 3",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Love_3__Kushina_Theme.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 5096421,
+                "integrity": "sha256-d2+pBAJCQaDL4XuPY54+kwoola0lo8LbnfQsEFed0FM="
+              },
+              "title": "Kushina Theme"
+            },
+            {
+              "id": "Anime/Naruto/Melancholic",
+              "label": "Melancholic",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Melancholic__Cloudiness.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3246189,
+                "integrity": "sha256-V1rAyERnNICDvxJbto47WMix0mdiICqSxyRKnEYhY3s="
+              },
+              "title": "Cloudiness"
+            },
+            {
+              "id": "Anime/Naruto/Melancholic_2",
+              "label": "Melancholic 2",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Melancholic_2__Homecoming.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2442981,
+                "integrity": "sha256-48FgHA74HauxQBLcXAHXPx3wIEYWiguOSuOl4Rn2qgA="
+              },
+              "title": "Homecoming"
+            },
+            {
+              "id": "Anime/Naruto/Melancholic_3",
+              "label": "Melancholic 3",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Melancholic_3__Nakama.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2660109,
+                "integrity": "sha256-MPx92ls3sijmAzNM5HFwnFIy6+uos9Tnt7es5rPJyqw="
+              },
+              "title": "Nakama"
+            },
+            {
+              "id": "Anime/Naruto/Melancholic_4",
+              "label": "Melancholic 4",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Melancholic_4__Old_Friend.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3655461,
+                "integrity": "sha256-8xE7ZASJIFDcCm+HYwedImxFqxOmmyzZ1KV7fi8CjR4="
+              },
+              "title": "Old Friend"
+            },
+            {
+              "id": "Anime/Naruto/Melancholic_5",
+              "label": "Melancholic 5",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Melancholic_5__Ochihabune.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2634885,
+                "integrity": "sha256-XY3bzSEapKUuwhXqhUDTBZMVhJDc32B+eKqiNenszJw="
+              },
+              "title": "Ochihabune"
+            },
+            {
+              "id": "Anime/Naruto/Melancholic_6",
+              "label": "Melancholic 6",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Melancholic_6__Alone.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2176653,
+                "integrity": "sha256-oN2Scvsz/fuWRY2X1ieDgySrAAjNy86wJfv4FN06y54="
+              },
+              "title": "Alone"
+            },
+            {
+              "id": "Anime/Naruto/Mission",
+              "label": "Mission",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Mission__Shinmu.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2433918,
+                "integrity": "sha256-5h2ksYB+V4U+qWmvt/BXmLlifQzBF+zrsciEDnFe194="
+              },
+              "title": "Shinmu"
+            },
+            {
+              "id": "Anime/Naruto/Mystic",
+              "label": "Mystic",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Mystic__Danzo_Theme.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 1490445,
+                "integrity": "sha256-u+/tFLXtYcstVDSLb2pOqjTDxYfDjV/s7zhxdgjy9j8="
+              },
+              "title": "Danzo Theme"
+            },
+            {
+              "id": "Anime/Naruto/Mystic_2",
+              "label": "Mystic 2",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Mystic_2__Genshi.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2233797,
+                "integrity": "sha256-7mIY4+sDw51W9Z0u+6jxesGEQ7iXFz1Fl9rgcwvOs0M="
+              },
+              "title": "Genshi"
+            },
+            {
+              "id": "Anime/Naruto/Mystic_3",
+              "label": "Mystic 3",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Mystic_3__Dokushinjutsu.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2084637,
+                "integrity": "sha256-oQ7l/aVioWET9zjAoJeD5Ymb3GIroBAJhj17AyIOW9A="
+              },
+              "title": "Dokushinjutsu"
+            },
+            {
+              "id": "Anime/Naruto/Mystic_4",
+              "label": "Mystic 4",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Mystic_4__Fake.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3193845,
+                "integrity": "sha256-NdbnOoSyFtXS6+Yek2BjO0dn03BVfPqIxrbtOvP6ALM="
+              },
+              "title": "Fake"
+            },
+            {
+              "id": "Anime/Naruto/Mystic_5",
+              "label": "Mystic 5",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Mystic_5__Orochimaru_Theme.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3425301,
+                "integrity": "sha256-69ygkMwh9vVC0vadC2p90pnt/fUaUr1TiKvKBw+jOzY="
+              },
+              "title": "Orochimaru Theme"
+            },
+            {
+              "id": "Anime/Naruto/Sad",
+              "label": "Sad",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Sad__Despair.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2552685,
+                "integrity": "sha256-2X45Oic188jXWSEKRimd7QZXMBb+BbE9kq/LqlaxMCg="
+              },
+              "title": "Despair"
+            },
+            {
+              "id": "Anime/Naruto/Sad_10",
+              "label": "Sad 10",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Sad_10__Madara_Death_Theme.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2600685,
+                "integrity": "sha256-jkwwxuck8iEJuaOCO45dQLzB29Zp+JvJFsihgwHgUPg="
+              },
+              "title": "Madara Death Theme"
+            },
+            {
+              "id": "Anime/Naruto/Sad_11",
+              "label": "Sad 11",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Sad_11__To_Reach_a_Person.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4619061,
+                "integrity": "sha256-rFELdYGD+WXo8CHyEkBkwIr3gWESPjgLVcM6RR1Dbzg="
+              },
+              "title": "To Reach a Person"
+            },
+            {
+              "id": "Anime/Naruto/Sad_12",
+              "label": "Sad 12",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Sad_12__Hakubo.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2156757,
+                "integrity": "sha256-jGLx0acUDOrfsN0I0D12S6pf2lvlSaLEvHImJ4H5DMY="
+              },
+              "title": "Hakubo"
+            },
+            {
+              "id": "Anime/Naruto/Sad_13",
+              "label": "Sad 13",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Sad_13__Grief_And_Sorrow.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2092797,
+                "integrity": "sha256-7NroTYOxdyGzp14KIfkgiw7dOvJnyQ0WVL0oCF0A4Qk="
+              },
+              "title": "Grief And Sorrow"
+            },
+            {
+              "id": "Anime/Naruto/Sad_14",
+              "label": "Sad 14",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Sad_14__Oh!_Student_and_Teacher_Affection.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3981117,
+                "integrity": "sha256-J5fdLe594xOceUnqY4T/8LYSeQmJpyIaK4jCp4CE94o="
+              },
+              "title": "Oh! Student and Teacher Affection"
+            },
+            {
+              "id": "Anime/Naruto/Sad_2",
+              "label": "Sad 2",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Sad_2__Loneliness.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2751525,
+                "integrity": "sha256-MQm3vrYk243/FOADWrHpekI0PNgUDUv/QODpWc2nG6E="
+              },
+              "title": "Loneliness"
+            },
+            {
+              "id": "Anime/Naruto/Sad_3",
+              "label": "Sad 3",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Sad_3__Guren.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 5202765,
+                "integrity": "sha256-CyJGPbGmHxAPZhWB/cNgs8QiTsgP3NE2jQ6mL5BcKaQ="
+              },
+              "title": "Guren"
+            },
+            {
+              "id": "Anime/Naruto/Sad_4",
+              "label": "Sad 4",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Sad_4__Shirohae.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3645885,
+                "integrity": "sha256-4gRYG3+p85CdVjTaTPIWIaleb0eTogjROFKVLjtjeNk="
+              },
+              "title": "Shirohae"
+            },
+            {
+              "id": "Anime/Naruto/Sad_5",
+              "label": "Sad 5",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Sad_5__Colorful_Mist.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3015069,
+                "integrity": "sha256-KjYty0yY3Cu2Okk/mOJVrWaWzLwU85kgq+aastWuAmU="
+              },
+              "title": "Colorful Mist"
+            },
+            {
+              "id": "Anime/Naruto/Sad_6",
+              "label": "Sad 6",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Sad_6__Samidare.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4306605,
+                "integrity": "sha256-z2clUGiLiaqmWXyOnHS2XL+YMgu6h/iPID0u9npuvUM="
+              },
+              "title": "Samidare"
+            },
+            {
+              "id": "Anime/Naruto/Sad_7",
+              "label": "Sad 7",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Sad_7__Man_of_the_world.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3238101,
+                "integrity": "sha256-/DA5D/LBj8eTqFiiUxQpHFnTmQO+Ro4nudG+9aIL9eY="
+              },
+              "title": "Man of the world"
+            },
+            {
+              "id": "Anime/Naruto/Sad_8",
+              "label": "Sad 8",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Sad_8__Scene_of_a_Disaster.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2681901,
+                "integrity": "sha256-lhDyu8Q5EJ5bNu5+eqFqWXtZsW0CeqgJqIVZy86ZDb0="
+              },
+              "title": "Scene of a Disaster"
+            },
+            {
+              "id": "Anime/Naruto/Sad_9",
+              "label": "Sad 9",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Sad_9__Obito_Theme.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3542181,
+                "integrity": "sha256-lCPM4eMmGjXdms+xJPBH0xC9CLgtFd2ArxBgPCVyjEw="
+              },
+              "title": "Obito Theme"
+            },
+            {
+              "id": "Anime/Naruto/Stress",
+              "label": "Stress",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Stress__Distress.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2852901,
+                "integrity": "sha256-wHMLanFoQtBkbNSCYtCb57MeV4UoHc6Jo52P6OVacng="
+              },
+              "title": "Distress"
+            },
+            {
+              "id": "Anime/Naruto/Stress_Sneaking_Nightmare",
+              "label": "Stress Sneaking Nightmare",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Stress_Sneaking_Nightmare.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 1531341,
+                "integrity": "sha256-xmYteMJQURMvSlCj795UpyJz7miD0EUJqOoARHeI0b0="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Tension",
+              "label": "Tension",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tension__Explanation.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2740005,
+                "integrity": "sha256-MxvR178eHmgxCwz0MxUu6NopceR1qzoMqMe+uXxJqmM="
+              },
+              "title": "Explanation"
+            },
+            {
+              "id": "Anime/Naruto/Tension_10",
+              "label": "Tension 10",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tension_10__Evil.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3620613,
+                "integrity": "sha256-RTYr8ofAacbulNJSaxfyer5nuBt8UCdbKDv4H+9Az9M="
+              },
+              "title": "Evil"
+            },
+            {
+              "id": "Anime/Naruto/Tension_11",
+              "label": "Tension 11",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tension_11__Survival_Examination.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2631693,
+                "integrity": "sha256-JZ84yvJsRt/gevyqloVGjPXfJCgb5fcHvEx7m4sDbbY="
+              },
+              "title": "Survival Examination"
+            },
+            {
+              "id": "Anime/Naruto/Tension_12",
+              "label": "Tension 12",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tension_12__Tea_Country.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2222733,
+                "integrity": "sha256-VncHiTPGKsA2kKMFxm7vEco3hcsfZFyb8G8FQpsHrbw="
+              },
+              "title": "Tea Country"
+            },
+            {
+              "id": "Anime/Naruto/Tension_2",
+              "label": "Tension 2",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tension_2__Dark_Clouds.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2110653,
+                "integrity": "sha256-DGwMGYTjlhVeAwJnVk964rF/arJr5RjZ9IUX18GoCzM="
+              },
+              "title": "Dark Clouds"
+            },
+            {
+              "id": "Anime/Naruto/Tension_3",
+              "label": "Tension 3",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tension_3__Sasuke_Hatred.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3562221,
+                "integrity": "sha256-p04eD6fJM919UBUgi0tcYkrIiq/orON+nMPzloNqlcQ="
+              },
+              "title": "Sasuke Hatred"
+            },
+            {
+              "id": "Anime/Naruto/Tension_4",
+              "label": "Tension 4",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tension_4__Hidan.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 1837893,
+                "integrity": "sha256-Q1nxzCz+Wj0EZSyEjOKtN36CVCYdeGgz4zZOVwmnsSY="
+              },
+              "title": "Hidan"
+            },
+            {
+              "id": "Anime/Naruto/Tension_5",
+              "label": "Tension 5",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tension_5__Many_Nights.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2960181,
+                "integrity": "sha256-QhOgqsyPXOva/yZ1mmoO4noExoFg9abrNrblmG1c4xo="
+              },
+              "title": "Many Nights"
+            },
+            {
+              "id": "Anime/Naruto/Tension_6",
+              "label": "Tension 6",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tension_6__The_Screaming_God.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3728925,
+                "integrity": "sha256-sq/mfXVqZYXFbUtcuLA+MX+A32pVcb79bBviOTD28g8="
+              },
+              "title": "The Screaming God"
+            },
+            {
+              "id": "Anime/Naruto/Tension_7",
+              "label": "Tension 7",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tension_7__Incident.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2654925,
+                "integrity": "sha256-3jcPT9uUXoNS0IDhfLLOaRI1/mRyPjwyCDaqG4yFyxs="
+              },
+              "title": "Incident"
+            },
+            {
+              "id": "Anime/Naruto/Tension_8",
+              "label": "Tension 8",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tension_8__Strangeness.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3476517,
+                "integrity": "sha256-kPYVg20+0CG09BiekGnUQwTArfdST04PkfIdTDo3xXU="
+              },
+              "title": "Strangeness"
+            },
+            {
+              "id": "Anime/Naruto/Tension_9",
+              "label": "Tension 9",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tension_9__Unleashing_Nine_Tails.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3399837,
+                "integrity": "sha256-TymocDuTGJRvPXXAm/wXUTeQBqYFqog+U08eCf9EwxQ="
+              },
+              "title": "Unleashing Nine Tails"
+            },
+            {
+              "id": "Anime/Naruto/Tragic",
+              "label": "Tragic",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tragic__Hisou.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3188709,
+                "integrity": "sha256-y9mWvOuydr8Njz5oZ4FhSekuYyjqojc5bLZyI+94oAo="
+              },
+              "title": "Hisou"
+            },
+            {
+              "id": "Anime/Naruto/Tragic_10",
+              "label": "Tragic 10",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tragic_10__Reincarnation.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 6033309,
+                "integrity": "sha256-/b1BOd0r7QfjvGRrxKvW5amoHumRS5rFFexRsYWin0U="
+              },
+              "title": "Reincarnation"
+            },
+            {
+              "id": "Anime/Naruto/Tragic_2",
+              "label": "Tragic 2",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tragic_2__Burial.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 7176309,
+                "integrity": "sha256-aBnGG6SIdA7zUTJnZaAuhqNRd8Yc/30+k5HqPYXlRco="
+              },
+              "title": "Burial"
+            },
+            {
+              "id": "Anime/Naruto/Tragic_3",
+              "label": "Tragic 3",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tragic_3__Young_Obito_Death_Theme.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2885469,
+                "integrity": "sha256-/oT8UsQZ1spd53yZFln3Lbsl8sc8E1SpC1Nkf9WiEl8="
+              },
+              "title": "Young Obito Death Theme"
+            },
+            {
+              "id": "Anime/Naruto/Tragic_4",
+              "label": "Tragic 4",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tragic_4__Girei.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2671077,
+                "integrity": "sha256-7ET6NDGup5hW/KERbK1JEQ5G1Q1zEtckN+XdSvT00Vk="
+              },
+              "title": "Girei"
+            },
+            {
+              "id": "Anime/Naruto/Tragic_5",
+              "label": "Tragic 5",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tragic_5__Prophet.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2171829,
+                "integrity": "sha256-BaiCYlBNmdoKoVamYZmAdSs4DoXE+2tvdjr0/UM139A="
+              },
+              "title": "Prophet"
+            },
+            {
+              "id": "Anime/Naruto/Tragic_6",
+              "label": "Tragic 6",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tragic_6__Chichi_to_Haha.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4441653,
+                "integrity": "sha256-2+Dw4jgMQENn84A0NYGhMo0NZ8UgSZ864w3PW5Jh1bI="
+              },
+              "title": "Chichi to Haha"
+            },
+            {
+              "id": "Anime/Naruto/Tragic_7",
+              "label": "Tragic 7",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tragic_7__Decision.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3975021,
+                "integrity": "sha256-edbbdPLCNlR0LLMTxTz0sBogG7NlMeljKmYAObdnnHQ="
+              },
+              "title": "Decision"
+            },
+            {
+              "id": "Anime/Naruto/Tragic_8",
+              "label": "Tragic 8",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tragic_8__Martyr.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4254837,
+                "integrity": "sha256-7X+1o698mAbLxs6TpSDgfzB+JY7SBmLP3fRj0nf2SPk="
+              },
+              "title": "Martyr"
+            },
+            {
+              "id": "Anime/Naruto/Tragic_9",
+              "label": "Tragic 9",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Tragic_9__The_Guts_To_Never_Give_Up.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4458717,
+                "integrity": "sha256-DXnV0s9eFVAy0NdO1NnQ72BxVZSt1S0KQjrAWNkNzQk="
+              },
+              "title": "The Guts To Never Give Up"
+            },
+            {
+              "id": "Anime/Naruto/Training",
+              "label": "Training",
+              "file": {
+                "path": "assets/music/Anime/Naruto/Training__Training.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2830869,
+                "integrity": "sha256-oIWJQyeLjyPu7+qqPetqcrdJpX9YR8+JwY5KyW/hmV8="
+              },
+              "title": "Training"
+            }
+          ],
+          "categories": []
+        }
+      ]
+    }
+  ]
+}

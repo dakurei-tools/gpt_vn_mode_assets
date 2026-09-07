@@ -1,0 +1,87 @@
+name: Validate asset contribution
+
+on:
+  pull_request_target:
+    branches:
+      - main
+    types:
+      - opened
+      - reopened
+      - synchronize
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  validate-assets:
+    name: Validate asset contribution
+    runs-on: ubuntu-latest
+
+    steps:
+      # This workflow comes from main. Validate paths before checking out the
+      # untrusted pull request content.
+      - name: Refuse changes outside assets
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              per_page: 100,
+            });
+            const forbidden = files
+              .flatMap((file) => [file.filename, file.previous_filename])
+              .filter(Boolean)
+              .filter((path) => !path.startsWith("assets/"));
+
+            if (forbidden.length > 0) {
+              core.setFailed(
+                "A public contribution may only modify files under assets/:\n" +
+                forbidden.map((path) => `- ${path}`).join("\n")
+              );
+            }
+
+      - name: Checkout proposed assets
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+          allow-unsafe-pr-checkout: true
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+
+      - name: Refuse symlinks, submodules and executable assets
+        run: |
+          git ls-files --stage -z assets | ruby -e '
+            invalid = STDIN.read.split("\0").filter_map do |entry|
+              metadata, path = entry.split("\t", 2)
+              mode = metadata.to_s.split.first
+              "#{path} (mode #{mode})" unless mode == "100644"
+            end
+            abort "Forbidden Git entries under assets/:\n#{invalid.join("\n")}" unless invalid.empty?
+          '
+
+      - name: Install ffprobe when required
+        shell: bash
+        run: |
+          if find assets -type f -iname "*.webm" -print -quit | grep -q . \
+            && ! command -v ffprobe >/dev/null; then
+            sudo apt-get update
+            sudo apt-get install --no-install-recommends --yes ffmpeg
+          fi
+
+      - name: Validate WebM audio codecs
+        run: bin/validate_webm_audio
+
+      - name: Test the trusted generator
+        run: ruby -Itest test/generator_test.rb
+
+      - name: Generate and validate every asset reference
+        run: |
+          bin/generate_manifests
+          bin/generate_manifests --check

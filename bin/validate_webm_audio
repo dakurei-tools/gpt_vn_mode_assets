@@ -1,0 +1,72 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "json"
+require "open3"
+require "pathname"
+
+root = Pathname(File.expand_path("..", __dir__))
+webm_files = if ARGV.empty?
+               %w[music sounds].flat_map do |kind|
+                 root.join("assets", kind).glob("**/*").select do |path|
+                   path.file? && path.extname.casecmp?(".webm")
+                 end
+               end
+             else
+               ARGV.map { |argument| Pathname(argument).expand_path }
+             end.sort
+
+display_path = lambda do |path|
+  if path.to_s.start_with?("#{root}/")
+    path.relative_path_from(root)
+  else
+    path
+  end
+end
+
+if webm_files.empty?
+  puts "No WebM audio files to validate."
+  exit
+end
+
+unless system("ffprobe", "-version", out: File::NULL, err: File::NULL)
+  abort "ffprobe is required to validate WebM audio files."
+end
+
+errors = webm_files.filter_map do |path|
+  output, diagnostic, status = Open3.capture3(
+    "ffprobe",
+    "-v", "error",
+    "-show_entries", "stream=codec_type,codec_name",
+    "-of", "json",
+    path.to_s
+  )
+  relative_path = display_path.call(path)
+
+  unless status.success?
+    detail = diagnostic.strip
+    next "#{relative_path}: ffprobe could not read the file#{detail.empty? ? '' : " (#{detail})"}"
+  end
+
+  begin
+    streams = JSON.parse(output).fetch("streams", [])
+  rescue JSON::ParserError => error
+    next "#{relative_path}: invalid ffprobe output (#{error.message})"
+  end
+
+  audio_streams = streams.select { |stream| stream["codec_type"] == "audio" }
+  if audio_streams.empty?
+    "#{relative_path}: no audio stream found"
+  elsif audio_streams.length > 1
+    "#{relative_path}: expected one audio stream, found #{audio_streams.length}"
+  elsif audio_streams.first["codec_name"] != "opus"
+    codec = audio_streams.first["codec_name"] || "unknown"
+    "#{relative_path}: expected Opus audio, found #{codec}"
+  end
+end
+
+unless errors.empty?
+  abort "Invalid WebM audio files:\n#{errors.map { |error| "- #{error}" }.join("\n")}"
+end
+
+puts "Validated #{webm_files.length} WebM audio file(s): Opus codec confirmed."

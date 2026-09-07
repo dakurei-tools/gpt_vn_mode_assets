@@ -1,0 +1,52 @@
+name: Generate manifests
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "assets/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-manifests-main
+  cancel-in-progress: false
+
+jobs:
+  generate-manifests:
+    name: Generate manifests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+
+      - name: Test the generator
+        run: ruby -Itest test/generator_test.rb
+
+      - name: Generate manifests
+        run: bin/generate_manifests
+
+      - name: Commit generated manifests and badges
+        run: |
+          git add -- characters.json backgrounds.json music.json sounds.json badges/
+
+          if git diff --cached --quiet; then
+            echo "The manifests and badges are already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update generated manifests and badges"
+          git push origin HEAD:main

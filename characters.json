@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 1,
+  "kind": "characters",
+  "assets": [],
+  "categories": [
+    {
+      "id": "Anime",
+      "label": "Anime",
+      "assets": [],
+      "categories": [
+        {
+          "id": "Anime/Evangelion",
+          "label": "Evangelion",
+          "assets": [
+            {
+              "id": "Anime/Evangelion/Asuka_Langley_(EVA-02_Suit)",
+              "label": "Asuka Langley (EVA-02 Suit)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Evangelion/Asuka_Langley_(EVA-02_Suit)__e4212e.png",
+                  "contentType": "image/png",
+                  "byteSize": 279228,
+                  "integrity": "sha256-F8MoZxfVVvBowIRfv5G0FMd4Q2LVeqwn8WzOaohx3LM="
+                }
+              },
+              "color": "#e4212e"
+            }
+          ],
+          "categories": []
+        },
+        {
+          "id": "Anime/Konosuba",
+          "label": "Konosuba",
+          "assets": [
+            {
+              "id": "Anime/Konosuba/Aqua",
+              "label": "Aqua",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Konosuba/Aqua__9dd5f2.png",
+                  "contentType": "image/png",
+                  "byteSize": 227331,
+                  "integrity": "sha256-rqENeg8ceuxZ/Z5sR0Z2qG0d57/JrglCbRFsbzyEiSo="
+                }
+              },
+              "color": "#9dd5f2"
+            },
+            {
+              "id": "Anime/Konosuba/Kazuma",
+              "label": "Kazuma",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Konosuba/Kazuma__2f6766.png",
+                  "contentType": "image/png",
+                  "byteSize": 222492,
+                  "integrity": "sha256-Ml08iEGB/ySU+8lsLv/NlUR7CNWTPDL4p+H/hgokTJc="
+                }
+              },
+              "color": "#2f6766"
+            }
+          ],
+          "categories": []
+        },
+        {
+          "id": "Anime/Naruto",
+          "label": "Naruto",
+          "assets": [
+            {
+              "id": "Anime/Naruto/Ayame_(Shippuden)",
+              "label": "Ayame (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Ayame_(Shippuden)__ecc79c.png",
+                  "contentType": "image/png",
+                  "byteSize": 63173,
+                  "integrity": "sha256-4soz/yfao7cLZah4iQYFXwz1zjkCsI3Lo38oRADLUI8="
+                },
+                "happy": {
+                  "path": "assets/characters/Anime/Naruto/Ayame_(Shippuden)__ecc79c/happy.png",
+                  "contentType": "image/png",
+                  "byteSize": 61591,
+                  "integrity": "sha256-evUCT3/o6qOufcu3zDiNlavor7TYYFeMGObmxpN4UUI="
+                },
+                "sad": {
+                  "path": "assets/characters/Anime/Naruto/Ayame_(Shippuden)__ecc79c/sad.png",
+                  "contentType": "image/png",
+                  "byteSize": 60367,
+                  "integrity": "sha256-Gy0b34o/O+T2iFTTQi7O85GW6hyIfBAb2hLB38JcEM0="
+                },
+                "mischievous": {
+                  "path": "assets/characters/Anime/Naruto/Ayame_(Shippuden)__ecc79c/mischievous.png",
+                  "contentType": "image/png",
+                  "byteSize": 60024,
+                  "integrity": "sha256-FUptOjGh5qTpTwGsmbGYKsgHQjCIoLmabZA+K8GeZxA="
+                },
+                "surprised": {
+                  "path": "assets/characters/Anime/Naruto/Ayame_(Shippuden)__ecc79c/surprised.png",
+                  "contentType": "image/png",
+                  "byteSize": 59216,
+                  "integrity": "sha256-XtJNUSTZfzY104RBkLnuEubPk6G2wGD14fPpse8ZT4c="
+                },
+                "embarrassed": {
+                  "path": "assets/characters/Anime/Naruto/Ayame_(Shippuden)__ecc79c/embarrassed.png",
+                  "contentType": "image/png",
+                  "byteSize": 60561,
+                  "integrity": "sha256-3u6R9LMeGXk5jA1rb9Brk+d6P+M0aJLgk+oafk0UpVc="
+                },
+                "angry": {
+                  "path": "assets/characters/Anime/Naruto/Ayame_(Shippuden)__ecc79c/angry.png",
+                  "contentType": "image/png",
+                  "byteSize": 64445,
+                  "integrity": "sha256-f6vVvyOczKSIXPKDhL3LvAVD/pF7qpLqWjebnol26D4="
+                }
+              },
+              "color": "#ecc79c"
+            },
+            {
+              "id": "Anime/Naruto/Kakashi_Hatake_(Shippuden)",
+              "label": "Kakashi Hatake (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Kakashi_Hatake_(Shippuden)__c4c5d0.png",
+                  "contentType": "image/png",
+                  "byteSize": 69800,
+                  "integrity": "sha256-JgO9M/IujKrn+F0xIeIrjuLT22DJp5FsT9Bb34R8Los="
+                },
+                "happy": {
+                  "path": "assets/characters/Anime/Naruto/Kakashi_Hatake_(Shippuden)__c4c5d0/happy.png",
+                  "contentType": "image/png",
+                  "byteSize": 68509,
+                  "integrity": "sha256-drdeMcT2ZXGINfLMTCo84MhoLYUBTuhODkFHYD1AJZU="
+                },
+                "sad": {
+                  "path": "assets/characters/Anime/Naruto/Kakashi_Hatake_(Shippuden)__c4c5d0/sad.png",
+                  "contentType": "image/png",
+                  "byteSize": 66479,
+                  "integrity": "sha256-nL2BN/rT7e9gjQqw+i3AZEwJGVjjQi36Dwmlpi9XHbQ="
+                },
+                "mischievous": {
+                  "path": "assets/characters/Anime/Naruto/Kakashi_Hatake_(Shippuden)__c4c5d0/mischievous.png",
+                  "contentType": "image/png",
+                  "byteSize": 64432,
+                  "integrity": "sha256-afG80ggCLdeRk8FHbjQTYRBgV4iWs9+ZhSN+kBzOa10="
+                },
+                "surprised": {
+                  "path": "assets/characters/Anime/Naruto/Kakashi_Hatake_(Shippuden)__c4c5d0/surprised.png",
+                  "contentType": "image/png",
+                  "byteSize": 73042,
+                  "integrity": "sha256-FaUPb6+cZOsSYj8pBO12k5EqTHwK8a/TCihDfQgPzGc="
+                },
+                "embarrassed": {
+                  "path": "assets/characters/Anime/Naruto/Kakashi_Hatake_(Shippuden)__c4c5d0/embarrassed.png",
+                  "contentType": "image/png",
+                  "byteSize": 66005,
+                  "integrity": "sha256-m8DFudGGBmlvysj5OsO/mFe3th9/X/amvRlcW5XA1qE="
+                },
+                "angry": {
+                  "path": "assets/characters/Anime/Naruto/Kakashi_Hatake_(Shippuden)__c4c5d0/angry.png",
+                  "contentType": "image/png",
+                  "byteSize": 68809,
+                  "integrity": "sha256-bnL2TRU/hz/MXa/rVCGBZa9U5GWWGBBfp2dacjGPV7g="
+                }
+              },
+              "color": "#c4c5d0"
+            },
+            {
+              "id": "Anime/Naruto/Naruto_Uzumaki_(Shippuden)",
+              "label": "Naruto Uzumaki (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Naruto_Uzumaki_(Shippuden)__e78151.png",
+                  "contentType": "image/png",
+                  "byteSize": 64271,
+                  "integrity": "sha256-ZtpA6rDm/RhcEaS4aPbt6qoZlxhWc1kOajMbhfQbWCA="
+                },
+                "happy": {
+                  "path": "assets/characters/Anime/Naruto/Naruto_Uzumaki_(Shippuden)__e78151/happy.png",
+                  "contentType": "image/png",
+                  "byteSize": 65340,
+                  "integrity": "sha256-4BpJDhXAmnztTBavTNFLgGOFWCmVVD8qVqhA3W5mBZc="
+                },
+                "sad": {
+                  "path": "assets/characters/Anime/Naruto/Naruto_Uzumaki_(Shippuden)__e78151/sad.png",
+                  "contentType": "image/png",
+                  "byteSize": 59441,
+                  "integrity": "sha256-04qi/Vdh7YIuJIlSF8lwzU5XLHOXoClfLJDdsyu6UW8="
+                },
+                "mischievous": {
+                  "path": "assets/characters/Anime/Naruto/Naruto_Uzumaki_(Shippuden)__e78151/mischievous.png",
+                  "contentType": "image/png",
+                  "byteSize": 57963,
+                  "integrity": "sha256-DZ2hbUAyyj5G+o2YGxovecif1sYJ9JBoGWrwohxVUeQ="
+                },
+                "surprised": {
+                  "path": "assets/characters/Anime/Naruto/Naruto_Uzumaki_(Shippuden)__e78151/surprised.png",
+                  "contentType": "image/png",
+                  "byteSize": 65099,
+                  "integrity": "sha256-sGGxL3RKoMPdhFn/rHHXUzfWV1S/d0+h7m3xSPpImlc="
+                },
+                "embarrassed": {
+                  "path": "assets/characters/Anime/Naruto/Naruto_Uzumaki_(Shippuden)__e78151/embarrassed.png",
+                  "contentType": "image/png",
+                  "byteSize": 59674,
+                  "integrity": "sha256-y9PHo9du9rpYxkuvCbX6u2lhTVyWW8r85cG114mW4/o="
+                },
+                "angry": {
+                  "path": "assets/characters/Anime/Naruto/Naruto_Uzumaki_(Shippuden)__e78151/angry.png",
+                  "contentType": "image/png",
+                  "byteSize": 63030,
+                  "integrity": "sha256-auw9KB+jpJfjQ8QpE4zifyzw0abMY9Olb+W3SfDEwcM="
+                }
+              },
+              "color": "#e78151"
+            },
+            {
+              "id": "Anime/Naruto/Sakura_Haruno_(Shippuden)",
+              "label": "Sakura Haruno (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Sakura_Haruno_(Shippuden)__983333.png",
+                  "contentType": "image/png",
+                  "byteSize": 60229,
+                  "integrity": "sha256-uTG/J93iOCG7qExB69ybFHt33ze0KtZjNoUM0P0/8H8="
+                },
+                "happy": {
+                  "path": "assets/characters/Anime/Naruto/Sakura_Haruno_(Shippuden)__983333/happy.png",
+                  "contentType": "image/png",
+                  "byteSize": 58588,
+                  "integrity": "sha256-xGnbFu778aQOJDdYnM0lvWRwexX5Ymj0LHl+vuv8+LM="
+                },
+                "sad": {
+                  "path": "assets/characters/Anime/Naruto/Sakura_Haruno_(Shippuden)__983333/sad.png",
+                  "contentType": "image/png",
+                  "byteSize": 53532,
+                  "integrity": "sha256-mvdIWEJQ9Z9ynciNnDyfVngFt8nVp2yFDhhidxR2iNQ="
+                },
+                "mischievous": {
+                  "path": "assets/characters/Anime/Naruto/Sakura_Haruno_(Shippuden)__983333/mischievous.png",
+                  "contentType": "image/png",
+                  "byteSize": 56516,
+                  "integrity": "sha256-kkK1VIEmzQSN/7l+098SRgDNXcflf+DvyztiCSp1WUw="
+                },
+                "surprised": {
+                  "path": "assets/characters/Anime/Naruto/Sakura_Haruno_(Shippuden)__983333/surprised.png",
+                  "contentType": "image/png",
+                  "byteSize": 55303,
+                  "integrity": "sha256-d8/LvOSx2BphzLUQqKaI71bh5MrjNpTzQHOzU87XENE="
+                },
+                "embarrassed": {
+                  "path": "assets/characters/Anime/Naruto/Sakura_Haruno_(Shippuden)__983333/embarrassed.png",
+                  "contentType": "image/png",
+                  "byteSize": 54571,
+                  "integrity": "sha256-1OJ1xRhzyeBgnPj7ToT8I5Pl/o0Mdw+i9ZqZxZ5t0yo="
+                },
+                "angry": {
+                  "path": "assets/characters/Anime/Naruto/Sakura_Haruno_(Shippuden)__983333/angry.png",
+                  "contentType": "image/png",
+                  "byteSize": 59364,
+                  "integrity": "sha256-yVnxQwjK6wcDUObVYorGGKmHH/Obmy9AzU+qVOH6BWU="
+                }
+              },
+              "color": "#983333"
+            },
+            {
+              "id": "Anime/Naruto/Shizune_(Shippuden)",
+              "label": "Shizune (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Shizune_(Shippuden)__4c483e.png",
+                  "contentType": "image/png",
+                  "byteSize": 67596,
+                  "integrity": "sha256-Nd1HNqUPy3LM7JHVjeR4HqznVAElY5WSp3IUJ6cKPpU="
+                },
+                "happy": {
+                  "path": "assets/characters/Anime/Naruto/Shizune_(Shippuden)__4c483e/happy.png",
+                  "contentType": "image/png",
+                  "byteSize": 64083,
+                  "integrity": "sha256-auiv2LFcqQ9sMXfs231dcDBrTKwJxltuF0GUxNy7Vfw="
+                },
+                "sad": {
+                  "path": "assets/characters/Anime/Naruto/Shizune_(Shippuden)__4c483e/sad.png",
+                  "contentType": "image/png",
+                  "byteSize": 60151,
+                  "integrity": "sha256-VcLZCkJn/5ZV/ta+Ol8sDNjRhQNf6afafsyUG8vZsVM="
+                },
+                "mischievous": {
+                  "path": "assets/characters/Anime/Naruto/Shizune_(Shippuden)__4c483e/mischievous.png",
+                  "contentType": "image/png",
+                  "byteSize": 61081,
+                  "integrity": "sha256-figg/TJho1c9FOLreJPoaSaZO9T2fjDKvwb4DyD8BZI="
+                },
+                "surprised": {
+                  "path": "assets/characters/Anime/Naruto/Shizune_(Shippuden)__4c483e/surprised.png",
+                  "contentType": "image/png",
+                  "byteSize": 60933,
+                  "integrity": "sha256-vd9FRjPVm5gYKIde4yAMs0uXX7hexnaTHwElwVCzfSY="
+                },
+                "embarrassed": {
+                  "path": "assets/characters/Anime/Naruto/Shizune_(Shippuden)__4c483e/embarrassed.png",
+                  "contentType": "image/png",
+                  "byteSize": 60126,
+                  "integrity": "sha256-ZlzX3klPzQkaSp0dEY/I1gCRx8JZM0VGO9+H7jou+sY="
+                },
+                "angry": {
+                  "path": "assets/characters/Anime/Naruto/Shizune_(Shippuden)__4c483e/angry.png",
+                  "contentType": "image/png",
+                  "byteSize": 67420,
+                  "integrity": "sha256-VoEM1PPhFW2oZ7dvKUIST+Sd2F0NTPsXhm0rJ9tfxh0="
+                }
+              },
+              "color": "#4c483e"
+            },
+            {
+              "id": "Anime/Naruto/Teuchi_(Shippuden)",
+              "label": "Teuchi (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Teuchi_(Shippuden)__ecc79c.png",
+                  "contentType": "image/png",
+                  "byteSize": 65989,
+                  "integrity": "sha256-S9KXVfemsrfQsqwoqtlHzrg/fTV+6LPMKATOxVWK5NE="
+                },
+                "happy": {
+                  "path": "assets/characters/Anime/Naruto/Teuchi_(Shippuden)__ecc79c/happy.png",
+                  "contentType": "image/png",
+                  "byteSize": 70419,
+                  "integrity": "sha256-1p9ySf3qIunwbnmq6s5GcJA4fS+9TduHn9NBN+CbX1k="
+                },
+                "sad": {
+                  "path": "assets/characters/Anime/Naruto/Teuchi_(Shippuden)__ecc79c/sad.png",
+                  "contentType": "image/png",
+                  "byteSize": 63460,
+                  "integrity": "sha256-i4RvzGXrOj7Q7lWYBCSZpel71dLXDphiFQSJWQ6FzM8="
+                },
+                "mischievous": {
+                  "path": "assets/characters/Anime/Naruto/Teuchi_(Shippuden)__ecc79c/mischievous.png",
+                  "contentType": "image/png",
+                  "byteSize": 62443,
+                  "integrity": "sha256-adN7KCnLsHwq/h0sH8hedapPCby9ucWOhQnOjhVB+3U="
+                },
+                "surprised": {
+                  "path": "assets/characters/Anime/Naruto/Teuchi_(Shippuden)__ecc79c/surprised.png",
+                  "contentType": "image/png",
+                  "byteSize": 67576,
+                  "integrity": "sha256-uxR4BewFcVJn4uOw//frCFgDoeyrlzaVgE854THcY9M="
+                },
+                "embarrassed": {
+                  "path": "assets/characters/Anime/Naruto/Teuchi_(Shippuden)__ecc79c/embarrassed.png",
+                  "contentType": "image/png",
+                  "byteSize": 66591,
+                  "integrity": "sha256-MTtHyDjN7nmMMeBJgQCogOrLupl3dmq3yF8D+ltB+14="
+                },
+                "angry": {
+                  "path": "assets/characters/Anime/Naruto/Teuchi_(Shippuden)__ecc79c/angry.png",
+                  "contentType": "image/png",
+                  "byteSize": 68062,
+                  "integrity": "sha256-TyNxp2b+4HF3to2O7BShimBCtCRf0hg3Be9BuXOq/ak="
+                }
+              },
+              "color": "#ecc79c"
+            },
+            {
+              "id": "Anime/Naruto/Tsunade_(Shippuden)",
+              "label": "Tsunade (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Tsunade_(Shippuden)__677e66.png",
+                  "contentType": "image/png",
+                  "byteSize": 67301,
+                  "integrity": "sha256-4GF8cTHhWe9iqGsTfwS8XrGJXJglJZKsno7ofiAI7uY="
+                },
+                "happy": {
+                  "path": "assets/characters/Anime/Naruto/Tsunade_(Shippuden)__677e66/happy.png",
+                  "contentType": "image/png",
+                  "byteSize": 67028,
+                  "integrity": "sha256-2o1stpQskUsq8TQd2REkdUdswVN+PDs88rE4qhh2NKE="
+                },
+                "sad": {
+                  "path": "assets/characters/Anime/Naruto/Tsunade_(Shippuden)__677e66/sad.png",
+                  "contentType": "image/png",
+                  "byteSize": 56713,
+                  "integrity": "sha256-6OKXTyoOyqol+lUgstNYOzJTCK4pI7xFiExU7ku6GcA="
+                },
+                "mischievous": {
+                  "path": "assets/characters/Anime/Naruto/Tsunade_(Shippuden)__677e66/mischievous.png",
+                  "contentType": "image/png",
+                  "byteSize": 58645,
+                  "integrity": "sha256-ykd6BiG1wx68X5oskBL9QAblmzNIpq2ptD/kbgdW24I="
+                },
+                "surprised": {
+                  "path": "assets/characters/Anime/Naruto/Tsunade_(Shippuden)__677e66/surprised.png",
+                  "contentType": "image/png",
+                  "byteSize": 61506,
+                  "integrity": "sha256-B5wfzGPky3r6lcopsbqfCLdq7f+4Yo69VDlcc0DdR0o="
+                },
+                "embarrassed": {
+                  "path": "assets/characters/Anime/Naruto/Tsunade_(Shippuden)__677e66/embarrassed.png",
+                  "contentType": "image/png",
+                  "byteSize": 55521,
+                  "integrity": "sha256-99pTtXC1UbAePZAhJkTy630zgD6uFxZSUWNwHkG3Zis="
+                },
+                "angry": {
+                  "path": "assets/characters/Anime/Naruto/Tsunade_(Shippuden)__677e66/angry.png",
+                  "contentType": "image/png",
+                  "byteSize": 61028,
+                  "integrity": "sha256-YUtfkoeXxAJNsf2UtqberOtrj69hC0Oc5YtG2FALX2A="
+                }
+              },
+              "color": "#677e66"
+            }
+          ],
+          "categories": [
+            {
+              "id": "Anime/Naruto/OC",
+              "label": "OC",
+              "assets": [
+                {
+                  "id": "Anime/Naruto/OC/Dakurei_Makushimu_(Shippuden)",
+                  "label": "Dakurei Makushimu (Shippuden)",
+                  "sprites": {
+                    "default": {
+                      "path": "assets/characters/Anime/Naruto/OC/Dakurei_Makushimu_(Shippuden)__4995d4.png",
+                      "contentType": "image/png",
+                      "byteSize": 269586,
+                      "integrity": "sha256-RW0NvgZH/k0fPfpVLYfNJKmseCN0TS50214FoJdAoS8="
+                    },
+                    "happy": {
+                      "path": "assets/characters/Anime/Naruto/OC/Dakurei_Makushimu_(Shippuden)__4995d4/happy.png",
+                      "contentType": "image/png",
+                      "byteSize": 274993,
+                      "integrity": "sha256-mJ7RXug5GJzmuJVKIHpdH0vzwjfRsmRNlKSs+HYUPPk="
+                    },
+                    "sad": {
+                      "path": "assets/characters/Anime/Naruto/OC/Dakurei_Makushimu_(Shippuden)__4995d4/sad.png",
+                      "contentType": "image/png",
+                      "byteSize": 277109,
+                      "integrity": "sha256-GZDiJdvDnZkrlypeF+nNfyIDmV+PVcax60nHRSJbbGY="
+                    },
+                    "mischievous": {
+                      "path": "assets/characters/Anime/Naruto/OC/Dakurei_Makushimu_(Shippuden)__4995d4/mischievous.png",
+                      "contentType": "image/png",
+                      "byteSize": 273990,
+                      "integrity": "sha256-XZ1ce7n6z21Y0c44kGjxXkrR/PnS5QCguW2mp7kJAHU="
+                    },
+                    "surprised": {
+                      "path": "assets/characters/Anime/Naruto/OC/Dakurei_Makushimu_(Shippuden)__4995d4/surprised.png",
+                      "contentType": "image/png",
+                      "byteSize": 268877,
+                      "integrity": "sha256-/p3AgKyHMDAqeWs9VyfKStkCfZAoeTo9DzMhSRCDrvw="
+                    },
+                    "embarrassed": {
+                      "path": "assets/characters/Anime/Naruto/OC/Dakurei_Makushimu_(Shippuden)__4995d4/embarrassed.png",
+                      "contentType": "image/png",
+                      "byteSize": 288329,
+                      "integrity": "sha256-Kz3SDjtL4Hoz89HbLh1Pu2YuEUG8Thikrq07H/cUOsw="
+                    },
+                    "angry": {
+                      "path": "assets/characters/Anime/Naruto/OC/Dakurei_Makushimu_(Shippuden)__4995d4/angry.png",
+                      "contentType": "image/png",
+                      "byteSize": 282180,
+                      "integrity": "sha256-PMCwvA/LIBDSeybu5o4FGYFOHV2Lw8SWgeNyE9vZUDY="
+                    }
+                  },
+                  "color": "#4995d4"
+                }
+              ],
+              "categories": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
