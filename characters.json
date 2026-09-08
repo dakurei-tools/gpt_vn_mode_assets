@@ -115,6 +115,32 @@
               "color": "#ecc79c"
             },
             {
+              "id": "Anime/Naruto/Chôji_Akimichi_(Shippuden)",
+              "label": "Chôji Akimichi (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Chôji_Akimichi_(Shippuden)__931f30.png",
+                  "contentType": "image/png",
+                  "byteSize": 1157775,
+                  "integrity": "sha256-pMBtSQqEW5o2I2/gucDLn/9c/Y7NNANENyZDscucocQ="
+                }
+              },
+              "color": "#931f30"
+            },
+            {
+              "id": "Anime/Naruto/Ino_Yamanaka_(Shippuden)",
+              "label": "Ino Yamanaka (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Ino_Yamanaka_(Shippuden)__684268.png",
+                  "contentType": "image/png",
+                  "byteSize": 1373370,
+                  "integrity": "sha256-B+cbocJckC/zUGPhy5Du4KJ7WIg4dUb6H6XrcafZHEI="
+                }
+              },
+              "color": "#684268"
+            },
+            {
               "id": "Anime/Naruto/Kakashi_Hatake_(Shippuden)",
               "label": "Kakashi Hatake (Shippuden)",
               "sprites": {
@@ -260,6 +286,19 @@
                 }
               },
               "color": "#983333"
+            },
+            {
+              "id": "Anime/Naruto/Shikamaru_Nara_(Shippuden)",
+              "label": "Shikamaru Nara (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Shikamaru_Nara_(Shippuden)__6d7b64.png",
+                  "contentType": "image/png",
+                  "byteSize": 1307944,
+                  "integrity": "sha256-rYAq6Av+LyBN9kc8EecPE48rHhdj9VO3BoeCJaD+y98="
+                }
+              },
+              "color": "#6d7b64"
             },
             {
               "id": "Anime/Naruto/Shizune_(Shippuden)",
