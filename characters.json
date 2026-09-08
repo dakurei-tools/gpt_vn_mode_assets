@@ -66,6 +66,19 @@
           "label": "Naruto",
           "assets": [
             {
+              "id": "Anime/Naruto/Akamaru_(Shippuden)",
+              "label": "Akamaru (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Akamaru_(Shippuden)__f3ebe7.png",
+                  "contentType": "image/png",
+                  "byteSize": 1541775,
+                  "integrity": "sha256-/uGLkfa3MTbBSOy5oghXpip0/paKML9cU7xfD53cGlg="
+                }
+              },
+              "color": "#f3ebe7"
+            },
+            {
               "id": "Anime/Naruto/Ayame_(Shippuden)",
               "label": "Ayame (Shippuden)",
               "sprites": {
@@ -128,6 +141,19 @@
               "color": "#931f30"
             },
             {
+              "id": "Anime/Naruto/Hinata_Hyûga_(Shippuden)",
+              "label": "Hinata Hyûga (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Hinata_Hyûga_(Shippuden)__b1a1bd.png",
+                  "contentType": "image/png",
+                  "byteSize": 858479,
+                  "integrity": "sha256-+ZaKekZ58eSLAgo2DpcqP/0yQxpg9bEE5GtOBKUB+XI="
+                }
+              },
+              "color": "#b1a1bd"
+            },
+            {
               "id": "Anime/Naruto/Ino_Yamanaka_(Shippuden)",
               "label": "Ino Yamanaka (Shippuden)",
               "sprites": {
@@ -188,6 +214,19 @@
                 }
               },
               "color": "#c4c5d0"
+            },
+            {
+              "id": "Anime/Naruto/Kiba_Inuzuka_(Shippuden)",
+              "label": "Kiba Inuzuka (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Kiba_Inuzuka_(Shippuden)__403f4a.png",
+                  "contentType": "image/png",
+                  "byteSize": 1284336,
+                  "integrity": "sha256-pBO2KDVX9u9M8mTz7HD9XplMBuoOfnkn1YoVMoMI4UA="
+                }
+              },
+              "color": "#403f4a"
             },
             {
               "id": "Anime/Naruto/Naruto_Uzumaki_(Shippuden)",
@@ -299,6 +338,19 @@
                 }
               },
               "color": "#6d7b64"
+            },
+            {
+              "id": "Anime/Naruto/Shino_Aburame_(Shippuden)",
+              "label": "Shino Aburame (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Shino_Aburame_(Shippuden)__959c8a.png",
+                  "contentType": "image/png",
+                  "byteSize": 1345993,
+                  "integrity": "sha256-JyoUW8w3TznQqZEABL6cLY7IHTj5crJXM3r+XLHoPlc="
+                }
+              },
+              "color": "#959c8a"
             },
             {
               "id": "Anime/Naruto/Shizune_(Shippuden)",
