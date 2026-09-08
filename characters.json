@@ -72,8 +72,8 @@
                 "default": {
                   "path": "assets/characters/Anime/Naruto/Akamaru_(Shippuden)__f3ebe7.png",
                   "contentType": "image/png",
-                  "byteSize": 1541775,
-                  "integrity": "sha256-/uGLkfa3MTbBSOy5oghXpip0/paKML9cU7xfD53cGlg="
+                  "byteSize": 485428,
+                  "integrity": "sha256-xRGcpchf0BNVoYZ7bNnGE8oezvAPqsmxWULzEEN7aXo="
                 }
               },
               "color": "#f3ebe7"
@@ -134,8 +134,8 @@
                 "default": {
                   "path": "assets/characters/Anime/Naruto/Chôji_Akimichi_(Shippuden)__931f30.png",
                   "contentType": "image/png",
-                  "byteSize": 1157775,
-                  "integrity": "sha256-pMBtSQqEW5o2I2/gucDLn/9c/Y7NNANENyZDscucocQ="
+                  "byteSize": 319226,
+                  "integrity": "sha256-4oQvqxrdyAus9A83KToTz5OQZ3ArHZV2xdyCOG3/CtE="
                 }
               },
               "color": "#931f30"
@@ -147,8 +147,8 @@
                 "default": {
                   "path": "assets/characters/Anime/Naruto/Hinata_Hyûga_(Shippuden)__b1a1bd.png",
                   "contentType": "image/png",
-                  "byteSize": 858479,
-                  "integrity": "sha256-+ZaKekZ58eSLAgo2DpcqP/0yQxpg9bEE5GtOBKUB+XI="
+                  "byteSize": 246765,
+                  "integrity": "sha256-tGodo9j4wALcn7ex97ErX1nJ2jbhpjUwIrka7yKg/iE="
                 }
               },
               "color": "#b1a1bd"
@@ -160,8 +160,8 @@
                 "default": {
                   "path": "assets/characters/Anime/Naruto/Ino_Yamanaka_(Shippuden)__684268.png",
                   "contentType": "image/png",
-                  "byteSize": 1373370,
-                  "integrity": "sha256-B+cbocJckC/zUGPhy5Du4KJ7WIg4dUb6H6XrcafZHEI="
+                  "byteSize": 185590,
+                  "integrity": "sha256-foJ7vQ0Yy+B/02rGdQkUWJlt0caK4+YVPqzICZcy0Aw="
                 }
               },
               "color": "#684268"
@@ -222,8 +222,8 @@
                 "default": {
                   "path": "assets/characters/Anime/Naruto/Kiba_Inuzuka_(Shippuden)__403f4a.png",
                   "contentType": "image/png",
-                  "byteSize": 1284336,
-                  "integrity": "sha256-pBO2KDVX9u9M8mTz7HD9XplMBuoOfnkn1YoVMoMI4UA="
+                  "byteSize": 221245,
+                  "integrity": "sha256-I/2yMdKUXHErRYhn7YnbvuWNzYLneIENNcrhKDzlh9Y="
                 }
               },
               "color": "#403f4a"
@@ -333,8 +333,8 @@
                 "default": {
                   "path": "assets/characters/Anime/Naruto/Shikamaru_Nara_(Shippuden)__6d7b64.png",
                   "contentType": "image/png",
-                  "byteSize": 1307944,
-                  "integrity": "sha256-rYAq6Av+LyBN9kc8EecPE48rHhdj9VO3BoeCJaD+y98="
+                  "byteSize": 216970,
+                  "integrity": "sha256-RfU/iMrkF/Pl5FSx5eD9QgRb/aDB11/IauW7/MJoU3Y="
                 }
               },
               "color": "#6d7b64"
@@ -346,8 +346,8 @@
                 "default": {
                   "path": "assets/characters/Anime/Naruto/Shino_Aburame_(Shippuden)__959c8a.png",
                   "contentType": "image/png",
-                  "byteSize": 1345993,
-                  "integrity": "sha256-JyoUW8w3TznQqZEABL6cLY7IHTj5crJXM3r+XLHoPlc="
+                  "byteSize": 262428,
+                  "integrity": "sha256-RXvPO7cfQgDbe7O51EQwHg6c/B16HcrP3VDIpo83Sjg="
                 }
               },
               "color": "#959c8a"
