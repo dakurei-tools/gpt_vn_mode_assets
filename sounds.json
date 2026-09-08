@@ -4,6 +4,23 @@
   "assets": [],
   "categories": [
     {
+      "id": "Animal",
+      "label": "Animal",
+      "assets": [
+        {
+          "id": "Animal/Dog_bark",
+          "label": "Dog bark",
+          "file": {
+            "path": "assets/sounds/Animal/Dog_bark.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 11702,
+            "integrity": "sha256-Cwzn6iCM2QDBHkdD6cJaZjPX1udQvY1dNPHTEZpGkmA="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
       "id": "Construction",
       "label": "Construction",
       "assets": [
