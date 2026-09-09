@@ -55,6 +55,23 @@
       "categories": []
     },
     {
+      "id": "Digital",
+      "label": "Digital",
+      "assets": [
+        {
+          "id": "Digital/Notification",
+          "label": "Notification",
+          "file": {
+            "path": "assets/sounds/Digital/Notification.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 50991,
+            "integrity": "sha256-WldO6bzIZMT4l2a3gA5xHk8xEFZph+mDoU4m0lQjBDs="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
       "id": "Doors",
       "label": "Doors",
       "assets": [

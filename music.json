@@ -984,14 +984,15 @@
               "title": "Distress"
             },
             {
-              "id": "Anime/Naruto/Stress_Sneaking_Nightmare",
-              "label": "Stress Sneaking Nightmare",
+              "id": "Anime/Naruto/Stress_2",
+              "label": "Stress 2",
               "file": {
-                "path": "assets/music/Anime/Naruto/Stress_Sneaking_Nightmare.mp3",
+                "path": "assets/music/Anime/Naruto/Stress_2__Sneaking_Nightmare.mp3",
                 "contentType": "audio/mpeg",
                 "byteSize": 1531341,
                 "integrity": "sha256-xmYteMJQURMvSlCj795UpyJz7miD0EUJqOoARHeI0b0="
-              }
+              },
+              "title": "Sneaking Nightmare"
             },
             {
               "id": "Anime/Naruto/Tension",
