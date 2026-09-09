@@ -167,6 +167,19 @@
               "color": "#684268"
             },
             {
+              "id": "Anime/Naruto/Jûgo_(Shippuden)",
+              "label": "Jûgo (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Jûgo_(Shippuden)__fc7926.png",
+                  "contentType": "image/png",
+                  "byteSize": 216834,
+                  "integrity": "sha256-OC2rHtZRCes+G/uNm8G5n11LWlHsdPGNqHZ7oPNqxpc="
+                }
+              },
+              "color": "#fc7926"
+            },
+            {
               "id": "Anime/Naruto/Kakashi_Hatake_(Shippuden)",
               "label": "Kakashi Hatake (Shippuden)",
               "sprites": {
@@ -214,6 +227,19 @@
                 }
               },
               "color": "#c4c5d0"
+            },
+            {
+              "id": "Anime/Naruto/Karin_Uzumaki_(Shippuden)",
+              "label": "Karin Uzumaki (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Karin_Uzumaki_(Shippuden)__d14053.png",
+                  "contentType": "image/png",
+                  "byteSize": 222364,
+                  "integrity": "sha256-iB2tOMTqjvvX8K3ElJDl3wTcYEfczdCHdY43o1nvMx8="
+                }
+              },
+              "color": "#d14053"
             },
             {
               "id": "Anime/Naruto/Kiba_Inuzuka_(Shippuden)",
@@ -327,6 +353,19 @@
               "color": "#983333"
             },
             {
+              "id": "Anime/Naruto/Sasuke_Uchiwa_(Shippuden)",
+              "label": "Sasuke Uchiwa (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Sasuke_Uchiwa_(Shippuden)__515a7f.png",
+                  "contentType": "image/png",
+                  "byteSize": 207998,
+                  "integrity": "sha256-HSfa3ICtiKkXjjxT4dILt9efe7qWkuAXcILxVfeJsOY="
+                }
+              },
+              "color": "#515a7f"
+            },
+            {
               "id": "Anime/Naruto/Shikamaru_Nara_(Shippuden)",
               "label": "Shikamaru Nara (Shippuden)",
               "sprites": {
@@ -400,6 +439,19 @@
                 }
               },
               "color": "#4c483e"
+            },
+            {
+              "id": "Anime/Naruto/Suigetsu_Hôzuki_(Shippuden)",
+              "label": "Suigetsu Hôzuki (Shippuden)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Suigetsu_Hôzuki_(Shippuden)__6da9e3.png",
+                  "contentType": "image/png",
+                  "byteSize": 203442,
+                  "integrity": "sha256-GUVlnklvvVCq6byZJRLFyKbQo7F5E3uQu+zCIDHFlxw="
+                }
+              },
+              "color": "#6da9e3"
             },
             {
               "id": "Anime/Naruto/Teuchi_(Shippuden)",

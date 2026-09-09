@@ -13,10 +13,10 @@
           "label": "Evangelion",
           "assets": [
             {
-              "id": "Anime/Evangelion/asuka_encounter",
-              "label": "asuka encounter",
+              "id": "Anime/Evangelion/Asuka_encounter",
+              "label": "Asuka encounter",
               "file": {
-                "path": "assets/music/Anime/Evangelion/asuka_encounter__ASUKA_STRIKES!.mp3",
+                "path": "assets/music/Anime/Evangelion/Asuka_encounter__ASUKA_STRIKES!.mp3",
                 "contentType": "audio/mpeg",
                 "byteSize": 3291549,
                 "integrity": "sha256-y4pKFup2cZwDBg269QRjK1aUz1EZ50pn13vSbA8Y/hU="
@@ -31,10 +31,10 @@
           "label": "Konosuba",
           "assets": [
             {
-              "id": "Anime/Konosuba/axel_town",
-              "label": "axel town",
+              "id": "Anime/Konosuba/Axel_town",
+              "label": "Axel town",
               "file": {
-                "path": "assets/music/Anime/Konosuba/axel_town__The_Town_of_Beginning.mp3",
+                "path": "assets/music/Anime/Konosuba/Axel_town__The_Town_of_Beginning.mp3",
                 "contentType": "audio/mpeg",
                 "byteSize": 1125885,
                 "integrity": "sha256-/ABiekwRUFk4oBtKmraitO34y3eIynTr5uEbm8X64mY="

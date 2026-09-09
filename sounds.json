@@ -93,10 +93,10 @@
       "label": "Food and Drink",
       "assets": [
         {
-          "id": "Food_and_Drink/Coffee_Machine",
-          "label": "Coffee Machine",
+          "id": "Food_and_Drink/Coffee_machine",
+          "label": "Coffee machine",
           "file": {
-            "path": "assets/sounds/Food_and_Drink/Coffee_Machine.mp3",
+            "path": "assets/sounds/Food_and_Drink/Coffee_machine.mp3",
             "contentType": "audio/mpeg",
             "byteSize": 170880,
             "integrity": "sha256-3L/XY02mchDtnUP89Ns2KC/uYJItvA5eCPxQD5X+wAs="
@@ -130,13 +130,90 @@
       "label": "Magic",
       "assets": [
         {
-          "id": "Magic/magic_burst",
-          "label": "magic burst",
+          "id": "Magic/Earth_spell",
+          "label": "Earth spell",
           "file": {
-            "path": "assets/sounds/Magic/magic_burst.mp3",
+            "path": "assets/sounds/Magic/Earth_spell.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 92787,
+            "integrity": "sha256-zeNsx+uiBhE4iwaxBBdd/VBW54sSc05Yj7Mk8gPNTi8="
+          }
+        },
+        {
+          "id": "Magic/Electric_impact",
+          "label": "Electric impact",
+          "file": {
+            "path": "assets/sounds/Magic/Electric_impact.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 62880,
+            "integrity": "sha256-tRrmQafDHbxeGBMggrw4xfNaKm7yw+nVSQuxgMjHR98="
+          }
+        },
+        {
+          "id": "Magic/Electric_shock",
+          "label": "Electric shock",
+          "file": {
+            "path": "assets/sounds/Magic/Electric_shock.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 60480,
+            "integrity": "sha256-ubrBovzcqA3bOtAMq37aDNM3p0BJbia/iPntWO7g9Cw="
+          }
+        },
+        {
+          "id": "Magic/Explosion_effect",
+          "label": "Explosion effect",
+          "file": {
+            "path": "assets/sounds/Magic/Explosion_effect.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 92928,
+            "integrity": "sha256-Pv+rsCDNZswY7jT9LNfm/ZYcSYNPASBkCtP7oe4gGvI="
+          }
+        },
+        {
+          "id": "Magic/Magic_burst",
+          "label": "Magic burst",
+          "file": {
+            "path": "assets/sounds/Magic/Magic_burst.mp3",
             "contentType": "audio/mpeg",
             "byteSize": 102144,
             "integrity": "sha256-AqtcCHn+btYO5LRYvFADQe8eOFzTEb2GwA3hZblMHcY="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
+      "id": "Ninja",
+      "label": "Ninja",
+      "assets": [
+        {
+          "id": "Ninja/Chidori",
+          "label": "Chidori",
+          "file": {
+            "path": "assets/sounds/Ninja/Chidori.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 152685,
+            "integrity": "sha256-73p8E2gABAQb+NEXe7E3wOfmzbgwfJxJ4bVvZh9ZDCw="
+          }
+        },
+        {
+          "id": "Ninja/Clone_disappearing",
+          "label": "Clone disappearing",
+          "file": {
+            "path": "assets/sounds/Ninja/Clone_disappearing.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 27692,
+            "integrity": "sha256-7Rtdva2p5SveO08E1BabJ1GpECByztbRsGze/kCaXxI="
+          }
+        },
+        {
+          "id": "Ninja/Kunai_miss",
+          "label": "Kunai miss",
+          "file": {
+            "path": "assets/sounds/Ninja/Kunai_miss.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 7628,
+            "integrity": "sha256-nNvsg5gHi26328QNv+T4aKJdpJbz+7Ki/j2aQX8c9HE="
           }
         }
       ],
@@ -208,6 +285,33 @@
             "contentType": "audio/mpeg",
             "byteSize": 58368,
             "integrity": "sha256-AN2f7/8Y/3UQPpySog4Pav0eJHaLQZ6+2GLE1/1IVns="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
+      "id": "Weapon",
+      "label": "Weapon",
+      "assets": [
+        {
+          "id": "Weapon/Sword_clash",
+          "label": "Sword clash",
+          "file": {
+            "path": "assets/sounds/Weapon/Sword_clash.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 55170,
+            "integrity": "sha256-+pNisH8E+YuViRkuvT1+pe/UGCzgW+u5DP5ZyIFgAtg="
+          }
+        },
+        {
+          "id": "Weapon/Sword_swing",
+          "label": "Sword swing",
+          "file": {
+            "path": "assets/sounds/Weapon/Sword_swing.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 106605,
+            "integrity": "sha256-o8lApqq8kyzpG3lZueFpjSLSz0YJtv3HTTAi4dtX2Qk="
           }
         }
       ],

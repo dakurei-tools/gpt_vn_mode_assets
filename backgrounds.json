@@ -47,6 +47,16 @@
           "label": "Naruto",
           "assets": [
             {
+              "id": "Anime/Naruto/Canopy",
+              "label": "Canopy",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Canopy.png",
+                "contentType": "image/png",
+                "byteSize": 856308,
+                "integrity": "sha256-oS3HRr/HZzeZLNY9VsSGMWugaR8W86COQf4B1MAog/w="
+              }
+            },
+            {
               "id": "Anime/Naruto/Dark_Forest",
               "label": "Dark Forest",
               "file": {
@@ -54,6 +64,26 @@
                 "contentType": "image/png",
                 "byteSize": 750918,
                 "integrity": "sha256-swcIkIOqr8z0Gc+xVmhA+VIYwSvoaUqRVSynK2hmJRs="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Forest_Road",
+              "label": "Forest Road",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Forest_Road.png",
+                "contentType": "image/png",
+                "byteSize": 682358,
+                "integrity": "sha256-pj8NSv5AUwHi88OJbTEVKjqwdlNVwJ6DTffgTcrnabA="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Forest_Stream",
+              "label": "Forest Stream",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Forest_Stream.png",
+                "contentType": "image/png",
+                "byteSize": 888480,
+                "integrity": "sha256-nQx4dha+NokChTw597Smdliu5QdxgeRxie36WY9XSS4="
               }
             },
             {
