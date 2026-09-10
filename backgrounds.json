@@ -219,6 +219,22 @@
               }
             },
             {
+              "id": "Anime/Naruto/Konoha_Cliff",
+              "label": "Konoha Cliff",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Konoha_Cliff.png",
+                "contentType": "image/png",
+                "byteSize": 773061,
+                "integrity": "sha256-hA3cPhx/5kDYvrkskC72KRee72/usaQWJ1OxGUoukQU="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Anime/Naruto/Konoha_Cliff--840ddc3e1c7fe640--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 48070,
+                "integrity": "sha256-yP2C7fMkMWbqWctBIByyYvkGNvFETNN7YZniq4XXaNk="
+              }
+            },
+            {
               "id": "Anime/Naruto/Konoha_Gate",
               "label": "Konoha Gate",
               "file": {
