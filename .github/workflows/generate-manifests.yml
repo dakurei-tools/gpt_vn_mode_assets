@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - "assets/**"
+      - "bin/generate_manifests"
+      - "lib/gpt_vn_mode_assets/generator.rb"
 
 permissions:
   contents: write
@@ -31,15 +33,21 @@ jobs:
         with:
           ruby-version: "3.4"
 
+      - name: Install preview generation tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends --yes ffmpeg imagemagick
+
       - name: Test the generator
         run: ruby -Itest test/generator_test.rb
 
       - name: Generate manifests
         run: bin/generate_manifests
 
-      - name: Commit generated manifests and badges
+      - name: Commit generated previews, manifests and badges
         run: |
           git add -- characters.json backgrounds.json music.json sounds.json badges/
+          git add -A -- previews/
 
           if git diff --cached --quiet; then
             echo "The manifests and badges are already up to date."

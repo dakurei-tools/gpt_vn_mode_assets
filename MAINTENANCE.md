@@ -19,6 +19,20 @@ It also produces the four counters displayed at the top of the README under
 `badges/`. Each manifest entry counts as one asset, so a character’s additional
 expressions are not counted separately.
 
+The same command maintains content-addressed gallery previews under `previews/`:
+
+- character previews contain only the default sprite, converted to WebP and
+  bounded to 512 by 512 pixels without upscaling or changing its aspect ratio;
+- background previews are converted to WebP and bounded to 640 by 360 pixels
+  under the same constraints;
+- music previews contain the first 15 seconds encoded as a 96 kbit/s MP3;
+- sound effects do not receive a separate preview.
+
+The source digest and preview recipe version are part of each generated file
+name. Unchanged sources are therefore not re-encoded, while obsolete generated
+files are removed. Original assets are always retained and remain the files
+downloaded by an import.
+
 To regenerate every output:
 
 ```bash
@@ -65,9 +79,9 @@ against `main`. It:
 
 Generated manifests must therefore never be included in a contribution.
 
-The runner installs the `ffmpeg` package only when a contribution contains a
-WebM file and `ffprobe` is not already available. The same codec validation can
-be run locally with:
+Preview generation requires FFmpeg and ImageMagick, so both packages are
+installed explicitly by the validation and regeneration workflows. FFmpeg also
+provides `ffprobe` for WebM codec validation, which can be run locally with:
 
 ```bash
 bin/validate_webm_audio
@@ -79,9 +93,10 @@ retains read-only permissions.
 
 ### Regeneration after a merge
 
-The `.github/workflows/generate-manifests.yml` workflow runs after a change to
-`assets/` reaches `main`. It reruns the tests, regenerates the four manifests and
-their badges, then creates a `github-actions[bot]` commit if they have changed.
+The `.github/workflows/generate-manifests.yml` workflow runs after an asset or
+generator change reaches `main`. It reruns the tests, regenerates previews, the
+four manifests and their badges, then creates a `github-actions[bot]` commit if
+they have changed.
 
 ### Suggested ruleset
 
@@ -103,3 +118,6 @@ bin/validate_webm_audio
 bin/generate_manifests
 bin/generate_manifests --check
 ```
+
+Local generation requires `ffmpeg` and either the `magick` or `convert`
+ImageMagick executable.

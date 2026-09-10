@@ -23,7 +23,13 @@
                   "integrity": "sha256-F8MoZxfVVvBowIRfv5G0FMd4Q2LVeqwn8WzOaohx3LM="
                 }
               },
-              "color": "#e4212e"
+              "color": "#e4212e",
+              "preview": {
+                "path": "previews/characters/Anime/Evangelion/Asuka_Langley_(EVA-02_Suit)__e4212e--17c3286717d556f0--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 32398,
+                "integrity": "sha256-WCFKEvsi2oRqn7ND5PFo6f8qYGYkw+E13zaRZFoNk/o="
+              }
             }
           ],
           "categories": []
@@ -43,7 +49,13 @@
                   "integrity": "sha256-rqENeg8ceuxZ/Z5sR0Z2qG0d57/JrglCbRFsbzyEiSo="
                 }
               },
-              "color": "#9dd5f2"
+              "color": "#9dd5f2",
+              "preview": {
+                "path": "previews/characters/Anime/Konosuba/Aqua__9dd5f2--aea10d7a0f1c7aec--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 26380,
+                "integrity": "sha256-VeqU/qw0jq+3+mcG8g3ryPNCUeiNFy3GFvT4YvB+2PA="
+              }
             },
             {
               "id": "Anime/Konosuba/Kazuma",
@@ -56,7 +68,13 @@
                   "integrity": "sha256-Ml08iEGB/ySU+8lsLv/NlUR7CNWTPDL4p+H/hgokTJc="
                 }
               },
-              "color": "#2f6766"
+              "color": "#2f6766",
+              "preview": {
+                "path": "previews/characters/Anime/Konosuba/Kazuma__2f6766--325d3c884181ff24--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 20766,
+                "integrity": "sha256-x9bzs/bHSkyuGTQPn4aOd/7TEn5XZbQNLbM/J9nwIKg="
+              }
             }
           ],
           "categories": []
@@ -76,7 +94,13 @@
                   "integrity": "sha256-xRGcpchf0BNVoYZ7bNnGE8oezvAPqsmxWULzEEN7aXo="
                 }
               },
-              "color": "#f3ebe7"
+              "color": "#f3ebe7",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Akamaru_(Shippuden)__f3ebe7--c5119ca5c85fd013--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 35718,
+                "integrity": "sha256-NLsq5BS510w/9Y93I0tojnQ6aPAxrEYADjWYfTGtd+Q="
+              }
             },
             {
               "id": "Anime/Naruto/Ayame_(Shippuden)",
@@ -125,7 +149,13 @@
                   "integrity": "sha256-f6vVvyOczKSIXPKDhL3LvAVD/pF7qpLqWjebnol26D4="
                 }
               },
-              "color": "#ecc79c"
+              "color": "#ecc79c",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Ayame_(Shippuden)__ecc79c--e2ca33ff27daa3b7--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 20618,
+                "integrity": "sha256-fe6vsxyIDJQJEbYfBbxRwNr4lsgeFe6cAMaUWgxVsM0="
+              }
             },
             {
               "id": "Anime/Naruto/Chôji_Akimichi_(Shippuden)",
@@ -138,7 +168,13 @@
                   "integrity": "sha256-4oQvqxrdyAus9A83KToTz5OQZ3ArHZV2xdyCOG3/CtE="
                 }
               },
-              "color": "#931f30"
+              "color": "#931f30",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Chôji_Akimichi_(Shippuden)__931f30--e2842fab1addc80b--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 24386,
+                "integrity": "sha256-aEkoqnpOPvcDAuAjlTanbc9hGKjfvwxlIi6ldTp2CcQ="
+              }
             },
             {
               "id": "Anime/Naruto/Hinata_Hyûga_(Shippuden)",
@@ -151,7 +187,13 @@
                   "integrity": "sha256-tGodo9j4wALcn7ex97ErX1nJ2jbhpjUwIrka7yKg/iE="
                 }
               },
-              "color": "#b1a1bd"
+              "color": "#b1a1bd",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Hinata_Hyûga_(Shippuden)__b1a1bd--b46a1da3d8f8c002--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 19222,
+                "integrity": "sha256-aHK9biKc7pHHl+BRC8A67pFfKcSGBci5lPRO+av/nKw="
+              }
             },
             {
               "id": "Anime/Naruto/Ino_Yamanaka_(Shippuden)",
@@ -164,7 +206,13 @@
                   "integrity": "sha256-foJ7vQ0Yy+B/02rGdQkUWJlt0caK4+YVPqzICZcy0Aw="
                 }
               },
-              "color": "#684268"
+              "color": "#684268",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Ino_Yamanaka_(Shippuden)__684268--7e827bbd0d18cbe0--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 22116,
+                "integrity": "sha256-WES7Z8O6adYazusRuzOAG1qdlJcKHsuw9bW8BQtyXyE="
+              }
             },
             {
               "id": "Anime/Naruto/Jûgo_(Shippuden)",
@@ -177,7 +225,13 @@
                   "integrity": "sha256-OC2rHtZRCes+G/uNm8G5n11LWlHsdPGNqHZ7oPNqxpc="
                 }
               },
-              "color": "#fc7926"
+              "color": "#fc7926",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Jûgo_(Shippuden)__fc7926--382dab1ed65109eb--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 22842,
+                "integrity": "sha256-vgTlTFuWF1rMRBC0PIkXK6j2/F3Z3bMzhN3MzsPgCEI="
+              }
             },
             {
               "id": "Anime/Naruto/Kakashi_Hatake_(Shippuden)",
@@ -226,7 +280,13 @@
                   "integrity": "sha256-bnL2TRU/hz/MXa/rVCGBZa9U5GWWGBBfp2dacjGPV7g="
                 }
               },
-              "color": "#c4c5d0"
+              "color": "#c4c5d0",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Kakashi_Hatake_(Shippuden)__c4c5d0--2603bd33f22e8caa--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 18792,
+                "integrity": "sha256-hMWZkd9OGzwEh6VaY37M3qmvgPy2lm4lI8LSFE9mU9Q="
+              }
             },
             {
               "id": "Anime/Naruto/Karin_Uzumaki_(Shippuden)",
@@ -239,7 +299,13 @@
                   "integrity": "sha256-iB2tOMTqjvvX8K3ElJDl3wTcYEfczdCHdY43o1nvMx8="
                 }
               },
-              "color": "#d14053"
+              "color": "#d14053",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Karin_Uzumaki_(Shippuden)__d14053--881dad38c4ea8efb--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 20780,
+                "integrity": "sha256-MX5lGEhrmU4X6NHUkKfOhjehPNXf3GOpc4rph4+qfy0="
+              }
             },
             {
               "id": "Anime/Naruto/Kiba_Inuzuka_(Shippuden)",
@@ -252,7 +318,13 @@
                   "integrity": "sha256-I/2yMdKUXHErRYhn7YnbvuWNzYLneIENNcrhKDzlh9Y="
                 }
               },
-              "color": "#403f4a"
+              "color": "#403f4a",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Kiba_Inuzuka_(Shippuden)__403f4a--23fdb231d2945c71--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 21874,
+                "integrity": "sha256-lq/ydYSstX7YG7LgjncxoIy1R7JGaw0o5WoEQXbqcB8="
+              }
             },
             {
               "id": "Anime/Naruto/Naruto_Uzumaki_(Shippuden)",
@@ -301,7 +373,13 @@
                   "integrity": "sha256-auw9KB+jpJfjQ8QpE4zifyzw0abMY9Olb+W3SfDEwcM="
                 }
               },
-              "color": "#e78151"
+              "color": "#e78151",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Naruto_Uzumaki_(Shippuden)__e78151--66da40eab0e6fd18--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 23046,
+                "integrity": "sha256-vqguFTRTh1OaWjtX1aIl7LXtveojguEIMZGmxNXx3KY="
+              }
             },
             {
               "id": "Anime/Naruto/Sakura_Haruno_(Shippuden)",
@@ -350,7 +428,13 @@
                   "integrity": "sha256-yVnxQwjK6wcDUObVYorGGKmHH/Obmy9AzU+qVOH6BWU="
                 }
               },
-              "color": "#983333"
+              "color": "#983333",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Sakura_Haruno_(Shippuden)__983333--b931bf27dde23821--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 22544,
+                "integrity": "sha256-cm9dhQu4fqadx6SQ552qbnmRmB+NWB56XeuuM4pOcIc="
+              }
             },
             {
               "id": "Anime/Naruto/Sasuke_Uchiwa_(Shippuden)",
@@ -363,7 +447,13 @@
                   "integrity": "sha256-HSfa3ICtiKkXjjxT4dILt9efe7qWkuAXcILxVfeJsOY="
                 }
               },
-              "color": "#515a7f"
+              "color": "#515a7f",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Sasuke_Uchiwa_(Shippuden)__515a7f--1d27dadc80ad88a9--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 23452,
+                "integrity": "sha256-wTCjJoD3PIbfzMwpCoe0QqJsGUZ5Ynnt1Aap4+jgyNU="
+              }
             },
             {
               "id": "Anime/Naruto/Shikamaru_Nara_(Shippuden)",
@@ -376,7 +466,13 @@
                   "integrity": "sha256-RfU/iMrkF/Pl5FSx5eD9QgRb/aDB11/IauW7/MJoU3Y="
                 }
               },
-              "color": "#6d7b64"
+              "color": "#6d7b64",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Shikamaru_Nara_(Shippuden)__6d7b64--45f53f88cae417f3--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 20854,
+                "integrity": "sha256-h9og+QyGaC17SdyHScY2S1a6r7P5Ah/Y6yoNPHofnBA="
+              }
             },
             {
               "id": "Anime/Naruto/Shino_Aburame_(Shippuden)",
@@ -389,7 +485,13 @@
                   "integrity": "sha256-RXvPO7cfQgDbe7O51EQwHg6c/B16HcrP3VDIpo83Sjg="
                 }
               },
-              "color": "#959c8a"
+              "color": "#959c8a",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Shino_Aburame_(Shippuden)__959c8a--457bcf3bb71f4200--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 18482,
+                "integrity": "sha256-ZdxS3vlYkuXw3ca+xRwhtKep9yiNWk3feFouB+cjYQ4="
+              }
             },
             {
               "id": "Anime/Naruto/Shizune_(Shippuden)",
@@ -438,7 +540,13 @@
                   "integrity": "sha256-VoEM1PPhFW2oZ7dvKUIST+Sd2F0NTPsXhm0rJ9tfxh0="
                 }
               },
-              "color": "#4c483e"
+              "color": "#4c483e",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Shizune_(Shippuden)__4c483e--35dd4736a50fcb72--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 16762,
+                "integrity": "sha256-IecV+uaUlXo3tHN+aiB8FDAheyhpS4MdzrDHCrvcIxA="
+              }
             },
             {
               "id": "Anime/Naruto/Suigetsu_Hôzuki_(Shippuden)",
@@ -451,7 +559,13 @@
                   "integrity": "sha256-GUVlnklvvVCq6byZJRLFyKbQo7F5E3uQu+zCIDHFlxw="
                 }
               },
-              "color": "#6da9e3"
+              "color": "#6da9e3",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Suigetsu_Hôzuki_(Shippuden)__6da9e3--1945659e496fbd50--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 24306,
+                "integrity": "sha256-HzdSJW6LaCwmGWXNW/wx1IlByVJ//XiDg+N9sl0SqW4="
+              }
             },
             {
               "id": "Anime/Naruto/Teuchi_(Shippuden)",
@@ -500,7 +614,13 @@
                   "integrity": "sha256-TyNxp2b+4HF3to2O7BShimBCtCRf0hg3Be9BuXOq/ak="
                 }
               },
-              "color": "#ecc79c"
+              "color": "#ecc79c",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Teuchi_(Shippuden)__ecc79c--4bd29755f7a6b2b7--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 21538,
+                "integrity": "sha256-pzD/KKiRrk0aYDNkmH6WQ8/YKJp6rkyjmjwuTgSL0mc="
+              }
             },
             {
               "id": "Anime/Naruto/Tsunade_(Shippuden)",
@@ -549,7 +669,13 @@
                   "integrity": "sha256-YUtfkoeXxAJNsf2UtqberOtrj69hC0Oc5YtG2FALX2A="
                 }
               },
-              "color": "#677e66"
+              "color": "#677e66",
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Tsunade_(Shippuden)__677e66--e0617c7131e159ef--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 20562,
+                "integrity": "sha256-w/moCSoQKGn+Pu932h0wkHv/udHjBnUmN0n+SPeGoMM="
+              }
             }
           ],
           "categories": [
@@ -604,7 +730,13 @@
                       "integrity": "sha256-PMCwvA/LIBDSeybu5o4FGYFOHV2Lw8SWgeNyE9vZUDY="
                     }
                   },
-                  "color": "#4995d4"
+                  "color": "#4995d4",
+                  "preview": {
+                    "path": "previews/characters/Anime/Naruto/OC/Dakurei_Makushimu_(Shippuden)__4995d4--456d0dbe0647fe4d--v1.webp",
+                    "contentType": "image/webp",
+                    "byteSize": 18564,
+                    "integrity": "sha256-STZyp3XzQCB/TC9UgA42eCjK6QSC8TCw8U7XhkkOKOI="
+                  }
                 }
               ],
               "categories": []

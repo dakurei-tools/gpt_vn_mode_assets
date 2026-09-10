@@ -2,14 +2,126 @@
 
 require "base64"
 require "digest"
+require "fileutils"
 require "json"
+require "open3"
 require "pathname"
+require "set"
+require "tempfile"
 
 module GptVnModeAssets
   class Error < StandardError; end
 
+  class MissingPreviewError < Error
+    attr_reader :path
+
+    def initialize(path)
+      @path = path
+      super("Missing generated preview: #{path} (run bin/generate_manifests)")
+    end
+  end
+
+  class PreviewGenerator
+    def generate(kind:, source:, destination:, recipe:)
+      destination.dirname.mkpath
+      Tempfile.create(["cgvn-preview-", recipe.fetch(:extension)], destination.dirname.to_s) do |temporary|
+        temporary.close
+        command = if recipe.fetch(:media) == :image
+                    image_command(source, temporary.path, recipe)
+                  else
+                    audio_command(source, temporary.path, recipe)
+                  end
+        _stdout, stderr, status = Open3.capture3(*command)
+        unless status.success?
+          detail = stderr.to_s.strip.lines.last(6).join.strip
+          raise Error, "Could not generate #{kind} preview for #{source}: #{detail}"
+        end
+        unless File.file?(temporary.path) && File.size(temporary.path).positive?
+          raise Error, "Preview generation produced an empty file for #{source}"
+        end
+
+        FileUtils.mv(temporary.path, destination)
+        FileUtils.chmod(0o644, destination)
+      end
+    end
+
+    private
+
+    def image_command(source, destination, recipe)
+      executable = find_executable(%w[magick convert])
+      raise Error, "ImageMagick is required to generate image previews" unless executable
+
+      [
+        executable,
+        "#{source}[0]",
+        "-auto-orient",
+        "-thumbnail", recipe.fetch(:geometry),
+        "-strip",
+        "-quality", recipe.fetch(:quality).to_s,
+        "-define", "webp:method=6",
+        destination
+      ]
+    end
+
+    def audio_command(source, destination, recipe)
+      executable = find_executable(["ffmpeg"])
+      raise Error, "FFmpeg is required to generate audio previews" unless executable
+
+      [
+        executable,
+        "-nostdin",
+        "-hide_banner",
+        "-loglevel", "error",
+        "-y",
+        "-i", source.to_s,
+        "-map", "0:a:0",
+        "-t", recipe.fetch(:duration).to_s,
+        "-vn",
+        "-map_metadata", "-1",
+        "-codec:a", "libmp3lame",
+        "-ar", "44100",
+        "-b:a", recipe.fetch(:bitrate),
+        destination
+      ]
+    end
+
+    def find_executable(names)
+      names.each do |name|
+        ENV.fetch("PATH", "").split(File::PATH_SEPARATOR).each do |directory|
+          candidate = File.join(directory, name)
+          return candidate if File.file?(candidate) && File.executable?(candidate)
+        end
+      end
+      nil
+    end
+  end
+
   class Generator
     SCHEMA_VERSION = 1
+    PREVIEW_RECIPE_VERSION = 1
+    PREVIEW_RECIPES = {
+      "characters" => {
+        media: :image,
+        extension: ".webp",
+        content_type: "image/webp",
+        geometry: "512x512>",
+        quality: 75
+      },
+      "backgrounds" => {
+        media: :image,
+        extension: ".webp",
+        content_type: "image/webp",
+        geometry: "640x360>",
+        quality: 75
+      },
+      "music" => {
+        media: :audio,
+        extension: ".mp3",
+        content_type: "audio/mpeg",
+        duration: 15,
+        bitrate: "96k"
+      }
+    }.freeze
 
     EMOTIONS = %w[
       default
@@ -84,12 +196,17 @@ module GptVnModeAssets
 
     attr_reader :root
 
-    def initialize(root:)
+    def initialize(root:, previews: true, previewer: PreviewGenerator.new)
       @root = Pathname(root).expand_path
+      @previews = previews
+      @previewer = previewer
+      @generate_previews = false
+      @expected_preview_paths = Set.new
     end
 
     def write!
-      generated = manifests
+      generated = manifests(generate_previews: true)
+      clean_stale_previews!
 
       generated.each do |kind, manifest|
         manifest_path(kind).write(serialize(manifest))
@@ -109,17 +226,24 @@ module GptVnModeAssets
         kind unless path.file? && path.read == serialize(manifest)
       end
 
-      outdated + BADGES.filter_map do |kind, config|
+      outdated += BADGES.filter_map do |kind, config|
         path = badge_path(kind)
         expected = badge_svg(config, asset_count(generated.fetch(kind)))
         "badges/#{kind}.svg" unless path.file? && path.read == expected
       end
+      outdated + stale_preview_paths
+    rescue MissingPreviewError => error
+      [error.path]
     end
 
-    def manifests
+    def manifests(generate_previews: false)
+      @generate_previews = generate_previews
+      @expected_preview_paths = Set.new
       generated = TYPES.to_h { |kind, config| [kind, build_manifest(kind, config)] }
       validate_source_coverage!(generated)
       generated
+    ensure
+      @generate_previews = false
     end
 
     private
@@ -135,6 +259,7 @@ module GptVnModeAssets
                     source_root,
                     [],
                     config.fetch(:extensions),
+                    kind: kind,
                     title_metadata: kind == "music"
                   )
                 end
@@ -167,18 +292,30 @@ module GptVnModeAssets
       {
         "assets" => sort_assets(defaults),
         "categories" => categories.map do |child|
-          build_category_node(child, category_parts, extensions, character: true)
+          build_category_node(
+            child,
+            category_parts,
+            extensions,
+            kind: "characters",
+            character: true
+          )
         end
       }
     end
 
-    def scan_file_category(directory, category_parts, extensions, title_metadata:)
+    def scan_file_category(directory, category_parts, extensions, kind:, title_metadata:)
       entries = visible_entries(directory)
       validate_entry_types!(entries)
 
       assets = entries.select(&:file?).map do |file|
         validate_extension!(file, extensions)
-        build_file_asset(file, category_parts, extensions, title_metadata: title_metadata)
+        build_file_asset(
+          file,
+          category_parts,
+          extensions,
+          kind: kind,
+          title_metadata: title_metadata
+        )
       end
       validate_unique_ids!(assets, directory)
 
@@ -189,6 +326,7 @@ module GptVnModeAssets
             child,
             category_parts,
             extensions,
+            kind: kind,
             character: false,
             title_metadata: title_metadata
           )
@@ -196,14 +334,20 @@ module GptVnModeAssets
       }
     end
 
-    def build_category_node(directory, parent_parts, extensions, character:, title_metadata: false)
+    def build_category_node(directory, parent_parts, extensions, kind:, character:, title_metadata: false)
       source_name = directory.basename.to_s
       validate_category_name!(source_name, directory)
       parts = parent_parts + [source_name]
       content = if character
                   scan_character_category(directory, parts, extensions)
                 else
-                  scan_file_category(directory, parts, extensions, title_metadata: title_metadata)
+                  scan_file_category(
+                    directory,
+                    parts,
+                    extensions,
+                    kind: kind,
+                    title_metadata: title_metadata
+                  )
                 end
 
       {
@@ -247,10 +391,11 @@ module GptVnModeAssets
         "sprites" => ordered_sprites
       }
       asset["color"] = "##{color.downcase}" if color
+      asset["preview"] = preview_descriptor(default_file, "characters") if @previews
       asset
     end
 
-    def build_file_asset(file, category_parts, extensions, title_metadata:)
+    def build_file_asset(file, category_parts, extensions, kind:, title_metadata:)
       stem = file.basename(file.extname).to_s
       source_name, title = if title_metadata
                              parse_music_stem(stem, file)
@@ -268,6 +413,7 @@ module GptVnModeAssets
         "file" => file_descriptor(file, extensions)
       }
       asset["title"] = display_name(title) if title
+      asset["preview"] = preview_descriptor(file, kind) if @previews && PREVIEW_RECIPES.key?(kind)
       asset
     end
 
@@ -303,6 +449,71 @@ module GptVnModeAssets
         "byteSize" => file.size,
         "integrity" => "sha256-#{digest}"
       }
+    end
+
+    def preview_descriptor(source, kind)
+      recipe = PREVIEW_RECIPES.fetch(kind)
+      source_digest = Digest::SHA256.file(source).hexdigest
+      source_root = root.join("assets", kind)
+      source_path = source.relative_path_from(source_root).sub_ext("").to_s
+      preview_path = [
+        "previews/#{kind}/#{source_path}",
+        source_digest[0, 16],
+        "v#{PREVIEW_RECIPE_VERSION}"
+      ].join("--") + recipe.fetch(:extension)
+      @expected_preview_paths.add(preview_path)
+
+      destination = root.join(preview_path)
+      if !destination.file? && @generate_previews
+        @previewer.generate(
+          kind: kind,
+          source: source,
+          destination: destination,
+          recipe: recipe
+        )
+      end
+      raise MissingPreviewError, preview_path unless destination.file?
+
+      generated_file_descriptor(destination, recipe.fetch(:content_type))
+    end
+
+    def generated_file_descriptor(file, content_type)
+      digest = Base64.strict_encode64(Digest::SHA256.file(file).digest)
+
+      {
+        "path" => relative(file),
+        "contentType" => content_type,
+        "byteSize" => file.size,
+        "integrity" => "sha256-#{digest}"
+      }
+    end
+
+    def stale_preview_paths
+      return [] unless @previews
+
+      existing_preview_paths - @expected_preview_paths.to_a
+    end
+
+    def clean_stale_previews!
+      return unless @previews
+
+      stale_preview_paths.each { |path| FileUtils.rm_f(root.join(path)) }
+      preview_root = root.join("previews")
+      return unless preview_root.directory?
+
+      preview_root.glob("**/*").select(&:directory?).sort_by { |path| -path.to_s.length }.each do |directory|
+        directory.rmdir if directory.children.empty?
+      end
+    end
+
+    def existing_preview_paths
+      preview_root = root.join("previews")
+      return [] unless preview_root.directory?
+
+      preview_root.glob("**/*", File::FNM_DOTMATCH)
+        .select(&:file?)
+        .map { |path| relative(path) }
+        .sort
     end
 
     def visible_entries(directory)

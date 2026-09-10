@@ -9,6 +9,20 @@ require "tmpdir"
 
 require_relative "../lib/gpt_vn_mode_assets/generator"
 
+class FakePreviewer
+  attr_reader :calls
+
+  def initialize
+    @calls = []
+  end
+
+  def generate(kind:, source:, destination:, recipe:)
+    @calls << { kind: kind, source: source, destination: destination, recipe: recipe }
+    destination.dirname.mkpath
+    destination.binwrite("preview:#{kind}:#{source.basename}:#{source.binread}")
+  end
+end
+
 class GeneratorTest < Minitest::Test
   def setup
     @root = Pathname(Dir.mktmpdir)
@@ -77,6 +91,47 @@ class GeneratorTest < Minitest::Test
     assert_equal "One Winged Angel", boss_music.fetch("title")
     assert_equal "audio/webm", boss_music.dig("file", "contentType")
     refute tension_music.key?("title")
+  end
+
+  def test_generates_content_addressed_previews_incrementally
+    character = @root.join("assets/characters/Hero.png")
+    background = @root.join("assets/backgrounds/Forest.png")
+    music = @root.join("assets/music/Theme.mp3")
+    sound = @root.join("assets/sounds/Click.mp3")
+    character.binwrite("large character")
+    background.binwrite("large background")
+    music.binwrite("long music")
+    sound.binwrite("short sound")
+    previewer = FakePreviewer.new
+    optimized_generator = GptVnModeAssets::Generator.new(root: @root, previewer: previewer)
+
+    optimized_generator.write!
+
+    manifests = %w[characters backgrounds music sounds].to_h do |kind|
+      [kind, JSON.parse(@root.join("#{kind}.json").read)]
+    end
+    character_preview = manifests.dig("characters", "assets", 0, "preview")
+    background_preview = manifests.dig("backgrounds", "assets", 0, "preview")
+    music_preview = manifests.dig("music", "assets", 0, "preview")
+    assert_match %r{\Apreviews/characters/Hero--[0-9a-f]{16}--v1\.webp\z}, character_preview.fetch("path")
+    assert_match %r{\Apreviews/backgrounds/Forest--[0-9a-f]{16}--v1\.webp\z}, background_preview.fetch("path")
+    assert_match %r{\Apreviews/music/Theme--[0-9a-f]{16}--v1\.mp3\z}, music_preview.fetch("path")
+    assert_equal "image/webp", character_preview.fetch("contentType")
+    assert_equal "audio/mpeg", music_preview.fetch("contentType")
+    refute manifests.dig("sounds", "assets", 0).key?("preview")
+    assert_equal ["512x512>", "640x360>"], previewer.calls.first(2).map { |call| call[:recipe][:geometry] }
+    assert_equal 3, previewer.calls.length
+    assert_empty optimized_generator.outdated_manifests
+
+    original_music_preview = @root.join(music_preview.fetch("path"))
+    optimized_generator.write!
+    assert_equal 3, previewer.calls.length
+
+    music.binwrite("changed long music")
+    optimized_generator.write!
+    assert_equal 4, previewer.calls.length
+    refute original_music_preview.exist?
+    assert_empty optimized_generator.outdated_manifests
   end
 
   def test_rejects_an_unknown_emotion
@@ -168,7 +223,7 @@ class GeneratorTest < Minitest::Test
   private
 
   def generator
-    @generator ||= GptVnModeAssets::Generator.new(root: @root)
+    @generator ||= GptVnModeAssets::Generator.new(root: @root, previews: false)
   end
 
   def integrity_for(path)

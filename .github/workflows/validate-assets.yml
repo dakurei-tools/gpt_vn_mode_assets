@@ -66,14 +66,10 @@ jobs:
             abort "Forbidden Git entries under assets/:\n#{invalid.join("\n")}" unless invalid.empty?
           '
 
-      - name: Install ffprobe when required
-        shell: bash
+      - name: Install preview generation tools
         run: |
-          if find assets -type f -iname "*.webm" -print -quit | grep -q . \
-            && ! command -v ffprobe >/dev/null; then
-            sudo apt-get update
-            sudo apt-get install --no-install-recommends --yes ffmpeg
-          fi
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends --yes ffmpeg imagemagick
 
       - name: Validate WebM audio codecs
         run: bin/validate_webm_audio

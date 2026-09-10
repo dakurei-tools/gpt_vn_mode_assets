@@ -21,6 +21,10 @@ code remains private and is not distributed here.
 Do not edit the JSON files at the repository root. They are checked and
 generated automatically from the contents of `assets/`.
 
+Lightweight files under `previews/` are generated automatically as well. Do
+not add or edit them in a contribution: the original files under `assets/`
+remain the source of truth.
+
 ### Organizing files
 
 ```text
