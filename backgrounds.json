@@ -59,6 +59,22 @@
           "label": "Naruto",
           "assets": [
             {
+              "id": "Anime/Naruto/Camp_Foot_Cliff",
+              "label": "Camp Foot Cliff",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Camp_Foot_Cliff.png",
+                "contentType": "image/png",
+                "byteSize": 726780,
+                "integrity": "sha256-VCA/LP6ASsxT0jB6nBnQwso5W/Lxlyc8by7dKrWmoZk="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Anime/Naruto/Camp_Foot_Cliff--54203f2cfe804acc--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 42612,
+                "integrity": "sha256-VQiTsMRQ8GRn3B7ZzBtDgdJP6lpJdOFfaQvikq8lEmE="
+              }
+            },
+            {
               "id": "Anime/Naruto/Canopy",
               "label": "Canopy",
               "file": {

@@ -183,6 +183,43 @@
       "categories": []
     },
     {
+      "id": "Nature",
+      "label": "Nature",
+      "assets": [
+        {
+          "id": "Nature/Tree_Branch_Breaking",
+          "label": "Tree Branch Breaking",
+          "file": {
+            "path": "assets/sounds/Nature/Tree_Branch_Breaking.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 235146,
+            "integrity": "sha256-yd6GUy3jwrr5VoMr+pWmL8A+iBW+1bJFinCn5WwiGwI="
+          }
+        },
+        {
+          "id": "Nature/Tree_falling",
+          "label": "Tree falling",
+          "file": {
+            "path": "assets/sounds/Nature/Tree_falling.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 770133,
+            "integrity": "sha256-7BWnE25MDIF0ic9Gt0INkpdOzATGD6eiAt+ue0qbirQ="
+          }
+        },
+        {
+          "id": "Nature/Tree_falling_2",
+          "label": "Tree falling 2",
+          "file": {
+            "path": "assets/sounds/Nature/Tree_falling_2.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 362623,
+            "integrity": "sha256-288cx6WJtT69zWB6494Kpfrt/zsqWCHBOfax0CNmBas="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
       "id": "Ninja",
       "label": "Ninja",
       "assets": [
@@ -302,6 +339,36 @@
             "contentType": "audio/mpeg",
             "byteSize": 55170,
             "integrity": "sha256-+pNisH8E+YuViRkuvT1+pe/UGCzgW+u5DP5ZyIFgAtg="
+          }
+        },
+        {
+          "id": "Weapon/Sword_slash",
+          "label": "Sword slash",
+          "file": {
+            "path": "assets/sounds/Weapon/Sword_slash.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 21504,
+            "integrity": "sha256-WxZ2+CwMvqRIsMM4diskktkh9U1gUpwEsmysxeawb08="
+          }
+        },
+        {
+          "id": "Weapon/Sword_slice",
+          "label": "Sword slice",
+          "file": {
+            "path": "assets/sounds/Weapon/Sword_slice.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 21504,
+            "integrity": "sha256-SKjJ0YgHg/Iwz2k5DhAcJg0yJ6jTs785sh6E9dMW460="
+          }
+        },
+        {
+          "id": "Weapon/Sword_slice_2",
+          "label": "Sword slice 2",
+          "file": {
+            "path": "assets/sounds/Weapon/Sword_slice_2.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 64512,
+            "integrity": "sha256-zaz7yO8T1wwc4bNfxL6vI5TCaoi2BPsj5b5cKbbhQeA="
           }
         },
         {
