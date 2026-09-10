@@ -21,6 +21,23 @@
       "categories": []
     },
     {
+      "id": "Bell",
+      "label": "Bell",
+      "assets": [
+        {
+          "id": "Bell/Distant_bells_ringing",
+          "label": "Distant bells ringing",
+          "file": {
+            "path": "assets/sounds/Bell/Distant_bells_ringing.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 366132,
+            "integrity": "sha256-NkSHDpBf0+ZKC3KqUuAOyYzzeyYKfR6T3ABMaiC7tqI="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
       "id": "Construction",
       "label": "Construction",
       "assets": [
@@ -41,6 +58,16 @@
       "id": "Desktop",
       "label": "Desktop",
       "assets": [
+        {
+          "id": "Desktop/Shuffle_papers",
+          "label": "Shuffle papers",
+          "file": {
+            "path": "assets/sounds/Desktop/Shuffle_papers.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 24732,
+            "integrity": "sha256-xniYv+sVMrCM/xjXMvZKq4ox7t/++wwvNfVRnEyW06o="
+          }
+        },
         {
           "id": "Desktop/Traditional_stamp",
           "label": "Traditional stamp",
@@ -76,6 +103,36 @@
       "label": "Doors",
       "assets": [
         {
+          "id": "Doors/Key_lock",
+          "label": "Key lock",
+          "file": {
+            "path": "assets/sounds/Doors/Key_lock.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 154368,
+            "integrity": "sha256-T1kz9nKbiKAeB9A/w8R9f5d4uZibX59DoPgheh2qwx0="
+          }
+        },
+        {
+          "id": "Doors/Lock_door",
+          "label": "Lock door",
+          "file": {
+            "path": "assets/sounds/Doors/Lock_door.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 12480,
+            "integrity": "sha256-Pq6K+YJtf92hITEhbnwRRgdJe9ByRU9wNNpmdEcRDLk="
+          }
+        },
+        {
+          "id": "Doors/Open_door",
+          "label": "Open door",
+          "file": {
+            "path": "assets/sounds/Doors/Open_door.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 86784,
+            "integrity": "sha256-eNUIjCe6+7aX77DmHtls7tAGXGTvRNAaURPP0bFZ/4g="
+          }
+        },
+        {
           "id": "Doors/Sliding_door",
           "label": "Sliding door",
           "file": {
@@ -83,6 +140,33 @@
             "contentType": "audio/mpeg",
             "byteSize": 51360,
             "integrity": "sha256-9EPmngWXL5TjvfRLXuUSFifRHvls2awDU3mH7py2TmY="
+          }
+        },
+        {
+          "id": "Doors/Sliding_door_2",
+          "label": "Sliding door 2",
+          "file": {
+            "path": "assets/sounds/Doors/Sliding_door_2.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 93120,
+            "integrity": "sha256-2LXWN0TMFKJzEThNtIa6+xsO+K/B6wUqEbkunP58LBg="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
+      "id": "Fight",
+      "label": "Fight",
+      "assets": [
+        {
+          "id": "Fight/Fist_punch",
+          "label": "Fist punch",
+          "file": {
+            "path": "assets/sounds/Fight/Fist_punch.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 19680,
+            "integrity": "sha256-4L3jUZ72nd7Iq9JODgyUU/T4gPTTIkM+/D16CQI1iU8="
           }
         }
       ],
@@ -120,6 +204,26 @@
             "contentType": "audio/mpeg",
             "byteSize": 12960,
             "integrity": "sha256-K/J9kaGb2W8JYbUQ7mJPiJD6gN+B1HjQ0Ggic3fdb4Q="
+          }
+        },
+        {
+          "id": "Food_and_Drink/Sizzling_frying_pan",
+          "label": "Sizzling frying pan",
+          "file": {
+            "path": "assets/sounds/Food_and_Drink/Sizzling_frying_pan.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 329839,
+            "integrity": "sha256-fEiGZOxuF70c4WFqXjE9tHFixEWKREOSxxTcC93SwCE="
+          }
+        },
+        {
+          "id": "Food_and_Drink/Sizzling_frying_pan_2",
+          "label": "Sizzling frying pan 2",
+          "file": {
+            "path": "assets/sounds/Food_and_Drink/Sizzling_frying_pan_2.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 268015,
+            "integrity": "sha256-LUnH/uaCuiGnOnDOvQhFucw5bvrgAlOLeRvvtH++LWY="
           }
         }
       ],
@@ -244,6 +348,16 @@
           }
         },
         {
+          "id": "Ninja/Jutsu_activation",
+          "label": "Jutsu activation",
+          "file": {
+            "path": "assets/sounds/Ninja/Jutsu_activation.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 25965,
+            "integrity": "sha256-mI0+reDeLVMq8UyCPXoIfP4ZwkQt+OZngElUTLB8fbY="
+          }
+        },
+        {
           "id": "Ninja/Kunai_miss",
           "label": "Kunai miss",
           "file": {
@@ -312,6 +426,36 @@
             "contentType": "audio/mpeg",
             "byteSize": 658560,
             "integrity": "sha256-nW0JMwceNFjnQnRD75y0KdZakdFKpntOSt7i2oHGMkI="
+          }
+        },
+        {
+          "id": "Travel/Jump_landing",
+          "label": "Jump landing",
+          "file": {
+            "path": "assets/sounds/Travel/Jump_landing.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 23405,
+            "integrity": "sha256-NAnX1o0HPeh/S0SYNFeVVYnEho7RAJYy9udiRONTGoA="
+          }
+        },
+        {
+          "id": "Travel/Walking_concrete",
+          "label": "Walking concrete",
+          "file": {
+            "path": "assets/sounds/Travel/Walking_concrete.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 259134,
+            "integrity": "sha256-YltxRh8PTrxLwZjVzTQkU47y3nDc+QtCHV6faCLGaXg="
+          }
+        },
+        {
+          "id": "Travel/Walking_tile_hallway",
+          "label": "Walking tile hallway",
+          "file": {
+            "path": "assets/sounds/Travel/Walking_tile_hallway.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 154973,
+            "integrity": "sha256-0C8yJwtOBlGydrcVxs39hn+QAXbzc3p9c0c5oqpjD40="
           }
         },
         {

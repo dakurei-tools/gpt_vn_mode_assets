@@ -327,6 +327,60 @@
               }
             },
             {
+              "id": "Anime/Naruto/Konoha_Chûnin_(Female)",
+              "label": "Konoha Chûnin (Female)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Konoha_Chûnin_(Female).png",
+                  "contentType": "image/png",
+                  "byteSize": 200630,
+                  "integrity": "sha256-ZbgZpPy6fZVWogLM2dYpr2U/Xe3/Xa2HrqcVbFPAjro="
+                }
+              },
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Konoha_Chûnin_(Female)--65b819a4fcba7d95--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 20438,
+                "integrity": "sha256-Z+Un+t/H4VqUSq+4KyUFcc67XrKP0/C2zZaY33Zs6/g="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Konoha_Jônin_(Male)",
+              "label": "Konoha Jônin (Male)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Konoha_Jônin_(Male).png",
+                  "contentType": "image/png",
+                  "byteSize": 205083,
+                  "integrity": "sha256-/r/HEByQuwmNmtKfz3nJH1lfzUqT+HZzX83DF9sLfEI="
+                }
+              },
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Konoha_Jônin_(Male)--febfc7101c90bb09--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 18468,
+                "integrity": "sha256-6ilEvCThNg9VMgpLSlxGaSHiSlNZyzei9LkIB44lZqg="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Konoha_Worker_(Male)",
+              "label": "Konoha Worker (Male)",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Naruto/Konoha_Worker_(Male).png",
+                  "contentType": "image/png",
+                  "byteSize": 216397,
+                  "integrity": "sha256-ap4Ft2/AVgaxvyv6laI3B0raXNGPnJjK0qHMhQo0h7Q="
+                }
+              },
+              "preview": {
+                "path": "previews/characters/Anime/Naruto/Konoha_Worker_(Male)--6a9e05b76fc05606--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 21862,
+                "integrity": "sha256-sb4ieDo0FAvdaUQl2fOuzgYMfn/x+9+XI1plAMVsn7M="
+              }
+            },
+            {
               "id": "Anime/Naruto/Naruto_Uzumaki_(Shippuden)",
               "label": "Naruto Uzumaki (Shippuden)",
               "sprites": {
@@ -736,6 +790,25 @@
                     "contentType": "image/webp",
                     "byteSize": 18564,
                     "integrity": "sha256-STZyp3XzQCB/TC9UgA42eCjK6QSC8TCw8U7XhkkOKOI="
+                  }
+                },
+                {
+                  "id": "Anime/Naruto/OC/Dakurei_Makushimu_(Shippuden)_[Konoha_Jonin]",
+                  "label": "Dakurei Makushimu (Shippuden) [Konoha Jonin]",
+                  "sprites": {
+                    "default": {
+                      "path": "assets/characters/Anime/Naruto/OC/Dakurei_Makushimu_(Shippuden)_[Konoha_Jonin]__4995d4.png",
+                      "contentType": "image/png",
+                      "byteSize": 235538,
+                      "integrity": "sha256-7s9zxmhUYDZ9fGuDontmYzk/L3HV60PQHirpMmgOq2M="
+                    }
+                  },
+                  "color": "#4995d4",
+                  "preview": {
+                    "path": "previews/characters/Anime/Naruto/OC/Dakurei_Makushimu_(Shippuden)_[Konoha_Jonin]__4995d4--eecf73c668546036--v1.webp",
+                    "contentType": "image/webp",
+                    "byteSize": 22778,
+                    "integrity": "sha256-lbh4R3Nyg0ut8YeARdrfFPBe6JkL6ChqWz24kmI5MHY="
                   }
                 }
               ],

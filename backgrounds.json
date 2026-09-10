@@ -187,6 +187,54 @@
               }
             },
             {
+              "id": "Anime/Naruto/Konoha_Administrative_District",
+              "label": "Konoha Administrative District",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Konoha_Administrative_District.png",
+                "contentType": "image/png",
+                "byteSize": 702561,
+                "integrity": "sha256-BE5WMJXj5aje1bRMyrMjeVuAZr4xOB7wo2I3CyZsD6E="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Anime/Naruto/Konoha_Administrative_District--044e563095e3e5a8--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 44346,
+                "integrity": "sha256-12cw6YupUQLqRt+c1eWiQ9lFMuw6QR3/0rMyZlfC2OM="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Konoha_Administrative_District_Ruins",
+              "label": "Konoha Administrative District Ruins",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Konoha_Administrative_District_Ruins.png",
+                "contentType": "image/png",
+                "byteSize": 867304,
+                "integrity": "sha256-SL3feNQpbrNVtZTLo8wX/jsZox71jwp6OfU2xAMAKSM="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Anime/Naruto/Konoha_Administrative_District_Ruins--48bddf78d4296eb3--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 47582,
+                "integrity": "sha256-1ac9WrAxIzpcN/TWW5/jgyeHKQxXqh0MPKTN7QXJdEM="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Konoha_Alley",
+              "label": "Konoha Alley",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Konoha_Alley.png",
+                "contentType": "image/png",
+                "byteSize": 908935,
+                "integrity": "sha256-oZGpOIOp/rBWycP4eHFCwjSboEkVockiapwogBe81Mo="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Anime/Naruto/Konoha_Alley--a191a93883a9feb0--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 38206,
+                "integrity": "sha256-ZEbP/heMONk7TwtFx5zRzaLWpN6W5XEA+gfHh3mpmds="
+              }
+            },
+            {
               "id": "Anime/Naruto/Konoha_Armory",
               "label": "Konoha Armory",
               "file": {
@@ -267,6 +315,38 @@
               }
             },
             {
+              "id": "Anime/Naruto/Konoha_Hospital_Annex",
+              "label": "Konoha Hospital Annex",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Konoha_Hospital_Annex.png",
+                "contentType": "image/png",
+                "byteSize": 488437,
+                "integrity": "sha256-lsWI54Mx0uEGiKFepFG6sp6HWxd2cpPi1jPgSr3+mVY="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Anime/Naruto/Konoha_Hospital_Annex--96c588e78331d2e1--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 11038,
+                "integrity": "sha256-WvD3yvhGNQopDjFABFD6Ux3z8uuFqU1ahRksTlOUOLg="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Konoha_Hospital_Street",
+              "label": "Konoha Hospital Street",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Konoha_Hospital_Street.png",
+                "contentType": "image/png",
+                "byteSize": 618940,
+                "integrity": "sha256-tgUdVGMy4SRmh+GfE6egF8n2yS9LgvZVdGb05Z1R/aI="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Anime/Naruto/Konoha_Hospital_Street--b6051d546332e124--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 42658,
+                "integrity": "sha256-3QLo5WglJjTgG3ekgbUw7bX4V7FZAUl3nkj+3xR+kpc="
+              }
+            },
+            {
               "id": "Anime/Naruto/Konoha_Market",
               "label": "Konoha Market",
               "file": {
@@ -315,6 +395,22 @@
               }
             },
             {
+              "id": "Anime/Naruto/Konoha_Ruins",
+              "label": "Konoha Ruins",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Konoha_Ruins.png",
+                "contentType": "image/png",
+                "byteSize": 862631,
+                "integrity": "sha256-1cziuHH8DpCCFFIPgq+pq8/5WX/zBwoQsRcQZ1oIJKk="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Anime/Naruto/Konoha_Ruins--d5cce2b871fc0e90--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 48870,
+                "integrity": "sha256-+kWCyr3fZkv/vvL9EVowFF+zb736xpm4wXVSkk9tsfU="
+              }
+            },
+            {
               "id": "Anime/Naruto/Konoha_Street",
               "label": "Konoha Street",
               "file": {
@@ -328,6 +424,22 @@
                 "contentType": "image/webp",
                 "byteSize": 30852,
                 "integrity": "sha256-eNm9a/3KjUehxqgxlLjvMSG96fkl1vNYBFZ86JBuyIU="
+              }
+            },
+            {
+              "id": "Anime/Naruto/Konoha_Temporary_House",
+              "label": "Konoha Temporary House",
+              "file": {
+                "path": "assets/backgrounds/Anime/Naruto/Konoha_Temporary_House.png",
+                "contentType": "image/png",
+                "byteSize": 710689,
+                "integrity": "sha256-qEQCbb4+GLbOiDNynJzPW7DshqeR6XIHGWnOuv92uDk="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Anime/Naruto/Konoha_Temporary_House--a844026dbe3e18b6--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 39618,
+                "integrity": "sha256-0ktBl7zHpPCcTYo3Z1NajuZ53puVpkuHkfNDOG2Sfhc="
               }
             },
             {
