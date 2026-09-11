@@ -4,6 +4,23 @@
   "assets": [],
   "categories": [
     {
+      "id": "Alarm",
+      "label": "Alarm",
+      "assets": [
+        {
+          "id": "Alarm/Alarm_beep_electronic",
+          "label": "Alarm beep electronic",
+          "file": {
+            "path": "assets/sounds/Alarm/Alarm_beep_electronic.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 102240,
+            "integrity": "sha256-zRrmUugBWWQXmYF0+e3IF9+aBfA0KjaXRIEOtZuoTwM="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
       "id": "Animal",
       "label": "Animal",
       "assets": [

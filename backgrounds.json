@@ -585,6 +585,22 @@
               }
             },
             {
+              "id": "Game/Doki_Doki_Litterature_Club/High_School_Entrance",
+              "label": "High School Entrance",
+              "file": {
+                "path": "assets/backgrounds/Game/Doki_Doki_Litterature_Club/High_School_Entrance.png",
+                "contentType": "image/png",
+                "byteSize": 650550,
+                "integrity": "sha256-5ceHanBWW9BHEumFjK9lo80TNkVh+mCrgk4tJKc8mD4="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Game/Doki_Doki_Litterature_Club/High_School_Entrance--e5c7876a70565bd0--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 36296,
+                "integrity": "sha256-n8uaCkq1bhJ5YGKa9pI3IA6s+gskxxEivuJCXlvmQe8="
+              }
+            },
+            {
               "id": "Game/Doki_Doki_Litterature_Club/House",
               "label": "House",
               "file": {
