@@ -1917,6 +1917,785 @@
           "categories": []
         }
       ]
+    },
+    {
+      "id": "Game",
+      "label": "Game",
+      "assets": [],
+      "categories": [
+        {
+          "id": "Game/Doki_Doki_Litterature_Club",
+          "label": "Doki Doki Litterature Club",
+          "assets": [
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Calm",
+              "label": "Calm",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Calm__Daijoubu.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4556493,
+                "integrity": "sha256-KxZTj16VvF9ySc8l0EuR2h6Fz6q1jXfuGzwXMqBmyUI="
+              },
+              "title": "Daijoubu",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Calm__Daijoubu--2b16538f5e95bc5f--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-aJQyHnPoFyDFrKNV+/kXiMq6Th6r0qJArovvEajPjDA="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Calm_2",
+              "label": "Calm 2",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Calm_2__Daijoubu_Early_Sketch.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4222173,
+                "integrity": "sha256-XpChQk1WZrEZgp5tnR9cDrpGvOZMmoD38BRk1vsYg3Q="
+              },
+              "title": "Daijoubu Early Sketch",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Calm_2__Daijoubu_Early_Sketch--5e90a1424d5666b1--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-tGPKo1JSWJZ1vyccXxw3jwkqInA/XonUxj6dQor2pe4="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Cheerful_1",
+              "label": "Cheerful 1",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Cheerful_1__Doki_Doki_Literature_Club_Main_Theme.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3049293,
+                "integrity": "sha256-qRci7mU5SE7y4lsb9XY8X7MX2881oj6Fhxr+S92cj9k="
+              },
+              "title": "Doki Doki Literature Club Main Theme",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Cheerful_1__Doki_Doki_Literature_Club_Main_Theme--a91722ee6539484e--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-dqQ/Wj9G/lj6VhVGJg4Rnm6JHgL32SViehbb+wgQpTw="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Cheerful_2",
+              "label": "Cheerful 2",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Cheerful_2__Ohayou_Sayori.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3965229,
+                "integrity": "sha256-+VZhFGXId/aZznjlUeclcsdGzhapVsb2PyQnoSjiuf4="
+              },
+              "title": "Ohayou Sayori",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Cheerful_2__Ohayou_Sayori--f956611465c877f6--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-WZp2hy4W8gQczDLaZZCAY1USekvSOSZaTfOkiH/z+EM="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Cheerful_3",
+              "label": "Cheerful 3",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Cheerful_3__Okay_Everyone.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4100637,
+                "integrity": "sha256-fWo9l46otOJOG7I7glg7bZTLfzJ2zY3MNo9ENeDpXKY="
+              },
+              "title": "Okay Everyone",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Cheerful_3__Okay_Everyone--7d6a3d978ea8b4e2--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-isPMGooo4YOpEfHYDI9PfDeGTOXrLt8HaKMSPvdSac8="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Cheerful_4",
+              "label": "Cheerful 4",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Cheerful_4__Okay_Everyone_Sayori_Variant.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2176533,
+                "integrity": "sha256-V7xlKQAi1kT52VHZTbNalDDlNIGJMZGa896U0IxrxmU="
+              },
+              "title": "Okay Everyone Sayori Variant",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Cheerful_4__Okay_Everyone_Sayori_Variant--57bc65290022d644--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-9+821YX1wISWbNjp3Ll8vqLLpDJMYDpSCUYMz5rKmZw="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Cheerful_5",
+              "label": "Cheerful 5",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Cheerful_5__Ohayou_Sayori_2010_Version.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 5045565,
+                "integrity": "sha256-c9Ayfdnd9xWH4nzPxoNT48bvnWAgZtgX6vVH98gEwLg="
+              },
+              "title": "Ohayou Sayori 2010 Version",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Cheerful_5__Ohayou_Sayori_2010_Version--73d0327dd9ddf715--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-ZTxuNtwLbnuC9hBOrgFqsQrwWhS9ZBEPCYbP3AxHL4o="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Creative",
+              "label": "Creative",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Creative__Dreams_Of_Love_And_Literature.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 5769789,
+                "integrity": "sha256-DTW9pVCbM5CoFmVpAzTTZthwknQoAHktl77lLo9xXb4="
+              },
+              "title": "Dreams Of Love And Literature",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Creative__Dreams_Of_Love_And_Literature--0d35bda5509b3390--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-IqGVfwg99I616G8erMDP7dsbOY1vQGredc5CeT84gkk="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Creative_2",
+              "label": "Creative 2",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Creative_2__Dreams_Of_Love_And_Literature_Early_Sketch.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2877645,
+                "integrity": "sha256-lG2Ff+EnW625FifzUmtdo5gOr/wx3QVB1zopIEDMjLo="
+              },
+              "title": "Dreams Of Love And Literature Early Sketch",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Creative_2__Dreams_Of_Love_And_Literature_Early_Sketch--946d857fe1275bad--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-p+ra0dgv+ic0zGz8nLkcD04wl1C6/YZjoXIB+eHM6WY="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Eerie",
+              "label": "Eerie",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Eerie__Just_Monika.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4757421,
+                "integrity": "sha256-AP723CfC44yj4lfMAzgA5PFTQbNYyzTS9hI9ZcPHd/E="
+              },
+              "title": "Just Monika",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Eerie__Just_Monika--00fef6dc27c2e38c--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-gh6xsKYzcl1BY60TucgB82kp7qZEO/piQM7wZDxTW94="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Eerie_2",
+              "label": "Eerie 2",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Eerie_2__Ghost_Menu_Ambience.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 1663005,
+                "integrity": "sha256-9ZFXQnsXunaZvpuapHEaiDhb3gewbQg6x3AD/RAg9rA="
+              },
+              "title": "Ghost Menu Ambience",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Eerie_2__Ghost_Menu_Ambience--f59157427b17ba76--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-MFk8OAlQfiWDrTZlcE6Xb4aQvC3XTmSdpuI0IuKwTyk="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Emotional",
+              "label": "Emotional",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Emotional__Your_Reality.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4157037,
+                "integrity": "sha256-4xhNbA8iPYgXVTvJ63KgF2pdtkqcfVJRHbM37YA4NmM="
+              },
+              "title": "Your Reality",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Emotional__Your_Reality--e3184d6c0f223d88--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-59oM+t2KOheWyA5do9w7LmlmgquQl/mSaD5ll9cSoNw="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Emotional_2",
+              "label": "Emotional 2",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Emotional_2__Your_Reality_Extended_Credits.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4725549,
+                "integrity": "sha256-ralU4lhoUvTnUA2+TL5RJ3iAq22OWUYhs3/D/4HtZIU="
+              },
+              "title": "Your Reality Extended Credits",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Emotional_2__Your_Reality_Extended_Credits--ada954e2586852f4--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-rvfDEub36zl1CPMgtvdI8mgwP3KcMawo+g/7emwAJSg="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Energetic",
+              "label": "Energetic",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Energetic__Doki_Doki_Nikki_Kaelar_Remix.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 5577741,
+                "integrity": "sha256-arlibrTnJ9gGOh7KxwQSlwrkIxoT+xBHE5oTX7Zl2bA="
+              },
+              "title": "Doki Doki Nikki Kaelar Remix",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Energetic__Doki_Doki_Nikki_Kaelar_Remix--6ab9626eb4e727d8--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-IwazxrxBPJq6RS/5sHvlVPWmEurnH01mx8HB9gJ/0wQ="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Glitched_1",
+              "label": "Glitched 1",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Glitched_1__Doki_Doki_Literature_Club_Glitched_Main_Theme.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 624285,
+                "integrity": "sha256-GYZNiItF22YKU5dFcIJUUwdfaaglfwrCv8U2KGC0plw="
+              },
+              "title": "Doki Doki Literature Club Glitched Main Theme",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Glitched_1__Doki_Doki_Literature_Club_Glitched_Main_Theme--19864d888b45db66--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-AuRWoI1NvZv3HuGKtDj3j718UzY5UD7mLK3/YVPHm3o="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Glitched_2",
+              "label": "Glitched 2",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Glitched_2__Play_With_Me_Glitched_Variant.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 193965,
+                "integrity": "sha256-/r67fTpPRN7gc7QWfaEmAxJmedPTd1rchqOHz9DIa1Y="
+              },
+              "title": "Play With Me Glitched Variant",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Glitched_2__Play_With_Me_Glitched_Variant--febebb7d3a4f44de--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 113520,
+                "integrity": "sha256-kk2TOAX8n9W8tOy7coc3s4Q1mtvUB3FHFTsIQYmZXwA="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Glitched_3",
+              "label": "Glitched 3",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Glitched_3__Play_With_Me_Glitched_Variant_2.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 221181,
+                "integrity": "sha256-BlwLpKP3IFyJ/d2wXzUS/rGLpPGyULa9ILBP53SFPzU="
+              },
+              "title": "Play With Me Glitched Variant 2",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Glitched_3__Play_With_Me_Glitched_Variant_2--065c0ba4a3f7205c--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 124178,
+                "integrity": "sha256-Dm30v+GkhIyowcbFbAXyUuW475HeEDa/t8aj84gjiJg="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Glitched_4",
+              "label": "Glitched 4",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Glitched_4__Monika_Startup_Theme.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 90765,
+                "integrity": "sha256-4RkB5je4muyxzig11MlIwVJnIxkuJeUeevrZQptrYNQ="
+              },
+              "title": "Monika Startup Theme",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Glitched_4__Monika_Startup_Theme--e11901e637b89aec--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 48946,
+                "integrity": "sha256-Yj8GqzxQ9C0Hhp0tvCJ27etAVzlL/S6hnQ9SeG9K9y8="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Horror_1",
+              "label": "Horror 1",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Horror_1__Yuri_Obsession_Ambience.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 801645,
+                "integrity": "sha256-+4U8hDVSXjNXzjUX4fEeeWq4q9KK7NXz1WgMfOwd9Mw="
+              },
+              "title": "Yuri Obsession Ambience",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Horror_1__Yuri_Obsession_Ambience--fb853c8435525e33--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-COtQfTydt5u0JHfkp0kg1R/EXAWMqXwZcwndoo89AsI="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Horror_2",
+              "label": "Horror 2",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Horror_2__Yuri_Death_Ambience.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 1365837,
+                "integrity": "sha256-TAu4g6jN0hw/4m8ccpr2OAkjVygN+YSDEs0OZE2VON8="
+              },
+              "title": "Yuri Death Ambience",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Horror_2__Yuri_Death_Ambience--4c0bb883a8cdd21c--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-GAqo9MaNCQxvx1uYiKuAcfNAlCHNMC78nG3j6pmlNvc="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Horror_Ambience",
+              "label": "Horror Ambience",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Horror_Ambience__Disturbing_Eerie_BGM_Compilation.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 21106941,
+                "integrity": "sha256-T3SGgNJrLGFXwoU0fSgn48uXOlOUhIJson1CwLV0BbY="
+              },
+              "title": "Disturbing Eerie BGM Compilation",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Horror_Ambience__Disturbing_Eerie_BGM_Compilation--4f748680d26b2c61--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-L4TDWpYLgXObuxXI9ZQ8gOzy9xD43MDcERxmN9RM+wk="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Love",
+              "label": "Love",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Love__My_Confession.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4220397,
+                "integrity": "sha256-PdDU7iAAz1/tEu9S2D7FejkxnoX8xaKV669NG70O8ws="
+              },
+              "title": "My Confession",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Love__My_Confession--3dd0d4ee2000cf5f--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-kocqQtSif6u+0ODBuJ7RwRVtm5mPkB6iQWONmdPPTHw="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Melancholic_1",
+              "label": "Melancholic 1",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Melancholic_1__My_Feelings.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2564973,
+                "integrity": "sha256-MB9ERw7Ou8u9SBSnuVvnupBJ1j1KMjbtoa2Flosw9aQ="
+              },
+              "title": "My Feelings",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Melancholic_1__My_Feelings--301f44470ecebbcb--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-NZq/UmVahh301S6bClCYB7lB8dLx3voqEFZGsRkqztM="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Melancholic_2",
+              "label": "Melancholic 2",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Melancholic_2__I_Still_Love_You.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3372285,
+                "integrity": "sha256-h+ihmhzU+d5l2GNrQm0QLIelDhonraiYNqpbAoOBXYw="
+              },
+              "title": "I Still Love You",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Melancholic_2__I_Still_Love_You--87e8a19a1cd4f9de--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-ZnF3fSMzRza/ZJUe4YGb8g6L57CyxKCsGO8Bft4tJ+E="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Mystic_1",
+              "label": "Mystic 1",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Mystic_1__Okay_Everyone_Yuri_Variant.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2309613,
+                "integrity": "sha256-88aaKrRZLgKbXkcyzhOnEK0nit3YfdE5O1RoD2c4YdQ="
+              },
+              "title": "Okay Everyone Yuri Variant",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Mystic_1__Okay_Everyone_Yuri_Variant--f3c69a2ab4592e02--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-ChcQIkm9rnj6EVysWJ+t+LXmPx9m/6I0LK188zFPsQ0="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Playful_1",
+              "label": "Playful 1",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Playful_1__Okay_Everyone_Natsuki_Variant.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2000493,
+                "integrity": "sha256-egT40K0r/CUCQCePWkAJu9490Bev2B+BhcyqNIIX+5w="
+              },
+              "title": "Okay Everyone Natsuki Variant",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Playful_1__Okay_Everyone_Natsuki_Variant--7a04f8d0ad2bfc25--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-9cPfb2bCdQbWDwZoSnWU1DXgx0x/JoRfwWE39leKQgU="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Playful_2",
+              "label": "Playful 2",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Playful_2__Play_With_Me.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4126797,
+                "integrity": "sha256-+xG5g5voGMfyfxMSEkm1f4k7+zzIBvv2JCLAC6dBZi4="
+              },
+              "title": "Play With Me",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Playful_2__Play_With_Me--fb11b9839be818c7--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-RJiwHRTG0IIZWAWzb0/l+EftA1HyDIO+6/qELQu4hpM="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Retro",
+              "label": "Retro",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Retro__Dreams_Of_Love_And_Literature_8_Bit.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2537469,
+                "integrity": "sha256-bXFkV98OzabYKT5v0HrDyR5PX8Pc3PZAZTCHu4p/Sps="
+              },
+              "title": "Dreams Of Love And Literature 8 Bit",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Retro__Dreams_Of_Love_And_Literature_8_Bit--6d716457df0ecda6--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-8OKaRMsl6YNzoRP+519PiswM+bq1vg4QbwTlTWZaE5o="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Tension_1",
+              "label": "Tension 1",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Tension_1__Poem_Panic.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3535341,
+                "integrity": "sha256-FTZbYZr6zmCCL9lAGl8zISbdILS065dUksNGfmdBHDk="
+              },
+              "title": "Poem Panic",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Tension_1__Poem_Panic--15365b619aface60--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-eSQQ/1O3koGUTzaMVvLLsGAuuz3qOewGTIE2vLkYKeI="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Tragic",
+              "label": "Tragic",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Tragic__Sayo_nara.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3390621,
+                "integrity": "sha256-vZXr0VYTwsaYrWuoqGlGFteRTrbazzvyQ6NRIB3bBmY="
+              },
+              "title": "Sayo nara",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Tragic__Sayo_nara--bd95ebd15613c2c6--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-qeUXOKEXStdBKBAPClJHn9OIc5UKk94fu62hm1xUbHQ="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Trailer",
+              "label": "Trailer",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Trailer__Doki_Doki_Literature_Club_Trailer.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 1050189,
+                "integrity": "sha256-vQa8gJK52naxAv7i/+/xR4TcPc4dmQu1skHGeNLNwX0="
+              },
+              "title": "Doki Doki Literature Club Trailer",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Trailer__Doki_Doki_Literature_Club_Trailer--bd06bc8092b9da76--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-7cbLPo4ARxFLlMxdHODaSv0s/Zou94h3mDGEG6SyNP4="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Unsettling_1",
+              "label": "Unsettling 1",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Unsettling_1__Ohayou_Sayori_Corrupted_Variant.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2594877,
+                "integrity": "sha256-NZLA6fUL7z7+uH7Rwz5WmEhY4JJIMXZKlPnPikSlV5E="
+              },
+              "title": "Ohayou Sayori Corrupted Variant",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Unsettling_1__Ohayou_Sayori_Corrupted_Variant--3592c0e9f50bef3e--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-WONHMDpDo7nTwmOqZwZErtuD1kbb4jiFx3S+TyZFcU4="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Unsettling_10",
+              "label": "Unsettling 10",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Unsettling_10__Okay_Everyone_Corrupted_Variant_2.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 1794861,
+                "integrity": "sha256-I11OENLauNWsUQZbKvofK5eaVVC2CkQHFI1HX4E+FQ4="
+              },
+              "title": "Okay Everyone Corrupted Variant 2",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Unsettling_10__Okay_Everyone_Corrupted_Variant_2--235d4e10d2dab8d5--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-wjlcfoMfg1KmPe3jMvfZxrbkT15xs5yey6ujM3LjItQ="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Unsettling_11",
+              "label": "Unsettling 11",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Unsettling_11__My_Feelings_Corrupted_Variant.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2452461,
+                "integrity": "sha256-PFUgh9D4WEsI69Y/fcxn1ORL7I/NnyiBknQPR5VfQMg="
+              },
+              "title": "My Feelings Corrupted Variant",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Unsettling_11__My_Feelings_Corrupted_Variant--3c552087d0f8584b--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-bHkFJh0MKs9ygxHz3TB5+OO2Bjln+W3ly/1w7sTPOPw="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Unsettling_12",
+              "label": "Unsettling 12",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Unsettling_12__My_Confession_Corrupted_Variant.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3955437,
+                "integrity": "sha256-JIKb9FDDxAgbdHI5AFJqxfVflcdF0BMCqSyJsDSu1s8="
+              },
+              "title": "My Confession Corrupted Variant",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Unsettling_12__My_Confession_Corrupted_Variant--24829bf450c3c408--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-dsi+K0Ic7uQ1OJrypn+/C/qkvNuJhHESX+Ol481fsQg="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Unsettling_13",
+              "label": "Unsettling 13",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Unsettling_13__Play_With_Me_Slowed.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 6779637,
+                "integrity": "sha256-a20X/SlmfaTVMc0YTaKnq4MAmmgBM9cFc27Y0JnAIQE="
+              },
+              "title": "Play With Me Slowed",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Unsettling_13__Play_With_Me_Slowed--6b6d17fd29667da4--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-IA8nerhUgxlQe6h64OeT1VuWH/DfKbfekT0NLnZ6xP4="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Unsettling_2",
+              "label": "Unsettling 2",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Unsettling_2__Play_With_Me_Corrupted_Variant.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3375837,
+                "integrity": "sha256-IDdQh2IFHQRXjkaCF6Sx/BHl+w0Kc8SiNsuxqWtSVaI="
+              },
+              "title": "Play With Me Corrupted Variant",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Unsettling_2__Play_With_Me_Corrupted_Variant--2037508762051d04--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-R4tSZOUlXmTRhQNLEnGh8HLO6eCkFt6SKktEvz1XBts="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Unsettling_3",
+              "label": "Unsettling 3",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Unsettling_3__Doki_Doki_Literature_Club_Corrupted_Variant.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3041229,
+                "integrity": "sha256-yfq+MqDLhzB8fsd+A4LDW4pq32DzNJ9Syzars/f/bHA="
+              },
+              "title": "Doki Doki Literature Club Corrupted Variant",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Unsettling_3__Doki_Doki_Literature_Club_Corrupted_Variant--c9fabe32a0cb8730--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-RZ1yCW/cUBTuopUaI3xRUjvKbFmocS7v0vZ77ChYRjM="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Unsettling_4",
+              "label": "Unsettling 4",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Unsettling_4__Poem_Panic_Corrupted_Variant.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2360541,
+                "integrity": "sha256-9bZDrkzDEzWQgNH+9m3hgHMTq7Pv0yiFUc8dHnIiIFM="
+              },
+              "title": "Poem Panic Corrupted Variant",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Unsettling_4__Poem_Panic_Corrupted_Variant--f5b643ae4cc31335--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-gh9+MGKjWmc6huOKfYLkvNHT/9Z9ywct1IV7WpPf3Pw="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Unsettling_5",
+              "label": "Unsettling 5",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Unsettling_5__Dreams_Of_Love_And_Literature_Corrupted_Variant.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 1714893,
+                "integrity": "sha256-1NgkS6TE6SYg0W43dMan/Wp6kjjitwyXOOYlmb7CNAw="
+              },
+              "title": "Dreams Of Love And Literature Corrupted Variant",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Unsettling_5__Dreams_Of_Love_And_Literature_Corrupted_Variant--d4d8244ba4c4e926--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-+XKISkaLb8wwM7yojjbHT7X3Sh0ZY7WFYdcwuuw5WOk="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Unsettling_6",
+              "label": "Unsettling 6",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Unsettling_6__Okay_Everyone_Corrupted_Variant.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 4312965,
+                "integrity": "sha256-dz3z6Vy23s+K+CSTsdVT8PnbH1PIRJ7aG/OhYpyiFTg="
+              },
+              "title": "Okay Everyone Corrupted Variant",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Unsettling_6__Okay_Everyone_Corrupted_Variant--773df3e95cb6decf--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-EP7XPeF/A/3OhB0CEdbg0JA68O0QCHTbPajetFcy9hM="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Unsettling_7",
+              "label": "Unsettling 7",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Unsettling_7__Doki_Doki_Literature_Club_Corrupted_Variant_2.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 3118557,
+                "integrity": "sha256-fjWANicy1PyTgQE5+y5+CyXJW50zxjb0zUzCynWOVCw="
+              },
+              "title": "Doki Doki Literature Club Corrupted Variant 2",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Unsettling_7__Doki_Doki_Literature_Club_Corrupted_Variant_2--7e3580362732d4fc--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-Z7K4unMXxXV0dAOIS2u/I0ldia4E2cj0IqirzBVfL+4="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Unsettling_8",
+              "label": "Unsettling 8",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Unsettling_8__Play_With_Me_Corrupted_Variant_2.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2062893,
+                "integrity": "sha256-5F5VJp58Gpe237zCiQmJWa+XwFD4L5yUWTz36HFLOIc="
+              },
+              "title": "Play With Me Corrupted Variant 2",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Unsettling_8__Play_With_Me_Corrupted_Variant_2--e45e55269e7c1a97--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-sD7y9tjOWZNNj/wXt3d1Sas99TazFOvG7+xihTqt/MM="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Unsettling_9",
+              "label": "Unsettling 9",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Unsettling_9__Play_With_Me_Reversed.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 1082013,
+                "integrity": "sha256-nSd3ROEiqQ8wNjNc2Lf8JGn6PUCFOrZSL8dGL5qhBXI="
+              },
+              "title": "Play With Me Reversed",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Unsettling_9__Play_With_Me_Reversed--9d277744e122a90f--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-awZB8++G0AWaQlXcPdt5F8vN+pkv9H3Bdf8sr67fI/w="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Warm_1",
+              "label": "Warm 1",
+              "file": {
+                "path": "assets/music/Game/Doki_Doki_Litterature_Club/Warm_1__Okay_Everyone_Monika_Variant.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 2159973,
+                "integrity": "sha256-DlDb4PapsKSROypFUFUfTUwUkntsaf591PRLg55CABo="
+              },
+              "title": "Okay Everyone Monika Variant",
+              "preview": {
+                "path": "previews/music/Game/Doki_Doki_Litterature_Club/Warm_1__Okay_Everyone_Monika_Variant--0e50dbe0f6a9b0a4--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-ZStcbGKeYRji96/SUhB1WuQkdD2f5CjHXOENkacii6M="
+              }
+            }
+          ],
+          "categories": []
+        }
+      ]
     }
   ]
 }
