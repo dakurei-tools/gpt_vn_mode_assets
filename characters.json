@@ -818,6 +818,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "Game",
+      "label": "Game",
+      "assets": [],
+      "categories": [
+        {
+          "id": "Game/Doki_Doki_Litterature_Club",
+          "label": "Doki Doki Litterature Club",
+          "assets": [
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Monika",
+              "label": "Monika",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Game/Doki_Doki_Litterature_Club/Monika__5bb145.png",
+                  "contentType": "image/png",
+                  "byteSize": 185003,
+                  "integrity": "sha256-rMVfTdhd1TiIdqQqkyyqeeAbT482PkEeV/5BpkGw+iA="
+                }
+              },
+              "color": "#5bb145",
+              "preview": {
+                "path": "previews/characters/Game/Doki_Doki_Litterature_Club/Monika__5bb145--acc55f4dd85dd538--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 26668,
+                "integrity": "sha256-OQIizVH8QPsMwgG533vYAAXit80EYOLXsLTsb7rXXNA="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Natsuki",
+              "label": "Natsuki",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Game/Doki_Doki_Litterature_Club/Natsuki__f37cb3.png",
+                  "contentType": "image/png",
+                  "byteSize": 173928,
+                  "integrity": "sha256-kgYzuWLPJR51MlwHIestw9xNeN3julTtFg56VlgzB14="
+                }
+              },
+              "color": "#f37cb3",
+              "preview": {
+                "path": "previews/characters/Game/Doki_Doki_Litterature_Club/Natsuki__f37cb3--920633b962cf251e--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 24360,
+                "integrity": "sha256-lqkW/dy43e7+jtRxqSp7E5BDF0V0B6WobRKaGwVEjIQ="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Sayori",
+              "label": "Sayori",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Game/Doki_Doki_Litterature_Club/Sayori__31adee.png",
+                  "contentType": "image/png",
+                  "byteSize": 146833,
+                  "integrity": "sha256-RMf6O7EJPJ1ilCOMedulaboTDC6lWuq8zjmxxLBfpPI="
+                }
+              },
+              "color": "#31adee",
+              "preview": {
+                "path": "previews/characters/Game/Doki_Doki_Litterature_Club/Sayori__31adee--44c7fa3bb1093c9d--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 18832,
+                "integrity": "sha256-GN2oxqipjrCVvR9X2L3W+xqSzRebTfEmRzSONxCZ7wU="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Yuri",
+              "label": "Yuri",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Game/Doki_Doki_Litterature_Club/Yuri__b954b5.png",
+                  "contentType": "image/png",
+                  "byteSize": 250310,
+                  "integrity": "sha256-sWJqsukrk+pn/h8Uqr/xYjSDwprjiHCOg/6x1kg+wAo="
+                }
+              },
+              "color": "#b954b5",
+              "preview": {
+                "path": "previews/characters/Game/Doki_Doki_Litterature_Club/Yuri__b954b5--b1626ab2e92b93ea--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 26402,
+                "integrity": "sha256-XFYyl04FJyMYScE79AazRIiskzeJ5IB3CG0FCtVqLfM="
+              }
+            }
+          ],
+          "categories": []
+        }
+      ]
     }
   ]
 }
