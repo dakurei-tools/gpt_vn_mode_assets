@@ -33,6 +33,36 @@
             "byteSize": 366132,
             "integrity": "sha256-NkSHDpBf0+ZKC3KqUuAOyYzzeyYKfR6T3ABMaiC7tqI="
           }
+        },
+        {
+          "id": "Bell/School_bell",
+          "label": "School bell",
+          "file": {
+            "path": "assets/sounds/Bell/School_bell.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 67709,
+            "integrity": "sha256-Tk5Jp9EMe8Sk6HYYi/T83atYUhd18T0QLzbXJD+B5zw="
+          }
+        },
+        {
+          "id": "Bell/School_bell_2",
+          "label": "School bell 2",
+          "file": {
+            "path": "assets/sounds/Bell/School_bell_2.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 119536,
+            "integrity": "sha256-YTkzcmw6hE8mpqsnCm6RZpAJY+7Ktpdc2FhaIXXdoVE="
+          }
+        },
+        {
+          "id": "Bell/School_bell_3",
+          "label": "School bell 3",
+          "file": {
+            "path": "assets/sounds/Bell/School_bell_3.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 523284,
+            "integrity": "sha256-FDAQU+yRx6/inwb7JtlZKsrj66oIOs6o8v7m5TbiKt8="
+          }
         }
       ],
       "categories": []

@@ -569,6 +569,22 @@
               }
             },
             {
+              "id": "Game/Doki_Doki_Litterature_Club/Gym_Courtyard",
+              "label": "Gym Courtyard",
+              "file": {
+                "path": "assets/backgrounds/Game/Doki_Doki_Litterature_Club/Gym_Courtyard.png",
+                "contentType": "image/png",
+                "byteSize": 605019,
+                "integrity": "sha256-D9C+CBHJMntH1s6AZXCQJFYayeHRKYbR6BOXGNJKww0="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Game/Doki_Doki_Litterature_Club/Gym_Courtyard--0fd0be0811c9327b--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 34328,
+                "integrity": "sha256-TRTthDwu3bVpSPW3vy1c9hNQUKf+E4C0LlcYgDg0O/k="
+              }
+            },
+            {
               "id": "Game/Doki_Doki_Litterature_Club/House",
               "label": "House",
               "file": {
