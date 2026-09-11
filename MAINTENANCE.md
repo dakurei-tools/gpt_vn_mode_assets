@@ -21,8 +21,9 @@ expressions are not counted separately.
 
 The same command maintains content-addressed gallery previews under `previews/`:
 
-- character previews contain only the default sprite, converted to WebP and
-  bounded to 512 by 512 pixels without upscaling or changing its aspect ratio;
+- character previews contain the default sprite of the base outfit and of each
+  alternate outfit, converted to WebP and bounded to 512 by 512 pixels without
+  upscaling or changing its aspect ratio;
 - background previews are converted to WebP and bounded to 640 by 360 pixels
   under the same constraints;
 - music previews contain the first 15 seconds encoded as a 96 kbit/s MP3;

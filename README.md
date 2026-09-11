@@ -60,13 +60,15 @@ assets/characters/Anime/Evangelion/Asuka_Langley__e65a32.webp
 The `__e65a32` suffix is optional. It defines a suggested default color using
 six hexadecimal digits without the `#` prefix.
 
-To add expressions, create a directory next to the main image with the exact
-same name, minus the file extension:
+To add expressions or outfits, create a directory next to the main image using
+the character name without the file extension or optional color suffix:
 
 ```text
 assets/characters/Anime/Evangelion/
 ├── Asuka_Langley__e65a32.webp
-└── Asuka_Langley__e65a32/
+└── Asuka_Langley/
+    ├── [Plug_suit].webp
+    ├── [Plug_suit]angry.webp
     ├── happy.webp
     └── sad.webp
 ```
@@ -74,6 +76,12 @@ assets/characters/Anime/Evangelion/
 Recognized expressions are `happy`, `sad`, `mischievous`, `surprised`,
 `embarrassed`, and `angry`. Do not place a `default` file in this directory:
 the main image already serves that purpose.
+
+An outfit name goes between square brackets. A bracket-only file such as
+`[Plug_suit].webp` is the outfit's required default sprite. Append an expression
+directly after the closing bracket for its variants, for example
+`[Plug_suit]angry.webp`. Underscores in outfit names become spaces in the
+gallery. An outfit without its own bracket-only default sprite is rejected.
 
 ### Music
 

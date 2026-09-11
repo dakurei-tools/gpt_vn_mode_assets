@@ -40,7 +40,7 @@ class GeneratorTest < Minitest::Test
     category.mkpath
     default = category.join("Asuka_Langley__e65a32.webp")
     default.binwrite("default sprite")
-    pack = category.join("Asuka_Langley__e65a32")
+    pack = category.join("Asuka_Langley")
     pack.mkpath
     happy = pack.join("happy.png")
     happy.binwrite("happy sprite")
@@ -58,6 +58,71 @@ class GeneratorTest < Minitest::Test
     assert_equal "image/webp", character.dig("sprites", "default", "contentType")
     assert_equal integrity_for(default), character.dig("sprites", "default", "integrity")
     assert_equal integrity_for(happy), character.dig("sprites", "happy", "integrity")
+  end
+
+  def test_builds_appearances_from_bracketed_sprite_names
+    category = @root.join("assets/characters/Anime/Naruto")
+    category.mkpath
+    default = category.join("Dakurei_Makushimu_(Shippuden)__4995d4.png")
+    default.binwrite("default sprite")
+    pack = category.join("Dakurei_Makushimu_(Shippuden)")
+    pack.mkpath
+    pack.join("angry.png").binwrite("default angry sprite")
+    outfit_default = pack.join("[Tenue_spéciale].png")
+    outfit_default.binwrite("outfit default sprite")
+    outfit_angry = pack.join("[Tenue_spéciale]angry.webp")
+    outfit_angry.binwrite("outfit angry sprite")
+
+    character = generator.manifests
+      .dig("characters", "categories", 0, "categories", 0, "assets", 0)
+
+    assert_equal %w[default angry], character.fetch("sprites").keys
+    assert_equal 1, character.fetch("appearances").length
+    appearance = character.fetch("appearances").first
+    assert_equal "tenue-speciale", appearance.fetch("id")
+    assert_equal "Tenue spéciale", appearance.fetch("label")
+    assert_equal %w[default angry], appearance.fetch("sprites").keys
+    assert_equal integrity_for(outfit_default), appearance.dig("sprites", "default", "integrity")
+    assert_equal integrity_for(outfit_angry), appearance.dig("sprites", "angry", "integrity")
+  end
+
+  def test_rejects_an_appearance_without_a_default_sprite
+    category = @root.join("assets/characters/Anime")
+    category.mkpath
+    category.join("Hero__123456.png").binwrite("default")
+    pack = category.join("Hero")
+    pack.mkpath
+    pack.join("[Armure]angry.png").binwrite("angry")
+
+    error = assert_raises(GptVnModeAssets::Error) { generator.manifests }
+
+    assert_match "Appearance \"Armure\" has no default sprite", error.message
+  end
+
+  def test_rejects_an_explicit_default_suffix_for_an_appearance
+    category = @root.join("assets/characters/Anime")
+    category.mkpath
+    category.join("Hero.png").binwrite("default")
+    pack = category.join("Hero")
+    pack.mkpath
+    pack.join("[Armure]default.png").binwrite("armour default")
+
+    error = assert_raises(GptVnModeAssets::Error) { generator.manifests }
+
+    assert_match "omit 'default' after the bracket", error.message
+  end
+
+  def test_rejects_a_legacy_color_suffix_on_a_character_pack_directory
+    category = @root.join("assets/characters/Anime")
+    category.mkpath
+    category.join("Hero__123456.png").binwrite("default")
+    legacy_pack = category.join("Hero__123456")
+    legacy_pack.mkpath
+    legacy_pack.join("happy.png").binwrite("happy")
+
+    error = assert_raises(GptVnModeAssets::Error) { generator.manifests }
+
+    assert_match "Character pack without a matching default sprite", error.message
   end
 
   def test_builds_nested_categories_for_regular_assets
@@ -131,6 +196,29 @@ class GeneratorTest < Minitest::Test
     optimized_generator.write!
     assert_equal 4, previewer.calls.length
     refute original_music_preview.exist?
+    assert_empty optimized_generator.outdated_manifests
+  end
+
+  def test_generates_a_preview_for_each_appearance_default
+    character = @root.join("assets/characters/Hero__123456.png")
+    character.binwrite("default")
+    pack = @root.join("assets/characters/Hero")
+    pack.mkpath
+    outfit_default = pack.join("[Armure].png")
+    outfit_default.binwrite("armour default")
+    pack.join("[Armure]angry.png").binwrite("armour angry")
+    previewer = FakePreviewer.new
+    optimized_generator = GptVnModeAssets::Generator.new(root: @root, previewer: previewer)
+
+    optimized_generator.write!
+
+    manifest = JSON.parse(@root.join("characters.json").read)
+    appearance = manifest.dig("assets", 0, "appearances", 0)
+    assert_match(
+      %r{\Apreviews/characters/Hero/\[Armure\]--[0-9a-f]{16}--v1\.webp\z},
+      appearance.dig("preview", "path")
+    )
+    assert_equal [outfit_default, character], previewer.calls.map { |call| call.fetch(:source) }
     assert_empty optimized_generator.outdated_manifests
   end
 

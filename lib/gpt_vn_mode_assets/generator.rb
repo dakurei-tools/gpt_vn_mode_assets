@@ -284,7 +284,11 @@ module GptVnModeAssets
       end
       validate_unique_ids!(defaults, directory)
 
-      pack_names = files.map { |file| file.basename(file.extname).to_s }.to_h { |stem| [stem, true] }
+      pack_names = files.to_h do |file|
+        stem = file.basename(file.extname).to_s
+        source_name, = parse_character_stem(stem, file)
+        [source_name, true]
+      end
       categories = directories.reject { |child| pack_names.key?(child.basename.to_s) }
 
       detect_orphan_expression_packs!(categories, extensions)
@@ -362,22 +366,26 @@ module GptVnModeAssets
       stem = default_file.basename(default_file.extname).to_s
       source_name, color = parse_character_stem(stem, default_file)
       sprites = { "default" => file_descriptor(default_file, extensions) }
-      pack = directory.join(stem)
+      appearances = {}
+      pack = directory.join(source_name)
 
       if pack.directory?
         visible_entries(pack).each do |entry|
-          raise Error, "An expression pack cannot contain a directory: #{relative(entry)}" if entry.directory?
+          raise Error, "A character pack cannot contain a directory: #{relative(entry)}" if entry.directory?
 
           validate_entry_types!([entry])
           validate_extension!(entry, extensions)
-          emotion = entry.basename(entry.extname).to_s
-
-          unless EMOTIONS.include?(emotion) && emotion != "default"
-            raise Error, "Unknown expression in #{relative(entry)}: #{emotion.inspect}"
+          appearance_name, emotion = parse_character_sprite_stem(
+            entry.basename(entry.extname).to_s,
+            entry
+          )
+          target = appearance_name ? (appearances[appearance_name] ||= {}) : sprites
+          if target.key?(emotion)
+            scope = appearance_name ? "appearance #{appearance_name.inspect}" : "default appearance"
+            raise Error, "Duplicate expression for #{scope} in #{relative(pack)}: #{emotion}"
           end
-          raise Error, "Duplicate expression in #{relative(pack)}: #{emotion}" if sprites.key?(emotion)
 
-          sprites[emotion] = file_descriptor(entry, extensions)
+          target[emotion] = file_descriptor(entry, extensions)
         end
       end
 
@@ -390,9 +398,78 @@ module GptVnModeAssets
         "label" => display_name(source_name),
         "sprites" => ordered_sprites
       }
+      unless appearances.empty?
+        asset["appearances"] = appearances.map do |appearance_name, appearance_sprites|
+          unless appearance_sprites.key?("default")
+            raise Error,
+                  "Appearance #{appearance_name.inspect} has no default sprite in #{relative(pack)}"
+          end
+
+          appearance = {
+            "id" => appearance_id(appearance_name),
+            "label" => display_name(appearance_name),
+            "sprites" => ordered_character_sprites(appearance_sprites)
+          }
+          if @previews
+            default_source = root.join(appearance.fetch("sprites").fetch("default").fetch("path"))
+            appearance["preview"] = preview_descriptor(default_source, "characters")
+          end
+          appearance
+        end.sort_by { |appearance| [appearance.fetch("label").downcase, appearance.fetch("id")] }
+
+        duplicate_ids = asset.fetch("appearances")
+          .group_by { |appearance| appearance.fetch("id") }
+          .select { |_id, matches| matches.length > 1 }
+          .keys
+        unless duplicate_ids.empty?
+          raise Error, "Duplicate appearance ID in #{relative(pack)}: #{duplicate_ids.join(', ')}"
+        end
+      end
       asset["color"] = "##{color.downcase}" if color
       asset["preview"] = preview_descriptor(default_file, "characters") if @previews
       asset
+    end
+
+    def parse_character_sprite_stem(stem, file)
+      if stem.start_with?("[")
+        match = stem.match(/\A\[([^\[\]]+)\](.*)\z/)
+        unless match && !display_name(match[1]).empty?
+          raise Error, "Invalid appearance name in #{relative(file)}: #{stem.inspect}"
+        end
+
+        if match[2] == "default"
+          raise Error,
+                "Invalid default appearance sprite in #{relative(file)}: omit 'default' after the bracket"
+        end
+
+        emotion = match[2].empty? ? "default" : match[2]
+        unless EMOTIONS.include?(emotion)
+          raise Error, "Unknown expression in #{relative(file)}: #{emotion.inspect}"
+        end
+
+        return [match[1], emotion]
+      end
+
+      unless EMOTIONS.include?(stem) && stem != "default"
+        raise Error, "Unknown expression in #{relative(file)}: #{stem.inspect}"
+      end
+
+      [nil, stem]
+    end
+
+    def ordered_character_sprites(sprites)
+      EMOTIONS.each_with_object({}) do |emotion, result|
+        result[emotion] = sprites.fetch(emotion) if sprites.key?(emotion)
+      end
+    end
+
+    def appearance_id(source_name)
+      source_name.unicode_normalize(:nfd)
+        .gsub(/\p{Mn}/, "")
+        .downcase
+        .gsub(/[^a-z0-9]+/, "-")
+        .gsub(/\A-+|-+\z/, "")[0, 48]
+        .then { |id| id.empty? ? "appearance" : id }
     end
 
     def build_file_asset(file, category_parts, extensions, kind:, title_metadata:)
@@ -545,7 +622,12 @@ module GptVnModeAssets
 
     def referenced_paths(node)
       files = node.fetch("assets").flat_map do |asset|
-        descriptors = asset["sprites"] ? asset.fetch("sprites").values : [asset.fetch("file")]
+        descriptors = if asset["sprites"]
+                        asset.fetch("sprites").values +
+                          asset.fetch("appearances", []).flat_map { |appearance| appearance.fetch("sprites").values }
+                      else
+                        [asset.fetch("file")]
+                      end
         descriptors.map { |descriptor| descriptor.fetch("path") }
       end
 
@@ -589,10 +671,14 @@ module GptVnModeAssets
         files = visible_entries(directory).select(&:file?)
         next if files.empty?
         next unless files.all? do |file|
-          extensions.key?(file.extname.downcase) && EMOTIONS.include?(file.basename(file.extname).to_s)
+          next false unless extensions.key?(file.extname.downcase)
+
+          stem = file.basename(file.extname).to_s
+          stem.match?(/\A\[[^\[\]]+\](?:#{EMOTIONS.drop(1).join('|')})?\z/) ||
+            (EMOTIONS.include?(stem) && stem != "default")
         end
 
-        raise Error, "Expression pack without a matching default sprite: #{relative(directory)}"
+        raise Error, "Character pack without a matching default sprite: #{relative(directory)}"
       end
     end
 
