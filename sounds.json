@@ -150,6 +150,16 @@
       "label": "Doors",
       "assets": [
         {
+          "id": "Doors/Door_knock",
+          "label": "Door knock",
+          "file": {
+            "path": "assets/sounds/Doors/Door_knock.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 29952,
+            "integrity": "sha256-ztYK9381qBWhC8iXrB6TfLIfXL5vGifK4Y89LlDm95o="
+          }
+        },
+        {
           "id": "Doors/Key_lock",
           "label": "Key lock",
           "file": {
@@ -513,6 +523,23 @@
             "contentType": "audio/mpeg",
             "byteSize": 58368,
             "integrity": "sha256-AN2f7/8Y/3UQPpySog4Pav0eJHaLQZ6+2GLE1/1IVns="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
+      "id": "Washing",
+      "label": "Washing",
+      "assets": [
+        {
+          "id": "Washing/Shower",
+          "label": "Shower",
+          "file": {
+            "path": "assets/sounds/Washing/Shower.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 229920,
+            "integrity": "sha256-c4Ms16mXUpLVDqgLstEOCihig+aE99PAVYt7lyHg6wA="
           }
         }
       ],

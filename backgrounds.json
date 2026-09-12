@@ -489,6 +489,22 @@
           "label": "Doki Doki Litterature Club",
           "assets": [
             {
+              "id": "Game/Doki_Doki_Litterature_Club/Bathroom",
+              "label": "Bathroom",
+              "file": {
+                "path": "assets/backgrounds/Game/Doki_Doki_Litterature_Club/Bathroom.png",
+                "contentType": "image/png",
+                "byteSize": 590027,
+                "integrity": "sha256-Yu2HtucRl1ya3WBpRBrkHNj/JgXFY8Cri+UnrRXJecA="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Game/Doki_Doki_Litterature_Club/Bathroom--62ed87b6e711975c--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 17296,
+                "integrity": "sha256-HLyDlZyj435MC8LEfC99EIGotz3eMg0KTgDml8PnfNE="
+              }
+            },
+            {
               "id": "Game/Doki_Doki_Litterature_Club/Bedroom",
               "label": "Bedroom",
               "file": {
@@ -502,6 +518,22 @@
                 "contentType": "image/webp",
                 "byteSize": 15418,
                 "integrity": "sha256-srwGKURs8TAbZ67JhQXpzkJDLvGTPrgvyP4Ri+bBkCg="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Cafeteria",
+              "label": "Cafeteria",
+              "file": {
+                "path": "assets/backgrounds/Game/Doki_Doki_Litterature_Club/Cafeteria.png",
+                "contentType": "image/png",
+                "byteSize": 604422,
+                "integrity": "sha256-LLP7fhqDITM7xkIaTq8quGj/1hJlO8/jvhxbMopFg2Y="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Game/Doki_Doki_Litterature_Club/Cafeteria--2cb3fb7e1a832133--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 27698,
+                "integrity": "sha256-EDxXiktVYMsXKFrfmGRN8fVbtEe+Q6FmMMwaaMbpyCU="
               }
             },
             {
@@ -646,6 +678,38 @@
                 "contentType": "image/webp",
                 "byteSize": 20314,
                 "integrity": "sha256-n3weHXGfp67bai9fN7XVDpbrK/nGFc85gDuiV1RWZE4="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Kitchen_2",
+              "label": "Kitchen 2",
+              "file": {
+                "path": "assets/backgrounds/Game/Doki_Doki_Litterature_Club/Kitchen_2.png",
+                "contentType": "image/png",
+                "byteSize": 507701,
+                "integrity": "sha256-C2Bmj+T7/3w9wbMaTugYif+GhabhluKss80rlSAtCIg="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Game/Doki_Doki_Litterature_Club/Kitchen_2--0b60668fe4fbff7c--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 17944,
+                "integrity": "sha256-Gj+OJ9OrpebB2ehmS+uCCMhiR7fY9oDIcPDc7wFQ2TE="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Living_Room",
+              "label": "Living Room",
+              "file": {
+                "path": "assets/backgrounds/Game/Doki_Doki_Litterature_Club/Living_Room.png",
+                "contentType": "image/png",
+                "byteSize": 600084,
+                "integrity": "sha256-agAYq2h/PX2LQF7mn4kYR+3f9jRPzGvUpcZIpfi97DE="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Game/Doki_Doki_Litterature_Club/Living_Room--6a0018ab687f3d7d--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 19812,
+                "integrity": "sha256-/eXZYRnMzB/oxaNTaYfGxetoBAuqOYPR+xnOPOEVO+Q="
               }
             },
             {
