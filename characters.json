@@ -35,99 +35,199 @@
           "categories": []
         },
         {
-          "id": "Anime/K-On",
-          "label": "K-On",
+          "id": "Anime/K-On!",
+          "label": "K-On!",
           "assets": [
             {
-              "id": "Anime/K-On/Azusa_Nakano",
+              "id": "Anime/K-On!/Azusa_Nakano",
               "label": "Azusa Nakano",
               "sprites": {
                 "default": {
-                  "path": "assets/characters/Anime/K-On/Azusa_Nakano__39af99.png",
+                  "path": "assets/characters/Anime/K-On!/Azusa_Nakano__39af99.png",
                   "contentType": "image/png",
                   "byteSize": 207581,
                   "integrity": "sha256-tV9ZZLU9O3SD0lhQQ5W3H39rMwMmkEotqBbdumgr0/s="
                 }
               },
+              "appearances": [
+                {
+                  "id": "doki-doki-litterature-club-style",
+                  "label": "Doki Doki Litterature Club Style",
+                  "sprites": {
+                    "default": {
+                      "path": "assets/characters/Anime/K-On!/Azusa_Nakano/[Doki_Doki_Litterature_Club_Style].png",
+                      "contentType": "image/png",
+                      "byteSize": 230112,
+                      "integrity": "sha256-FZUnNLs+SWbmfNGVMamonMTh/ji5r00vJgPV21pf/QA="
+                    }
+                  },
+                  "preview": {
+                    "path": "previews/characters/Anime/K-On!/Azusa_Nakano/[Doki_Doki_Litterature_Club_Style]--15952734bb3e4966--v1.webp",
+                    "contentType": "image/webp",
+                    "byteSize": 25558,
+                    "integrity": "sha256-IjN30AKtwYlbaabk/rwUoodpR3icL1hUqrHlKF1k/V0="
+                  }
+                }
+              ],
               "color": "#39af99",
               "preview": {
-                "path": "previews/characters/Anime/K-On/Azusa_Nakano__39af99--b55f5964b53d3b74--v1.webp",
+                "path": "previews/characters/Anime/K-On!/Azusa_Nakano__39af99--b55f5964b53d3b74--v1.webp",
                 "contentType": "image/webp",
                 "byteSize": 24062,
                 "integrity": "sha256-7ZwhAHdbslodeaShRJrMdlOF+4DPrZfUEu3PkaO7Hvo="
               }
             },
             {
-              "id": "Anime/K-On/Mio_Akiyama",
+              "id": "Anime/K-On!/Mio_Akiyama",
               "label": "Mio Akiyama",
               "sprites": {
                 "default": {
-                  "path": "assets/characters/Anime/K-On/Mio_Akiyama__25a8d4.png",
+                  "path": "assets/characters/Anime/K-On!/Mio_Akiyama__25a8d4.png",
                   "contentType": "image/png",
                   "byteSize": 201948,
                   "integrity": "sha256-IlHgF4LJewL8njAPnoxoLqqC7nOro0+G2MbkGeDYSSY="
                 }
               },
+              "appearances": [
+                {
+                  "id": "doki-doki-litterature-club-style",
+                  "label": "Doki Doki Litterature Club Style",
+                  "sprites": {
+                    "default": {
+                      "path": "assets/characters/Anime/K-On!/Mio_Akiyama/[Doki_Doki_Litterature_Club_Style].png",
+                      "contentType": "image/png",
+                      "byteSize": 207554,
+                      "integrity": "sha256-sX3Nld7b7J03mCRREvTQSCZy+7IYKtw8zj7OGQo+y0A="
+                    }
+                  },
+                  "preview": {
+                    "path": "previews/characters/Anime/K-On!/Mio_Akiyama/[Doki_Doki_Litterature_Club_Style]--b17dcd95dedbec9d--v1.webp",
+                    "contentType": "image/webp",
+                    "byteSize": 20006,
+                    "integrity": "sha256-apCKaitisnZ/AAeNP+IfBYF+2dOtHa5d3q3+G4GTYoA="
+                  }
+                }
+              ],
               "color": "#25a8d4",
               "preview": {
-                "path": "previews/characters/Anime/K-On/Mio_Akiyama__25a8d4--2251e01782c97b02--v1.webp",
+                "path": "previews/characters/Anime/K-On!/Mio_Akiyama__25a8d4--2251e01782c97b02--v1.webp",
                 "contentType": "image/webp",
                 "byteSize": 21078,
                 "integrity": "sha256-5VAhsBoE/F5BIU21HK6m6q8CZ6QqWphmgSPx1gJNyU0="
               }
             },
             {
-              "id": "Anime/K-On/Ritsu_Tainaka",
+              "id": "Anime/K-On!/Ritsu_Tainaka",
               "label": "Ritsu Tainaka",
               "sprites": {
                 "default": {
-                  "path": "assets/characters/Anime/K-On/Ritsu_Tainaka__fca544.png",
+                  "path": "assets/characters/Anime/K-On!/Ritsu_Tainaka__fca544.png",
                   "contentType": "image/png",
                   "byteSize": 186788,
                   "integrity": "sha256-N2CE/c47NkE1KdrRcZEhKzPZBLYuwzOqZxf9uDZFuoY="
                 }
               },
+              "appearances": [
+                {
+                  "id": "doki-doki-litterature-club-style",
+                  "label": "Doki Doki Litterature Club Style",
+                  "sprites": {
+                    "default": {
+                      "path": "assets/characters/Anime/K-On!/Ritsu_Tainaka/[Doki_Doki_Litterature_Club_Style].png",
+                      "contentType": "image/png",
+                      "byteSize": 182489,
+                      "integrity": "sha256-h9hzBvR/oQBmiI6dacMdUgWiNikpy2ZDpz5iApJOqak="
+                    }
+                  },
+                  "preview": {
+                    "path": "previews/characters/Anime/K-On!/Ritsu_Tainaka/[Doki_Doki_Litterature_Club_Style]--87d87306f47fa100--v1.webp",
+                    "contentType": "image/webp",
+                    "byteSize": 20020,
+                    "integrity": "sha256-Yjxuj2UI+p3gIH5cYC1tysMIAeflV2ynivtL60dOzHM="
+                  }
+                }
+              ],
               "color": "#fca544",
               "preview": {
-                "path": "previews/characters/Anime/K-On/Ritsu_Tainaka__fca544--376084fdce3b3641--v1.webp",
+                "path": "previews/characters/Anime/K-On!/Ritsu_Tainaka__fca544--376084fdce3b3641--v1.webp",
                 "contentType": "image/webp",
                 "byteSize": 20898,
                 "integrity": "sha256-aAnSTXsr/iIVd2cUlUYdl/x+f5P/C3p3gxkDuO7pUWk="
               }
             },
             {
-              "id": "Anime/K-On/Tsumugi_Kotobuki",
+              "id": "Anime/K-On!/Tsumugi_Kotobuki",
               "label": "Tsumugi Kotobuki",
               "sprites": {
                 "default": {
-                  "path": "assets/characters/Anime/K-On/Tsumugi_Kotobuki__e755a8.png",
+                  "path": "assets/characters/Anime/K-On!/Tsumugi_Kotobuki__e755a8.png",
                   "contentType": "image/png",
                   "byteSize": 200386,
                   "integrity": "sha256-OPFZtvoJzJqAFOiQDGuPYXdGP+OaQkah7mfHyLUvuP8="
                 }
               },
+              "appearances": [
+                {
+                  "id": "doki-doki-litterature-club-style",
+                  "label": "Doki Doki Litterature Club Style",
+                  "sprites": {
+                    "default": {
+                      "path": "assets/characters/Anime/K-On!/Tsumugi_Kotobuki/[Doki_Doki_Litterature_Club_Style].png",
+                      "contentType": "image/png",
+                      "byteSize": 192416,
+                      "integrity": "sha256-gNINh2m8OX2PpUosICYnco5nzmia7EyypvmgSRprRgs="
+                    }
+                  },
+                  "preview": {
+                    "path": "previews/characters/Anime/K-On!/Tsumugi_Kotobuki/[Doki_Doki_Litterature_Club_Style]--80d20d8769bc397d--v1.webp",
+                    "contentType": "image/webp",
+                    "byteSize": 20842,
+                    "integrity": "sha256-36jtG0o774iQQCKOruldIUVzIqA71eSCVTi99CPIWok="
+                  }
+                }
+              ],
               "color": "#e755a8",
               "preview": {
-                "path": "previews/characters/Anime/K-On/Tsumugi_Kotobuki__e755a8--38f159b6fa09cc9a--v1.webp",
+                "path": "previews/characters/Anime/K-On!/Tsumugi_Kotobuki__e755a8--38f159b6fa09cc9a--v1.webp",
                 "contentType": "image/webp",
                 "byteSize": 22264,
                 "integrity": "sha256-bhjpHfuoN/gDQ+O5mna2SETfWJFIYL9mFvS6SUBacIU="
               }
             },
             {
-              "id": "Anime/K-On/Yui_Hirasawa",
+              "id": "Anime/K-On!/Yui_Hirasawa",
               "label": "Yui Hirasawa",
               "sprites": {
                 "default": {
-                  "path": "assets/characters/Anime/K-On/Yui_Hirasawa__d61d25.png",
+                  "path": "assets/characters/Anime/K-On!/Yui_Hirasawa__d61d25.png",
                   "contentType": "image/png",
                   "byteSize": 176918,
                   "integrity": "sha256-7/hn+13ZNsn1G6q5EP1cebuD08C0XlK+qZDIlgd5WNk="
                 }
               },
+              "appearances": [
+                {
+                  "id": "doki-doki-litterature-club-style",
+                  "label": "Doki Doki Litterature Club Style",
+                  "sprites": {
+                    "default": {
+                      "path": "assets/characters/Anime/K-On!/Yui_Hirasawa/[Doki_Doki_Litterature_Club_Style].png",
+                      "contentType": "image/png",
+                      "byteSize": 170129,
+                      "integrity": "sha256-BxV9a8odgM61dHFTdTSlw890gh5c1JbJo7Nx8vDUOeA="
+                    }
+                  },
+                  "preview": {
+                    "path": "previews/characters/Anime/K-On!/Yui_Hirasawa/[Doki_Doki_Litterature_Club_Style]--07157d6bca1d80ce--v1.webp",
+                    "contentType": "image/webp",
+                    "byteSize": 19274,
+                    "integrity": "sha256-D/HlJ08plMYoIgil3bA8DttdtDBEmgwzHoJlnBaPBu8="
+                  }
+                }
+              ],
               "color": "#d61d25",
               "preview": {
-                "path": "previews/characters/Anime/K-On/Yui_Hirasawa__d61d25--eff867fb5dd936c9--v1.webp",
+                "path": "previews/characters/Anime/K-On!/Yui_Hirasawa__d61d25--eff867fb5dd936c9--v1.webp",
                 "contentType": "image/webp",
                 "byteSize": 18694,
                 "integrity": "sha256-M4yf3ZofthaH3roPTREp5dQIsxlU/RHV89pnsj6D5oA="
@@ -941,6 +1041,26 @@
                   "integrity": "sha256-rMVfTdhd1TiIdqQqkyyqeeAbT482PkEeV/5BpkGw+iA="
                 }
               },
+              "appearances": [
+                {
+                  "id": "k-on-style",
+                  "label": "K-On! Style",
+                  "sprites": {
+                    "default": {
+                      "path": "assets/characters/Game/Doki_Doki_Litterature_Club/Monika/[K-On!_Style].png",
+                      "contentType": "image/png",
+                      "byteSize": 196208,
+                      "integrity": "sha256-rOR6yZRvfc+nJZqHNN7G1PokG5BgN0U3wOevbPeVldc="
+                    }
+                  },
+                  "preview": {
+                    "path": "previews/characters/Game/Doki_Doki_Litterature_Club/Monika/[K-On!_Style]--ace47ac9946f7dcf--v1.webp",
+                    "contentType": "image/webp",
+                    "byteSize": 26028,
+                    "integrity": "sha256-7xSmFaEhOMqge7hjIof9amTrogHf5iA/jIWks8OjSKM="
+                  }
+                }
+              ],
               "color": "#5bb145",
               "preview": {
                 "path": "previews/characters/Game/Doki_Doki_Litterature_Club/Monika__5bb145--acc55f4dd85dd538--v1.webp",
@@ -960,6 +1080,26 @@
                   "integrity": "sha256-kgYzuWLPJR51MlwHIestw9xNeN3julTtFg56VlgzB14="
                 }
               },
+              "appearances": [
+                {
+                  "id": "k-on-style",
+                  "label": "K-On! Style",
+                  "sprites": {
+                    "default": {
+                      "path": "assets/characters/Game/Doki_Doki_Litterature_Club/Natsuki/[K-On!_Style].png",
+                      "contentType": "image/png",
+                      "byteSize": 193235,
+                      "integrity": "sha256-qQFgmfnqETj1fBJqdVYGRtdot1Nw31XE4K3LeTLNo64="
+                    }
+                  },
+                  "preview": {
+                    "path": "previews/characters/Game/Doki_Doki_Litterature_Club/Natsuki/[K-On!_Style]--a9016099f9ea1138--v1.webp",
+                    "contentType": "image/webp",
+                    "byteSize": 24792,
+                    "integrity": "sha256-fpua8yqkfbFs9+pLfR/fQmzZt33OUI1BDXyuX4dP/uM="
+                  }
+                }
+              ],
               "color": "#f37cb3",
               "preview": {
                 "path": "previews/characters/Game/Doki_Doki_Litterature_Club/Natsuki__f37cb3--920633b962cf251e--v1.webp",
@@ -979,6 +1119,26 @@
                   "integrity": "sha256-RMf6O7EJPJ1ilCOMedulaboTDC6lWuq8zjmxxLBfpPI="
                 }
               },
+              "appearances": [
+                {
+                  "id": "k-on-style",
+                  "label": "K-On! Style",
+                  "sprites": {
+                    "default": {
+                      "path": "assets/characters/Game/Doki_Doki_Litterature_Club/Sayori/[K-On!_Style].png",
+                      "contentType": "image/png",
+                      "byteSize": 152953,
+                      "integrity": "sha256-n/ptEdNmSsw7A5LYos/qRVKaOhBv9Rabl9QFTkllNMI="
+                    }
+                  },
+                  "preview": {
+                    "path": "previews/characters/Game/Doki_Doki_Litterature_Club/Sayori/[K-On!_Style]--9ffa6d11d3664acc--v1.webp",
+                    "contentType": "image/webp",
+                    "byteSize": 18302,
+                    "integrity": "sha256-kxp6OzgvWBAmOw7iUWMhDVTgxIRapiEM7ahnNgPoHNs="
+                  }
+                }
+              ],
               "color": "#31adee",
               "preview": {
                 "path": "previews/characters/Game/Doki_Doki_Litterature_Club/Sayori__31adee--44c7fa3bb1093c9d--v1.webp",
@@ -998,6 +1158,26 @@
                   "integrity": "sha256-sWJqsukrk+pn/h8Uqr/xYjSDwprjiHCOg/6x1kg+wAo="
                 }
               },
+              "appearances": [
+                {
+                  "id": "k-on-style",
+                  "label": "K-On! Style",
+                  "sprites": {
+                    "default": {
+                      "path": "assets/characters/Game/Doki_Doki_Litterature_Club/Yuri/[K-On!_Style].png",
+                      "contentType": "image/png",
+                      "byteSize": 253706,
+                      "integrity": "sha256-SvAPsxixFHpJZQYwqAy9BXB13ULMUlmHjRs9MpecnEE="
+                    }
+                  },
+                  "preview": {
+                    "path": "previews/characters/Game/Doki_Doki_Litterature_Club/Yuri/[K-On!_Style]--4af00fb318b1147a--v1.webp",
+                    "contentType": "image/webp",
+                    "byteSize": 25324,
+                    "integrity": "sha256-UPDSvWYktmnQ0Iax3vDza0KQtC56Twn4Iw8mleb6PCo="
+                  }
+                }
+              ],
               "color": "#b954b5",
               "preview": {
                 "path": "previews/characters/Game/Doki_Doki_Litterature_Club/Yuri__b954b5--b1626ab2e92b93ea--v1.webp",
