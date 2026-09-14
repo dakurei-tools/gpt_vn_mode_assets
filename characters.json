@@ -35,6 +35,108 @@
           "categories": []
         },
         {
+          "id": "Anime/K-On",
+          "label": "K-On",
+          "assets": [
+            {
+              "id": "Anime/K-On/Azusa_Nakano",
+              "label": "Azusa Nakano",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/K-On/Azusa_Nakano__39af99.png",
+                  "contentType": "image/png",
+                  "byteSize": 207581,
+                  "integrity": "sha256-tV9ZZLU9O3SD0lhQQ5W3H39rMwMmkEotqBbdumgr0/s="
+                }
+              },
+              "color": "#39af99",
+              "preview": {
+                "path": "previews/characters/Anime/K-On/Azusa_Nakano__39af99--b55f5964b53d3b74--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 24062,
+                "integrity": "sha256-7ZwhAHdbslodeaShRJrMdlOF+4DPrZfUEu3PkaO7Hvo="
+              }
+            },
+            {
+              "id": "Anime/K-On/Mio_Akiyama",
+              "label": "Mio Akiyama",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/K-On/Mio_Akiyama__25a8d4.png",
+                  "contentType": "image/png",
+                  "byteSize": 201948,
+                  "integrity": "sha256-IlHgF4LJewL8njAPnoxoLqqC7nOro0+G2MbkGeDYSSY="
+                }
+              },
+              "color": "#25a8d4",
+              "preview": {
+                "path": "previews/characters/Anime/K-On/Mio_Akiyama__25a8d4--2251e01782c97b02--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 21078,
+                "integrity": "sha256-5VAhsBoE/F5BIU21HK6m6q8CZ6QqWphmgSPx1gJNyU0="
+              }
+            },
+            {
+              "id": "Anime/K-On/Ritsu_Tainaka",
+              "label": "Ritsu Tainaka",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/K-On/Ritsu_Tainaka__fca544.png",
+                  "contentType": "image/png",
+                  "byteSize": 186788,
+                  "integrity": "sha256-N2CE/c47NkE1KdrRcZEhKzPZBLYuwzOqZxf9uDZFuoY="
+                }
+              },
+              "color": "#fca544",
+              "preview": {
+                "path": "previews/characters/Anime/K-On/Ritsu_Tainaka__fca544--376084fdce3b3641--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 20898,
+                "integrity": "sha256-aAnSTXsr/iIVd2cUlUYdl/x+f5P/C3p3gxkDuO7pUWk="
+              }
+            },
+            {
+              "id": "Anime/K-On/Tsumugi_Kotobuki",
+              "label": "Tsumugi Kotobuki",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/K-On/Tsumugi_Kotobuki__e755a8.png",
+                  "contentType": "image/png",
+                  "byteSize": 200386,
+                  "integrity": "sha256-OPFZtvoJzJqAFOiQDGuPYXdGP+OaQkah7mfHyLUvuP8="
+                }
+              },
+              "color": "#e755a8",
+              "preview": {
+                "path": "previews/characters/Anime/K-On/Tsumugi_Kotobuki__e755a8--38f159b6fa09cc9a--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 22264,
+                "integrity": "sha256-bhjpHfuoN/gDQ+O5mna2SETfWJFIYL9mFvS6SUBacIU="
+              }
+            },
+            {
+              "id": "Anime/K-On/Yui_Hirasawa",
+              "label": "Yui Hirasawa",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/K-On/Yui_Hirasawa__d61d25.png",
+                  "contentType": "image/png",
+                  "byteSize": 176918,
+                  "integrity": "sha256-7/hn+13ZNsn1G6q5EP1cebuD08C0XlK+qZDIlgd5WNk="
+                }
+              },
+              "color": "#d61d25",
+              "preview": {
+                "path": "previews/characters/Anime/K-On/Yui_Hirasawa__d61d25--eff867fb5dd936c9--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 18694,
+                "integrity": "sha256-M4yf3ZofthaH3roPTREp5dQIsxlU/RHV89pnsj6D5oA="
+              }
+            }
+          ],
+          "categories": []
+        },
+        {
           "id": "Anime/Konosuba",
           "label": "Konosuba",
           "assets": [

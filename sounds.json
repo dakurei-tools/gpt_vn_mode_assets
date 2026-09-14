@@ -141,6 +141,16 @@
             "byteSize": 50991,
             "integrity": "sha256-WldO6bzIZMT4l2a3gA5xHk8xEFZph+mDoU4m0lQjBDs="
           }
+        },
+        {
+          "id": "Digital/Phone_vibration",
+          "label": "Phone vibration",
+          "file": {
+            "path": "assets/sounds/Digital/Phone_vibration.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 22560,
+            "integrity": "sha256-UR17JruEB7RdWTW/WxO3gjqANwMGFghDtn7HD39Z8n8="
+          }
         }
       ],
       "categories": []
