@@ -32,6 +32,29 @@
           "categories": []
         },
         {
+          "id": "Anime/K-On!",
+          "label": "K-On!",
+          "assets": [
+            {
+              "id": "Anime/K-On!/Light_Music_Club",
+              "label": "Light Music Club",
+              "file": {
+                "path": "assets/backgrounds/Anime/K-On!/Light_Music_Club.png",
+                "contentType": "image/png",
+                "byteSize": 451957,
+                "integrity": "sha256-Dfk9FWt/+7VSUsG0Uu1ejMMfbMmxWQtUvmSgXF1dkxc="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Anime/K-On!/Light_Music_Club--0df93d156b7ffbb5--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 21086,
+                "integrity": "sha256-twRJTMMLLDFPtDvbw45/+9lF8ATdVMmttNSHdB9PLyE="
+              }
+            }
+          ],
+          "categories": []
+        },
+        {
           "id": "Anime/Konosuba",
           "label": "Konosuba",
           "assets": [
@@ -582,6 +605,22 @@
                 "contentType": "image/webp",
                 "byteSize": 24840,
                 "integrity": "sha256-3kfPaWEwsu4EqI3kKYMLXiH9idRG+Cq6nNdLXaJ7HRo="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Club_corridor",
+              "label": "Club corridor",
+              "file": {
+                "path": "assets/backgrounds/Game/Doki_Doki_Litterature_Club/Club_corridor.png",
+                "contentType": "image/png",
+                "byteSize": 617214,
+                "integrity": "sha256-8drRUSE7H5+RGOxXoA1cDtW+UlCSAdanaFeSQyEx4r4="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Game/Doki_Doki_Litterature_Club/Club_corridor--f1dad151213b1f9f--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 23036,
+                "integrity": "sha256-QBQGj6wTlMo0mAfR8x3tDXj00s3h4ujO+2PHGdOi7D4="
               }
             },
             {

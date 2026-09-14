@@ -124,6 +124,16 @@
             "byteSize": 33120,
             "integrity": "sha256-jr792G5MVnaIiq+KULOUUyAK6b/H+PgV4YdMnRgwIT0="
           }
+        },
+        {
+          "id": "Desktop/Wooden_chair_move",
+          "label": "Wooden chair move",
+          "file": {
+            "path": "assets/sounds/Desktop/Wooden_chair_move.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 19824,
+            "integrity": "sha256-qUHeGEOgPil226x8Cuvok4hYmYMNIriRKOcyd65eg/w="
+          }
         }
       ],
       "categories": []
@@ -354,6 +364,30 @@
       "categories": []
     },
     {
+      "id": "Music",
+      "label": "Music",
+      "assets": [],
+      "categories": [
+        {
+          "id": "Music/Instrument",
+          "label": "Instrument",
+          "assets": [
+            {
+              "id": "Music/Instrument/Drum_kick_loop",
+              "label": "Drum kick loop",
+              "file": {
+                "path": "assets/sounds/Music/Instrument/Drum_kick_loop.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 67709,
+                "integrity": "sha256-pa/zFn4nVBlXweLIEVu3NwvPk5QDhqvNGxG7E9hXZZI="
+              }
+            }
+          ],
+          "categories": []
+        }
+      ]
+    },
+    {
       "id": "Nature",
       "label": "Nature",
       "assets": [
@@ -449,6 +483,26 @@
             "contentType": "audio/mpeg",
             "byteSize": 1798080,
             "integrity": "sha256-V7F+TYaD2gJ6vj/XraeraJufhSEZzZ9aUMsNaGIbAFw="
+          }
+        },
+        {
+          "id": "People/Hand_clap",
+          "label": "Hand clap",
+          "file": {
+            "path": "assets/sounds/People/Hand_clap.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 12480,
+            "integrity": "sha256-jdx855Ac/FKQz954XpRLaQzA2RCVIU2me2tjfJdgiUg="
+          }
+        },
+        {
+          "id": "People/Scared_woman_scream",
+          "label": "Scared woman scream",
+          "file": {
+            "path": "assets/sounds/People/Scared_woman_scream.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 50155,
+            "integrity": "sha256-NlIC5UzFzbeBS6ULaBKM3VY5lJR7AzGt2J0syLvzYUg="
           }
         }
       ],
@@ -607,6 +661,23 @@
             "contentType": "audio/mpeg",
             "byteSize": 106605,
             "integrity": "sha256-o8lApqq8kyzpG3lZueFpjSLSz0YJtv3HTTAi4dtX2Qk="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
+      "id": "Window",
+      "label": "Window",
+      "assets": [
+        {
+          "id": "Window/Rail_window",
+          "label": "Rail window",
+          "file": {
+            "path": "assets/sounds/Window/Rail_window.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 9936,
+            "integrity": "sha256-0+9RYbsyV3vNxfajUrXeSethoULVG/jRahOJZCtubMk="
           }
         }
       ],

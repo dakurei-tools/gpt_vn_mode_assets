@@ -33,6 +33,30 @@
           "categories": []
         },
         {
+          "id": "Anime/K-On!",
+          "label": "K-On!",
+          "assets": [
+            {
+              "id": "Anime/K-On!/Fuwa_fuwa_time",
+              "label": "Fuwa fuwa time",
+              "file": {
+                "path": "assets/music/Anime/K-On!/Fuwa_fuwa_time__Fuwa_fuwa_time.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 5492181,
+                "integrity": "sha256-7oi9Nc1cIyy5VlKTx8K6xmwDrX+5oqgmsNd41vDdhIw="
+              },
+              "title": "Fuwa fuwa time",
+              "preview": {
+                "path": "previews/music/Anime/K-On!/Fuwa_fuwa_time__Fuwa_fuwa_time--ee88bd35cd5c232c--v1.mp3",
+                "contentType": "audio/mpeg",
+                "byteSize": 180916,
+                "integrity": "sha256-q4idw+bHl8b7i+iMxwDeoXyzHwC6NSEM1WFjgVbL9to="
+              }
+            }
+          ],
+          "categories": []
+        },
+        {
           "id": "Anime/Konosuba",
           "label": "Konosuba",
           "assets": [
