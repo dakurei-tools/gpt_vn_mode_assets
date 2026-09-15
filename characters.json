@@ -1206,6 +1206,24 @@
               },
               "appearances": [
                 {
+                  "id": "casual",
+                  "label": "Casual",
+                  "sprites": {
+                    "default": {
+                      "path": "assets/characters/Game/Doki_Doki_Litterature_Club/Natsuki/[Casual].png",
+                      "contentType": "image/png",
+                      "byteSize": 190541,
+                      "integrity": "sha256-M5QodjL5WzkLcHAleS6dsKybJGj041Rj1SitF5/vDW4="
+                    }
+                  },
+                  "preview": {
+                    "path": "previews/characters/Game/Doki_Doki_Litterature_Club/Natsuki/[Casual]--3394287632f95b39--v1.webp",
+                    "contentType": "image/webp",
+                    "byteSize": 26352,
+                    "integrity": "sha256-sMUCoEGtRSiIdbK7fNAmMAkZZ0g3RactquGkLRwPRCQ="
+                  }
+                },
+                {
                   "id": "k-on-style",
                   "label": "K-On! Style",
                   "sprites": {
