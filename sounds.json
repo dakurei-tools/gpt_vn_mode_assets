@@ -52,6 +52,16 @@
           }
         },
         {
+          "id": "Bell/Doorbell",
+          "label": "Doorbell",
+          "file": {
+            "path": "assets/sounds/Bell/Doorbell.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 77880,
+            "integrity": "sha256-cJZ5MbAuwOmil8CfdT2OIpukFQaQ6PEe+dSMr+lzRNM="
+          }
+        },
+        {
           "id": "Bell/School_bell",
           "label": "School bell",
           "file": {
@@ -318,6 +328,43 @@
             "contentType": "audio/mpeg",
             "byteSize": 268015,
             "integrity": "sha256-LUnH/uaCuiGnOnDOvQhFucw5bvrgAlOLeRvvtH++LWY="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
+      "id": "Kitchen",
+      "label": "Kitchen",
+      "assets": [
+        {
+          "id": "Kitchen/Oven_door_close",
+          "label": "Oven door close",
+          "file": {
+            "path": "assets/sounds/Kitchen/Oven_door_close.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 50472,
+            "integrity": "sha256-MZZzI2oiQJzyDETdG75s9UxJqU7m1m/1chOnhmt75vA="
+          }
+        },
+        {
+          "id": "Kitchen/Oven_door_open",
+          "label": "Oven door open",
+          "file": {
+            "path": "assets/sounds/Kitchen/Oven_door_open.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 39000,
+            "integrity": "sha256-rRKzJKr/zGjnjJ6B1H68/i5DEY7iYcHnIjc5A+dKSro="
+          }
+        },
+        {
+          "id": "Kitchen/Timer_with_chime",
+          "label": "Timer with chime",
+          "file": {
+            "path": "assets/sounds/Kitchen/Timer_with_chime.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 48432,
+            "integrity": "sha256-Ck/bpaWVIwrItEJwkbVt+em5qmaNJcM1I3KMyYokcQM="
           }
         }
       ],
