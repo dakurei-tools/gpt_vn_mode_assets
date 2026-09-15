@@ -784,6 +784,22 @@
               }
             },
             {
+              "id": "Game/Doki_Doki_Litterature_Club/Park",
+              "label": "Park",
+              "file": {
+                "path": "assets/backgrounds/Game/Doki_Doki_Litterature_Club/Park.png",
+                "contentType": "image/png",
+                "byteSize": 840191,
+                "integrity": "sha256-lxoVEYJe6y06zAswk+PTp69NzheO4Xo7F3JOBeAETt4="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Game/Doki_Doki_Litterature_Club/Park--971a1511825eeb2d--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 59274,
+                "integrity": "sha256-SBwU1mFoaMnOSGfb7Es2xqcnM7vZLYWU0HkOJzuJOm0="
+              }
+            },
+            {
               "id": "Game/Doki_Doki_Litterature_Club/Residential",
               "label": "Residential",
               "file": {
@@ -813,6 +829,22 @@
                 "contentType": "image/webp",
                 "byteSize": 19744,
                 "integrity": "sha256-koWDBvxvXWAG5aObsZ7BJ6RP30kVCvVPEbiwrmmrd2Q="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Street_Park",
+              "label": "Street Park",
+              "file": {
+                "path": "assets/backgrounds/Game/Doki_Doki_Litterature_Club/Street_Park.png",
+                "contentType": "image/png",
+                "byteSize": 766641,
+                "integrity": "sha256-e4ledKBYaEekDEu7hGkOd2bWVVq4dyCJ0oPFfb5tVko="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Game/Doki_Doki_Litterature_Club/Street_Park--7b895e74a0586847--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 42302,
+                "integrity": "sha256-yMdetx/Dm5gKxHkFSRxDldlIG7gc4L/juGMSOngjnCA="
               }
             }
           ],
