@@ -237,6 +237,32 @@
           "categories": []
         },
         {
+          "id": "Anime/Komi_Can't_Communicate",
+          "label": "Komi Can't Communicate",
+          "assets": [
+            {
+              "id": "Anime/Komi_Can't_Communicate/Komi_Shouko",
+              "label": "Komi Shouko",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Komi_Can't_Communicate/Komi_Shouko__433952.png",
+                  "contentType": "image/png",
+                  "byteSize": 192623,
+                  "integrity": "sha256-vilv+A2l5z6eulhBjSlqSf5HepwQmiGpKzMIknzmqvo="
+                }
+              },
+              "color": "#433952",
+              "preview": {
+                "path": "previews/characters/Anime/Komi_Can't_Communicate/Komi_Shouko__433952--be296ff80da5e73e--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 17372,
+                "integrity": "sha256-sB2NMCi2llE6kVjoxH8NFOBWApFsQS+tVZRkot1YDXw="
+              }
+            }
+          ],
+          "categories": []
+        },
+        {
           "id": "Anime/Konosuba",
           "label": "Konosuba",
           "assets": [

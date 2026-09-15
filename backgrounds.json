@@ -656,6 +656,22 @@
               }
             },
             {
+              "id": "Game/Doki_Doki_Litterature_Club/High_School_Courtyard",
+              "label": "High School Courtyard",
+              "file": {
+                "path": "assets/backgrounds/Game/Doki_Doki_Litterature_Club/High_School_Courtyard.png",
+                "contentType": "image/png",
+                "byteSize": 620475,
+                "integrity": "sha256-kBBpZi5h8aDLlzETIR/z52fIucEuDKVCRWBan30U3hY="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Game/Doki_Doki_Litterature_Club/High_School_Courtyard--901069662e61f1a0--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 35780,
+                "integrity": "sha256-2Cm59aYYd9qhU+w6F9pZiiTGcEHQTFI1Hd5POAP1Vmw="
+              }
+            },
+            {
               "id": "Game/Doki_Doki_Litterature_Club/High_School_Entrance",
               "label": "High School Entrance",
               "file": {
@@ -669,6 +685,22 @@
                 "contentType": "image/webp",
                 "byteSize": 36296,
                 "integrity": "sha256-n8uaCkq1bhJ5YGKa9pI3IA6s+gskxxEivuJCXlvmQe8="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/High_School_Toilets",
+              "label": "High School Toilets",
+              "file": {
+                "path": "assets/backgrounds/Game/Doki_Doki_Litterature_Club/High_School_Toilets.png",
+                "contentType": "image/png",
+                "byteSize": 523986,
+                "integrity": "sha256-CsRrD8Ct2MPrlWjPqZ6VnbCQ/rvGFaDKk+evqy2YjnU="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Game/Doki_Doki_Litterature_Club/High_School_Toilets--0ac46b0fc0add8c3--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 13830,
+                "integrity": "sha256-/HaWQ9JW+BmIT25evjmcL6VERUxitw/MkWuolI1qUCQ="
               }
             },
             {

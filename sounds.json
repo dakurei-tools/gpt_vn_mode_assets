@@ -85,6 +85,23 @@
       "categories": []
     },
     {
+      "id": "Camera",
+      "label": "Camera",
+      "assets": [
+        {
+          "id": "Camera/Camera_shutter",
+          "label": "Camera shutter",
+          "file": {
+            "path": "assets/sounds/Camera/Camera_shutter.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 13374,
+            "integrity": "sha256-LPt4XrJ1lxyRwl6XdbGm6nKL4WKW/u+CFUHJ3Nmc934="
+          }
+        }
+      ],
+      "categories": []
+    },
+    {
       "id": "Construction",
       "label": "Construction",
       "assets": [
