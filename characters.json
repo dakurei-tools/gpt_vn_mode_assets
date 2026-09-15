@@ -251,12 +251,110 @@
                   "integrity": "sha256-vilv+A2l5z6eulhBjSlqSf5HepwQmiGpKzMIknzmqvo="
                 }
               },
+              "appearances": [
+                {
+                  "id": "doki-doki-litterature-club-style",
+                  "label": "Doki Doki Litterature Club Style",
+                  "sprites": {
+                    "default": {
+                      "path": "assets/characters/Anime/Komi_Can't_Communicate/Komi_Shouko/[Doki_Doki_Litterature_Club_Style].png",
+                      "contentType": "image/png",
+                      "byteSize": 195339,
+                      "integrity": "sha256-gQOTDlK63Q3LU8q5wyy5ALeg27z1tUnxkB92URUaIQw="
+                    }
+                  },
+                  "preview": {
+                    "path": "previews/characters/Anime/Komi_Can't_Communicate/Komi_Shouko/[Doki_Doki_Litterature_Club_Style]--8103930e52badd0d--v1.webp",
+                    "contentType": "image/webp",
+                    "byteSize": 16818,
+                    "integrity": "sha256-id4WKO2tlfW4sZ7H45I2yp4ay7EUc2yVfIbmSJ04fNY="
+                  }
+                }
+              ],
               "color": "#433952",
               "preview": {
                 "path": "previews/characters/Anime/Komi_Can't_Communicate/Komi_Shouko__433952--be296ff80da5e73e--v1.webp",
                 "contentType": "image/webp",
                 "byteSize": 17372,
                 "integrity": "sha256-sB2NMCi2llE6kVjoxH8NFOBWApFsQS+tVZRkot1YDXw="
+              }
+            },
+            {
+              "id": "Anime/Komi_Can't_Communicate/Najimi_Osana",
+              "label": "Najimi Osana",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Komi_Can't_Communicate/Najimi_Osana__d4bcd7.png",
+                  "contentType": "image/png",
+                  "byteSize": 176489,
+                  "integrity": "sha256-mqw1vt3CxdR9l8zb3NFVi2SMBEVMGKrtLN7/KpC0mDk="
+                }
+              },
+              "appearances": [
+                {
+                  "id": "doki-doki-litterature-club-style",
+                  "label": "Doki Doki Litterature Club Style",
+                  "sprites": {
+                    "default": {
+                      "path": "assets/characters/Anime/Komi_Can't_Communicate/Najimi_Osana/[Doki_Doki_Litterature_Club_Style].png",
+                      "contentType": "image/png",
+                      "byteSize": 169054,
+                      "integrity": "sha256-jMyhuIeDbBu3R1yDUifIatmSaM3ELOFD3o2c6IQlrNs="
+                    }
+                  },
+                  "preview": {
+                    "path": "previews/characters/Anime/Komi_Can't_Communicate/Najimi_Osana/[Doki_Doki_Litterature_Club_Style]--8ccca1b887836c1b--v1.webp",
+                    "contentType": "image/webp",
+                    "byteSize": 22430,
+                    "integrity": "sha256-5LKRkJjrZQmPdIbCVj0+SC/oRN1y20FOKIQwXfRmQMc="
+                  }
+                }
+              ],
+              "color": "#d4bcd7",
+              "preview": {
+                "path": "previews/characters/Anime/Komi_Can't_Communicate/Najimi_Osana__d4bcd7--9aac35beddc2c5d4--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 22910,
+                "integrity": "sha256-GZ5kJkiq7pPh7i+ex2Qm8U/WvV9p3siFct/KVdvLcls="
+              }
+            },
+            {
+              "id": "Anime/Komi_Can't_Communicate/Tadano_Hitohito",
+              "label": "Tadano Hitohito",
+              "sprites": {
+                "default": {
+                  "path": "assets/characters/Anime/Komi_Can't_Communicate/Tadano_Hitohito__b4b4ba.png",
+                  "contentType": "image/png",
+                  "byteSize": 224865,
+                  "integrity": "sha256-Tzb5lnlxSmWqeK5QCWYQdmwPZzJ/F8XiL6TYnop9QU4="
+                }
+              },
+              "appearances": [
+                {
+                  "id": "doki-doki-litterature-club-style",
+                  "label": "Doki Doki Litterature Club Style",
+                  "sprites": {
+                    "default": {
+                      "path": "assets/characters/Anime/Komi_Can't_Communicate/Tadano_Hitohito/[Doki_Doki_Litterature_Club_Style].png",
+                      "contentType": "image/png",
+                      "byteSize": 237286,
+                      "integrity": "sha256-Pai5leuz0x7ZpI8KNL9PHan2FQRb+8IMXvBFhm4MaaQ="
+                    }
+                  },
+                  "preview": {
+                    "path": "previews/characters/Anime/Komi_Can't_Communicate/Tadano_Hitohito/[Doki_Doki_Litterature_Club_Style]--3da8b995ebb3d31e--v1.webp",
+                    "contentType": "image/webp",
+                    "byteSize": 20532,
+                    "integrity": "sha256-vTK8TyN5/P+fqhd+/h31kT0WERFdANXqGnx3XcjRe+0="
+                  }
+                }
+              ],
+              "color": "#b4b4ba",
+              "preview": {
+                "path": "previews/characters/Anime/Komi_Can't_Communicate/Tadano_Hitohito__b4b4ba--4f36f99679714a65--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 20032,
+                "integrity": "sha256-o1T/EiAHkxeJLyD1D8YozVfa5LpiP/wp05dXhz5PJio="
               }
             }
           ],
