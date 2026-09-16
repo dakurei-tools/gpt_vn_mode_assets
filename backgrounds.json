@@ -512,6 +512,22 @@
           "label": "Doki Doki Litterature Club",
           "assets": [
             {
+              "id": "Game/Doki_Doki_Litterature_Club/Administrative_Offices",
+              "label": "Administrative Offices",
+              "file": {
+                "path": "assets/backgrounds/Game/Doki_Doki_Litterature_Club/Administrative_Offices.png",
+                "contentType": "image/png",
+                "byteSize": 586993,
+                "integrity": "sha256-RqHJ+tcQiwoNamnspnuugxMk1U3lK7w//ftoiUUSgJw="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Game/Doki_Doki_Litterature_Club/Administrative_Offices--46a1c9fad7108b0a--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 22566,
+                "integrity": "sha256-lFHxWp88pVd31uNbvXCEMCsEMKGcNNo0at1inzfUHI8="
+              }
+            },
+            {
               "id": "Game/Doki_Doki_Litterature_Club/Bathroom",
               "label": "Bathroom",
               "file": {
@@ -765,6 +781,22 @@
                 "contentType": "image/webp",
                 "byteSize": 17944,
                 "integrity": "sha256-Gj+OJ9OrpebB2ehmS+uCCMhiR7fY9oDIcPDc7wFQ2TE="
+              }
+            },
+            {
+              "id": "Game/Doki_Doki_Litterature_Club/Landing_Back_Staircase",
+              "label": "Landing Back Staircase",
+              "file": {
+                "path": "assets/backgrounds/Game/Doki_Doki_Litterature_Club/Landing_Back_Staircase.png",
+                "contentType": "image/png",
+                "byteSize": 486133,
+                "integrity": "sha256-PriqjOFH0VXfdhg6bAZ1xRGr4LSfXWgafD/PbDTLc1U="
+              },
+              "preview": {
+                "path": "previews/backgrounds/Game/Doki_Doki_Litterature_Club/Landing_Back_Staircase--3eb8aa8ce147d155--v1.webp",
+                "contentType": "image/webp",
+                "byteSize": 11296,
+                "integrity": "sha256-CIoF1OBo7lbhhR/B+UgnFjph7tff6wBG+KzjiRARej8="
               }
             },
             {
