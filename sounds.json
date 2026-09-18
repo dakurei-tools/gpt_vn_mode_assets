@@ -207,6 +207,16 @@
           }
         },
         {
+          "id": "Doors/Door_knock_2",
+          "label": "Door knock 2",
+          "file": {
+            "path": "assets/sounds/Doors/Door_knock_2.mp3",
+            "contentType": "audio/mpeg",
+            "byteSize": 49920,
+            "integrity": "sha256-/HMyMk2TTk0RqYK8H+/z/JWW93WzcZ1NCubafrgkYXc="
+          }
+        },
+        {
           "id": "Doors/Key_lock",
           "label": "Key lock",
           "file": {
